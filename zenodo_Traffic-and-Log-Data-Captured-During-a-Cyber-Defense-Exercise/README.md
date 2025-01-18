@@ -1,0 +1,5 @@
+# zenodo_Traffic-and-Log-Data-Captured-During-a-Cyber-Defense-Exercise
+[zenodo_Traffic-and-Log-Data-Captured-During-a-Cyber-Defense-Exercise](https://zenodo.org/records/3746129) is a dataset which was acquired during Cyber Czech – a hands-on cyber defense exercise (Red Team/Blue Team) held in March 2019 at Masaryk University, Brno, Czech Republic. Network traffic flows and a high variety of event logs were captured in an exercise network deployed in the KYPO Cyber Range Platform.  
+This dataset is found credit to [awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets?tab=readme-ov-file#cybersecurity), which is a topic-centric list of HQ open datasets.
+
+This repo only contains parts of its original data. Some original files are too big, you need to unzip them from corresponding split compressed files. 
