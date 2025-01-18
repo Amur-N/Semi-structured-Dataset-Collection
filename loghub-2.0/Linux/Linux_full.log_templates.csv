@@ -1,0 +1,339 @@
+EventId,EventTemplate,Occurrences
+E332,restart.,42
+E283,<*> startup succeeded,261
+E187,"klogd <*>, log source = <*> started.",9
+E57,Linux version <*> (<*>) (gcc version <*> (Red Hat Linux <*>)) <*>,8
+E128,BIOS-provided physical RAM map:,8
+E244,BIOS-e820: <*> - <*> (usable),16
+E219,BIOS-e820: <*> - <*> (reserved),24
+E282,<*> LOWMEM available.,8
+E236,zapping low mappings.,8
+E267,On node <*> totalpages: <*>,8
+E188,"DMA zone: <*> pages, LIFO batch:<*>",8
+E153,"Normal zone: <*> pages, LIFO batch:<*>",8
+E136,"HighMem zone: <*> pages, LIFO batch:<*>",8
+E317,DMI <*> present.,8
+E38,ACPI disabled because your bios is from <*> and too old,8
+E257,You can enable it with <*>,8
+E298,Built <*> zonelists,8
+E87,Kernel command line: ro root=<*> rhgb quiet,7
+E245,mapped <*> trampoline to <*>.,8
+E284,Initializing CPU#<*>,8
+E198,"CPU <*> irqstacks, hard=<*> soft=<*>",8
+E96,PID hash table entries: <*> (order <*>: <*> bytes),8
+E215,Detected <*> MHz processor.,8
+E124,Using tsc for high-res timesource,8
+E297,Console: colour <*>,8
+E13,"Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)",8
+E111,Calibrating delay loop... <*> BogoMIPS,8
+E148,Security Scaffold <*> initialized,8
+E212,SELinux: Initializing.,8
+E98,SELinux: Starting in permissive mode,8
+E2,"There is already a security framework initialized, register_security failed.",8
+E33,Failure registering capabilities with the kernel,8
+E6,selinux_register_security: Registering secondary module capability,8
+E180,Capability LSM initialized,8
+E42,"Dentry cache hash table entries: <*> (order: <*>, <*> bytes)",8
+E44,"Inode-cache hash table entries: <*> (order: <*>, <*> bytes)",8
+E43,"Mount-cache hash table entries: <*> (order: <*>, <*> bytes)",8
+E289,Version <*> Starting,8
+E197,"CPU: L1 I cache: <*>, L1 D cache: <*>",8
+E313,CPU: L2 cache: <*>,8
+E54,Intel machine check architecture supported.,8
+E56,CPU: Intel Pentium III (Coppermine) stepping <*>,8
+E62,Enabling fast FPU save and restore... done.,8
+E25,Enabling unmasked SIMD FPU exception support... done.,8
+E146,Checking <*> instruction... OK.,8
+E107,POSIX conformance testing by UNIFIX,8
+E132,NET: Registered protocol family <*>,48
+E78,"PCI: PCI BIOS revision <*> entry at <*>, last bus=<*>",8
+E162,PCI: Using configuration type <*>,8
+E205,ACPI: Subsystem revision <*>,8
+E169,ACPI: Interpreter disabled.,8
+E76,Linux Plug and Play Support <*> (c) Adam Belay,8
+E149,usbcore: registered new driver <*>,32
+E29,ACPI: ACPI tables contain no PCI IRQ routing entries,8
+E83,PCI: Invalid ACPI-PCI IRQ routing table,8
+E32,Initializing random number generator: succeeded,8
+E203,PCI: Probing PCI hardware,8
+E151,PCI: Probing PCI hardware (bus <*>),8
+E255,Transparent bridge - <*>,8
+E112,PCI: Using IRQ router PIIX/ICH [<*>] at <*>,8
+E79,apm: BIOS version <*> Flags <*> (Driver version <*>),8
+E45,audit: initializing netlink socket (disabled),7
+E238,audit(<*>): initialized,8
+E133,"Total HugeTLB memory allocated, <*>",8
+E181,Starting pcmcia: succeeded,8
+E300,VFS: Disk quotas <*>,8
+E51,"Dquot-cache hash table entries: <*> (order <*>, <*> bytes)",8
+E94,SELinux: Registering netfilter hooks,8
+E127,Initializing Cryptographic API,8
+E65,pci_hotplug: PCI Hot Plug PCI Core version: <*>,8
+E123,isapnp: Scanning for PnP cards...,8
+E122,isapnp: No Plug & Play device found,8
+E237,Real Time Clock Driver <*>,8
+E86,Linux agpgart interface <*> (c) Dave Jones,8
+E161,agpgart: Detected an <*> Chipset.,8
+E35,agpgart: Maximum main memory to use for agp memory: <*>,8
+E85,agpgart: detected <*> dedicated video ram.,8
+E240,HCI daemon ver <*> started,8
+E84,Setting network parameters: succeeded,7
+E206,agpgart: AGP aperture is <*> @ <*>,8
+E64,Bringing up loopback interface: succeeded,7
+E23,"Serial: <*> driver $Revision: <*> $ <*> ports, IRQ sharing enabled",8
+E22,RAMDISK driver initialized: <*> RAM disks of <*> size <*> blocksize,8
+E48,Uniform Multi-Platform E-IDE driver Revision: <*>,8
+E80,Mounting other filesystems: succeeded,8
+E10,ide: Assuming <*> system bus speed for PIO modes; override with idebus=<*>,8
+E163,ICH: IDE controller at PCI slot <*>,8
+E138,"Version <*> (APM BIOS <*>, Linux driver <*>)",8
+E241,ICH: chipset revision <*>,8
+E70,"ide0: BM-DMA at <*>, BIOS settings: hda:<*>, hdb:<*>",8
+E69,"ide1: BM-DMA at <*>, BIOS settings: hdc:<*>, hdd:<*>",8
+E281,Using <*> io scheduler,8
+E324,Home page is <*>,8
+E319,ide0 at <*> on irq <*>,8
+E195,Opened configuration file <*>,8
+E183,Configuration file <*> parsed.,8
+E294,"Device: <*>, opened",8
+E320,ide1 at <*> on irq <*>,8
+E243,Charge: * * * (<*> unknown),8
+E116,"Device: <*>, found in smartd database.",8
+E239,hda: max request size: <*>,8
+E28,"Device: <*>, is SMART capable. Adding to ""monitor"" list.",8
+E90,"hda: <*> sectors (<*> MB) w/<*> Cache, CHS=<*>, UDMA(<*>)",8
+E155,Monitoring <*> ATA and <*> SCSI devices,8
+E31,smartd has fork()ed into background mode. New PID=<*>.,8
+E131,Uniform CD-ROM driver Revision: <*>,8
+E280,ide-floppy driver <*>,8
+E104,mice: <*> mouse device common for all mice,8
+E191,"serio: i8042 AUX port at <*>,<*> irq <*>",8
+E334,input: <*> on <*>,16
+E189,"serio: i8042 KBD port at <*>,<*> irq <*>",8
+E68,"md: md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>",8
+E89,"IP: routing cache hash table of <*> buckets, <*>",8
+E50,TCP: Hash tables configured (established <*> bind <*>),8
+E114,Initializing IPsec netlink socket,8
+E3,checking if image is initramfs...it isn't (no cpio magic); looks like an initrd,8
+E172,Freeing initrd memory: <*> freed,8
+E142,md: Autodetecting RAID arrays.,8
+E307,md: autorun ...,8
+E75,RAMDISK: Compressed image found at block <*>,8
+E202,Starting hpoj: succeeded,8
+E99,VFS: Mounted root (ext2 filesystem).,8
+E24,EXT3-fs: write access will be enabled during recovery.,4
+E55,kjournald starting. Commit interval <*> seconds,16
+E134,EXT3-fs: <*>: <*> orphan inodes deleted,1
+E170,EXT3-fs: recovery complete.,4
+E27,EXT3-fs: mounted filesystem with ordered data mode.,16
+E110,Freeing unused kernel memory: <*> freed,8
+E160,SELinux: Disabled at runtime.,7
+E74,SELinux: Unregistering netfilter hooks,7
+E77,Disabled Privacy Extensions on device <*>(<*>),8
+E144,IPv6 over IPv4 tunneling driver,8
+E47,USB Universal Host Controller Interface driver <*>,8
+E218,PCI: Found IRQ <*> for device <*>,24
+E150,uhci_hcd <*>: UHCI Host Controller,8
+E250,"uhci_hcd <*>: irq <*>, io base <*>",8
+E26,"uhci_hcd <*>: new USB bus registered, assigned bus number <*>",8
+E185,"EXT3 FS on <*>, internal journal",16
+E263,cdrom: open failed.,8
+E120,Adding <*> swap on <*>. Priority:<*> extents:<*>,8
+E49,microcode: CPU0 already at revision <*> (current=<*>),8
+E117,microcode: No suitable data for cpu <*>,8
+E199,parport0: PC-style at <*> (<*>) [<*>],16
+E223,parport0: irq <*> detected,16
+E182,SCSI subsystem initialized,8
+E184,inserting floppy driver for <*>,8
+E266,Floppy drive(s): <*> is <*>,8
+E156,FDC <*> is a National Semiconductor <*>,8
+E196,<*>: Donald Becker and others. <*>,16
+E118,ip_tables: (C) <*> Netfilter core team,17
+E30,process <*> is using obsolete setsockopt SO_BSDCOMPAT,8
+E310,Bluetooth: <*> ver <*>,24
+E18,Bluetooth: HCI device and connection manager initialized,8
+E72,Bluetooth: HCI socket layer initialized,8
+E58,Bluetooth: RFCOMM socket layer initialized,8
+E71,Bluetooth: RFCOMM TTY layer initialized,8
+E328,succeeded,16
+E102,No such internal service: <*> - DISABLING,8
+E21,bind failed (Address already in use (errno = <*>)). service = <*>,8
+E34,Service telnet failed to start and is deactivated.,8
+E41,xinetd Version <*> started with <*> options compiled in.,8
+E101,Started working: <*> available services,8
+E61,<*> Privoxy(<*>) Info: loading configuration file <*>,8
+E258,creating device node <*>,268
+E213,*** info [startup.c(<*>)]:,8
+E46,Started gpm successfully. Entered daemon mode.,8
+E254,*** info [mice.c(<*>)]:,15
+E73,imps2: Auto-detected intellimouse PS/2,15
+E208,session opened for user <*> by <*>,561
+E227,session closed for user <*>,561
+E331,started.,8
+E126,Starting background readahead:,8
+E145,Starting readahead: succeeded,8
+E109,Squid Parent: child process <*> started,8
+E285,starting BIND <*> -u <*> -t <*>,8
+E333,using <*> CPU,8
+E186,loading configuration from <*>,8
+E167,"listening on IPv4 interface <*>, <*>",192
+E290,NET-SNMP version <*>,8
+E296,precision = <*> usec,8
+E226,kernel time sync status <*>,8
+E157,frequency initialized <*> PPM from <*>,8
+E60,"configure: keyword <*> unknown, line ignored",8
+E95,couldn't add command channel <*> not found,16
+E193,Starting MySQL: succeeded,9
+E338,running,8
+E66,"rsyncd version <*> starting, listening on port <*>",8
+E253,removing device node <*>,216
+E119,"synchronized to LOCAL(<*>), stratum=<*>",8
+E204,kernel time sync disabled <*>,8
+E214,kernel time sync enabled <*>,8
+E37,file descriptor of service comsat has been closed,8
+E15,select reported EBADF but no bad file descriptors were found,8
+E173,ALERT exited abnormally with <*>,231
+E217,kernel.core_uses_pid = <*>,4
+E299,check pass; user <*>,1043
+E261,connection from <*> (<*>) at <*>,3357
+E8,authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,2879
+E264,<*> shutdown succeeded,107
+E309,bad username [<*>],13
+E179,Couldn't authenticate user,10
+E165,User <*> timed out after <*> seconds at <*>,36
+E171,Received SNMP packet(s) from <*>,4
+E7,Authentication failed from <*> (<*>): Permission denied in replay cache code,8
+E129,Kerberos authentication failed,25
+E11,Authentication failed from <*> (<*>): Software caused connection abort,17
+E82,notify question section contains no SOA,16
+E20,getpeername (ftpd): Transport endpoint is not connected,43
+E16,warning: can't get client address: Connection reset by peer,18
+E9,ttloop: peer died: Invalid or incomplete multibyte or wide character,112
+E192,Stopping MySQL: succeeded,3
+E225,*** info [client.c(<*>)]:,3
+E295,Connecting at fd <*>,1
+E40,"FAILED LOGIN <*> FROM (<*>) FOR , Authentication failure",4
+E125,service(<*>) ignoring max retries; <*> > <*>,11
+E93,ttloop: read: Connection reset by peer,10
+E100,tty2: invalid character <*> in login name,1
+E293,<*> shutdown failed,15
+E141,shutting down for system reboot,4
+E224,Switching to runlevel: <*>,4
+E178,messagebus -TERM succeeded,3
+E316,terminating,3
+E121,Stopping Canna server: succeeded,4
+E292,Stopping squid:,4
+E53,Squid Parent: child process <*> exited with status <*>,4
+E194,Stopping squid: succeeded,4
+E252,sshd -TERM succeeded,4
+E108,smartd received signal <*>: Terminated,4
+E152,smartd is exiting (exit status <*>),4
+E312,shutting down,2
+E228,no longer listening on <*>,48
+E337,exiting,2
+E336,Exiting,4
+E242,ntpd exiting on signal <*>,4
+E329,<*> records in,4
+E323,<*> records out,4
+E59,"Caught signal <*>, un-registering and exiting.",3
+E216,Kernel logging <*> stopped.,5
+E143,Kernel log daemon terminating.,5
+E130,open(<*>): No such file or directory,5
+E256,password changed for <*>,4
+E5,<*> more authentication failure; logname= uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,6
+E67,wall: user test broadcasted <*> lines (<*> chars),1
+E115,Client hung up - probable port-scan,1
+E19,rsync: connection unexpectedly closed (<*> bytes read so far),1
+E12,rsync error: error in rsync protocol data stream (code <*>) at io.c(<*>),1
+E318,connect from <*>,1
+E154,[smux_accept] accepted fd <*> from <*>,1
+E91,Unable to get command line from client!,1
+E147,Connection from <*> on illegal port,2
+E105,net.ipv4.conf.default.rp_filter = <*>,2
+E308,kernel.sysrq = <*>,2
+E103,hda: dma_timer_expiry: dma status == <*>,1
+E174,hda: status timeout: status=<*> <*>,1
+E135,Out of Memory: Killed process <*> (<*>).,10404
+E52,"httpd: page allocation failure. order:<*>, mode:<*>",77
+E272,[<*>] __alloc_pages+<*>,90
+E175,[<*>] read_swap_cache_async+<*>,44
+E234,[<*>] swapin_readahead+<*>,23
+E287,[<*>] do_swap_page+<*>,41
+E246,[<*>] handle_mm_fault+<*>,73
+E278,[<*>] do_page_fault+<*>,190
+E327,[<*>] do_IRQ+<*>,13
+E315,[<*>] schedule+<*>,72
+E335,[<*>] dput+<*>,5
+E265,VM: killing process <*>,28
+E158,[<*>] do_page_cache_readahead+<*>,23
+E262,[<*>] filemap_nopage+<*>,30
+E304,[<*>] do_no_page+<*>,30
+E291,[<*>] follow_page+<*>,19
+E330,[<*>] rw_vm+<*>,16
+E200,[<*>] find_or_create_page+<*>,14
+E275,[<*>] grow_dev_page+<*>,14
+E274,[<*>] __getblk_slow+<*>,14
+E314,[<*>] __getblk+<*>,14
+E209,[<*>] ext3_get_inode_loc+<*>,14
+E273,[<*>] mempool_alloc+<*>,11
+E139,[<*>] ext3_reserve_inode_write+<*>,14
+E177,[<*>] ext3_mark_inode_dirty+<*>,14
+E277,[<*>] journal_start+<*>,14
+E232,[<*>] ext3_dirty_inode+<*>,14
+E211,[<*>] __mark_inode_dirty+<*>,14
+E221,[<*>] inode_update_time+<*>,14
+E97,[<*>] generic_file_aio_write_nolock+<*>,15
+E233,[<*>] vt_console_print+<*>,16
+E260,[<*>] __print_symbol+<*>,15
+E168,[<*>] generic_file_aio_write+<*>,15
+E249,[<*>] ext3_file_write+<*>,15
+E276,[<*>] do_sync_write+<*>,15
+E166,[<*>] __call_console_drivers+<*>,5
+E325,[<*>] printk+<*>,11
+E306,[<*>] show_trace+<*>,11
+E302,[<*>] dump_stack+<*>,13
+E248,[<*>] do_acct_process+<*>,15
+E286,[<*>] acct_process+<*>,15
+E321,[<*>] do_exit+<*>,15
+E270,[<*>] proc_dointvec+<*>,4
+E176,[<*>] do_proc_dointvec_conv+<*>,4
+E303,[<*>] do_rw_proc+<*>,3
+E137,[<*>] invalidate_inode_buffers+<*>,3
+E311,[<*>] __wake_up+<*>,10
+E229,[<*>] __wake_up_common+<*>,9
+E268,[<*>] put_user_size+<*>,49
+E230,[<*>] check_free_space+<*>,4
+E247,[<*>] page_cache_read+<*>,10
+E235,[<*>] recalc_task_prio+<*>,20
+E36,"sendmail: page allocation failure. order:<*>, mode:<*>",11
+E301,[<*>] do_wp_page+<*>,10
+E326,[<*>] __fput+<*>,2
+E231,[<*>] sys_rt_sigaction+<*>,5
+E279,[<*>] get_user_size+<*>,6
+E201,[<*>] module_text_address+<*>,1
+E322,[<*>] d_alloc+<*>,5
+E271,[<*>] d_instantiate+<*>,5
+E210,[<*>] sys_rt_sigprocmask+<*>,5
+E159,[<*>] input_unregister_device+<*>,2
+E164,printk: <*> messages suppressed.,1
+E220,[<*>] clear_page_tables+<*>,1
+E269,[<*>] free_pgtables+<*>,1
+E288,[<*>] unmap_region+<*>,1
+E259,[<*>] unmap_vma_list+<*>,1
+E305,[<*>] sys_setuid+<*>,1
+E251,Master rebooting...,1
+E222,Stopping MySQL: failed,2
+E113,ttloop: read: Connection timed out,57
+E81,audit: enabled (after initialization),1
+E106,"security: <*> users, <*> roles, <*> types, <*> bools",1
+E207,"security: <*> classes, <*> rules",1
+E92,SELinux: Completing initialization.,1
+E63,SELinux: Setting up existing superblocks.,1
+E88,"SELinux: initialized (dev , type <*>), uses <*>",16
+E14,"SELinux: initialized (dev , type <*>), not configured for labeling",2
+E4,audit(<*>): avc: denied <*> for pid=<*> exe=<*> name=<*> dev=<*> ino=<*> scontext=<*> tcontext=<*> tclass=<*>,55
+E1,audit(<*>): syscall=<*> exit=<*> a0=<*> a1=<*> a2=<*> a3=<*> items=<*> pid=<*> loginuid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*>,113
+E140,audit(<*>): item=<*> name=<*> inode=<*> dev=<*>,57
+E17,"pam_check_access failed, user does not have proper access: <*>",1
+E39,"Warning! Could not relabel with <*>, not relabeling.",1
+E190,"ANONYMOUS FTP LOGIN FROM <*>, <*> (<*>)",9

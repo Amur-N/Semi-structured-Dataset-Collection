@@ -1,0 +1,2 @@
+https://data.parliament.scot/api/departments
+https://data.parliament.scot/api/members

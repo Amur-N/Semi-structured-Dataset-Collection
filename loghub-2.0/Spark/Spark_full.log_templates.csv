@@ -1,0 +1,237 @@
+EventId,EventTemplate,Occurrences
+E164,Registered signal handlers for <*>,2606
+E200,"Changing view acls to: <*>,<*>",4963
+E191,"Changing modify acls to: <*>,<*>",4963
+E10,"SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(<*>, <*>); users with modify permissions: Set(<*>, <*>)",4963
+E208,Slf4jLogger started,2378
+E221,Starting remoting,2378
+E96,Remoting started; listening on addresses :[<*>],2378
+E114,Successfully started service <*> on port <*>.,4859
+E185,Created local directory at <*>,2353
+E143,MemoryStore started with capacity <*>,2353
+E160,Connecting to driver: spark://<*>,2268
+E128,Successfully registered with driver,2289
+E182,Starting executor ID <*> on host <*>,2289
+E224,Server created on <*>,2353
+E158,Trying to register BlockManager,2359
+E188,Registered BlockManager,2359
+E225,Got assigned task <*>,2149959
+E186,Running task <*> in stage <*> (TID <*>),2149959
+E136,Started reading broadcast variable <*>,281319
+E73,"Block <*> stored as bytes in memory (estimated size <*>, free <*>)",1105614
+E146,Reading broadcast variable <*> took <*> ms,281073
+E69,"Block <*> stored as values in memory (estimated size <*>, free <*>)",282226
+E231,Input split: <*>+<*>,13867
+E181,"<*> is deprecated. Instead, use <*>",2000
+E129,"Times: total = <*>, boot = <*>, init = <*>, finish = <*>",2625700
+E66,Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver,2146621
+E176,Driver commanded a shutdown,1823
+E209,MemoryStore cleared,1828
+E202,BlockManager stopped,1828
+E144,An unknown (<*>) driver disconnected.,1886
+E119,Driver <*> disassociated! Shutting down.,1907
+E210,Shutdown hook called,2750
+E171,Shutting down remote daemon.,717
+E195,ApplicationAttemptId: <*>,146
+E80,Starting the user application in a separate Thread,64
+E108,Waiting for spark context initialization,64
+E93,Waiting for spark context initialization ...,65
+E203,Running Spark version <*>,64
+E163,Registering MapOutputTracker,64
+E228,Adding filter: <*>,64
+E145,Started SelectChannelConnector@<*>,64
+E222,Started SparkUI at <*>,64
+E52,"Registering block manager <*> with <*> RAM, BlockManagerId(driver, <*>, <*>)",64
+E46,ApplicationMaster registered as NettyRpcEndpointRef(spark://<*>),64
+E147,Connecting to ResourceManager at <*>,142
+E131,Registering the ApplicationMaster,142
+E32,"Will request <*> executor containers, each with <*> cores and <*> MB memory including <*> MB overhead",503
+E60,"Container request (host: <*>, capability: <memory:<*>, vCores:<*>)",2623
+E30,"Started progress reporter thread with (heartbeat : <*>, initial allocation : <*>) intervals",142
+E199,Received new token for : <*>,2554
+E167,Launching container <*> for on host <*>,2561
+E57,"Launching ExecutorRunnable. driverUrl: <*>, executorHostname: <*>",2561
+E172,Starting Executor Container,2561
+E55,"Received <*> containers from YARN, launching executors on <*> of them.",845
+E132,Setting up ContainerLaunchContext,2561
+E183,Preparing Local resources,2561
+E1,"Prepared Local resources Map(__spark__.jar -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>, pyspark.zip -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>, py4j-<*>-src.zip -> resource { scheme: <*> host: <*> port: <*> file: <*> } size: <*> timestamp: <*> type: <*> visibility: <*>)",2561
+E229,Opening proxy : <*>,2561
+E71,Registered executor NettyRpcEndpointRef(<*>) (<*>) with ID <*>,693
+E64,"Registering block manager <*> with <*> RAM, BlockManagerId(<*>, <*>, <*>)",699
+E21,SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: <*>,54
+E98,YarnClusterScheduler.postStartHook done,64
+E161,"Added <*> in memory on <*> (size: <*>, free: <*>)",437630
+E148,Created broadcast <*> from textFile at <*>,64
+E174,Total input paths to process : <*>,64
+E196,Starting job: collect at <*>,218
+E107,Got job <*> (collect at <*>) with <*> output partitions,218
+E126,Final stage: ResultStage <*> (collect at <*>),218
+E194,Missing parents: List(<*>),468
+E63,"Submitting ResultStage <*> (<*> at <*>), which has no missing parents",471
+E91,Submitting <*> missing tasks from ResultStage <*> (<*> at <*>),471
+E192,Adding task set <*> with <*> tasks,714
+E87,"Starting task <*> in stage <*> (TID <*>, <*>, partition <*>,<*>, <*> bytes)",24230
+E130,Finished task <*> in stage <*> (TID <*>) in <*> ms on <*> (<*>),20709
+E127,ResultStage <*> (collect at <*>) finished in <*> s,202
+E62,"Removed TaskSet <*>, whose tasks have all completed, from pool",685
+E168,"Job <*> finished: collect at <*>, took <*> s",202
+E140,Invoking stop() from shutdown hook,64
+E100,stopped o.s.j.s.ServletContextHandler{<*>},1600
+E206,Stopped Spark web UI at <*>,64
+E156,Asking each executor to shut down,64
+E99,MapOutputTrackerMasterEndpoint stopped!,64
+E173,BlockManagerMaster stopped,64
+E133,OutputCommitCoordinator stopped!,64
+E135,Successfully stopped SparkContext,64
+E117,Unregistering ApplicationMaster with <*>,115
+E44,Remote daemon shut down; proceeding with flushing remote transports.,462
+E61,Waiting for application to be successfully unregistered.,119
+E217,Remoting shut down.,333
+E178,Deleting staging directory <*>,115
+E220,Deleting directory <*>,777
+E170,Exception in connection from <*>,190
+E53,Still have <*> requests outstanding when connection from <*> is closed,229
+E134,Failed while starting block fetches,293
+E82,Retrying fetch (<*>) for <*> outstanding blocks after <*> ms,2299
+E84,"Found inactive connection to <*>, creating a new one.",2610
+E41,Exception while beginning fetch of <*> outstanding blocks (after <*> retries),2228
+E43,"Failed to fetch remote block <*> from BlockManagerId(<*>, <*>, <*>) (failed attempt <*>)",185
+E189,RECEIVED SIGNAL <*>: SIGTERM,380
+E101,Executor is trying to kill task <*> in stage <*> (TID <*>),565
+E149,Executor killed task <*> in stage <*> (TID <*>),510
+E68,Exception while beginning fetch of <*> outstanding blocks,383
+E54,Incomplete task interrupted: Attempting to kill Python Worker,171
+E216,Failed to send RPC <*> to <*>: <*>,127
+E97,Error sending message [message = <*>] in <*> attempts,427
+E37,org.apache.spark.SparkException: Exception while starting container <*> on host <*>,277
+E76,"Completed container <*> on host: <*> (state: <*>, exit status: <*>)",466
+E18,Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: Container expired since it was unused,107
+E124,Asked to remove non-existent executor <*>,336
+E151,"Removed <*> on <*> in memory (size: <*>, free: <*>)",38206
+E215,Cleaned accumulator <*>,478
+E204,Starting job: count at <*>,104
+E154,Registering RDD <*> (reduceByKey at <*>),92
+E89,Parents of final stage: List(ShuffleMapStage <*>),175
+E33,Stage <*> contains a task of very large size (<*> KB). The maximum recommended task size is <*> KB.,284
+E14,"Lost task <*> in stage <*> (TID <*>, <*>): org.apache.spark.api.python.PythonException: Traceback (most recent call last):",35
+E12,Lost task <*> in stage <*> (TID <*>) on executor <*>: org.apache.spark.api.python.PythonException (Traceback (most recent call last):,132
+E212,Disabling executor <*>.,318
+E201,Executor lost: <*> (epoch <*>),353
+E75,Trying to remove executor <*> from BlockManagerMaster.,353
+E11,Container killed by YARN for exceeding memory limits. <*> of <*> virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead.,378
+E7,Lost executor <*> on <*>: Container killed by YARN for exceeding memory limits. <*> of <*> virtual memory used. Consider boosting spark.yarn.executor.memoryOverhead.,189
+E102,"Removing block manager BlockManagerId(<*>, <*>, <*>)",324
+E113,Removed <*> successfully in removeExecutor,353
+E2,"Lost task <*> in stage <*> (TID <*>, <*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: Container killed by <*> for exceeding memory limits. <*> of <*> <*> memory used. Consider boosting <*>.",1979
+E118,Task <*> in stage <*> failed <*> times; aborting job,21
+E223,Cancelling stage <*>,26
+E218,Stage <*> was cancelled,26
+E162,ShuffleMapStage <*> (<*> at <*>) failed in <*> s,38
+E187,"Job <*> failed: count at <*>, took <*> s",15
+E58,"Lost task <*> in stage <*> (TID <*>, <*>): TaskKilled (killed intentionally)",192
+E137,User application exited with status <*>,57
+E115,"Final app status: <*>, exitCode: <*>, (reason: <*>)",65
+E49,Error while invoking RpcHandler#receive() for one-way message.,198
+E169,Exception in task <*> in stage <*> (TID <*>),355
+E39,"Error sending result RpcResponse{requestId=<*>, body=<*>} to <*>; closing connection",43
+E83,Message RemoteProcessDisconnected(<*>) dropped.,68
+E198,Starting job: runJob at <*>,14
+E232,Removing RDD <*>,390503
+E153,"Partition <*> not found, computing it",396911
+E219,Found block <*> locally,1895245
+E105,File Output Committer Algorithm version is <*>,412149
+E197,Saved output of task <*> to <*>,412107
+E233,<*>: Committed,412107
+E111,Waiting for Spark driver to be reachable.,82
+E205,Driver now available: <*>,81
+E38,"Add WebUI Filter. AddWebUIFilter(<*>,Map(PROXY_HOSTS -> <*>, PROXY_URI_BASES -> <*>),<*>)",78
+E78,Driver terminated or disconnected! Shutting down. <*>,78
+E138,Updating epoch to <*> and clearing cache,3504
+E85,"Don't have map outputs for shuffle <*>, fetching them",11698
+E45,Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://<*>),2682
+E193,Got the output locations,2682
+E125,Getting <*> non-empty blocks out of <*> blocks,227317
+E180,Started <*> remote fetches in <*> ms,227317
+E110,Exception while deleting local spark dir: <*>,8
+E150,ShuffleMapStage <*> (<*> at <*>) finished in <*> s,204
+E152,looking for newly runnable stages,204
+E227,running: Set(),204
+E177,waiting: Set(ResultStage <*>),180
+E230,failed: Set(),204
+E90,Asked to send map output locations for shuffle <*> to <*>,1538
+E106,Size of output statuses for shuffle <*> is <*> bytes,440
+E226,Cleaned shuffle <*>,46
+E234,Cleaned RDD <*>,16
+E6,Connection to <*> has been quiet for <*> ms while there are outstanding requests. Assuming connection is dead; please adjust spark.network.timeout if this is wrong.,103
+E48,Ignoring response for RPC <*> from <*> (<*> bytes) since it is not outstanding,71
+E20,Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: Exception from container-launch.,127
+E116,Exception in createBlockOutputStream,60
+E235,Abandoning <*>,60
+E79,"Excluding datanode DatanodeInfoWithStorage[<*>,<*>,<*>]",60
+E211,Using REPL class URI: <*>,21
+E86,"ensureFreeSpace(<*>) called with curMem=<*>, maxMem=<*>",84
+E65,Lost an executor <*> (already removed): Pending loss reason.,18
+E67,SparkListenerBus has already stopped! Dropping event <*>,10
+E25,"Error sending result ChunkFetchSuccess{streamChunkId=<*>, buffer=<*>} to <*>; closing connection",22
+E59,"Uncaught exception in thread Thread[Executor task launch <*>,<*>]",7
+E29,"[Container in shutdown] Uncaught exception in thread Thread[Executor task launch <*>,<*>,<*>]",3
+E94,Python worker exited unexpectedly (crashed),35
+E95,This may have been caused by a prior exception:,35
+E157,Told to re-register on heartbeat,1
+E109,BlockManager re-registering with master,6
+E166,Reporting <*> blocks to the master.,6
+E121,Missing an output location for shuffle <*>,147
+E103,Error occurred while fetching local blocks,7
+E120,Got told to re-register updating block <*>,5
+E184,Failed to get block(s) from <*>,870
+E24,"Lost task <*> in stage <*> (TID <*>, <*>): java.lang.OutOfMemoryError: Requested array size exceeds VM limit",3
+E27,Marking ResultStage <*> (collect at <*>) as failed due to a fetch failure from ShuffleMapStage <*> (<*> at <*>),23
+E139,ResultStage <*> (collect at <*>) failed in <*> s,26
+E22,Resubmitting ShuffleMapStage <*> (reduceByKey at <*>) and ResultStage <*> (collect at <*>) due to fetch failure,25
+E175,Resubmitting failed stages,138
+E17,Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: Container killed on request. Exit code is <*>,6
+E23,Lost executor <*> on <*>: Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: <*>. Exit code is <*>,3
+E3,"Lost task <*> in stage <*> (TID <*>, <*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: <*>. Exit code is <*>",2
+E77,"ShuffleMapStage <*> is now unavailable on executor <*> (<*>, <*>)",164
+E31,Resubmitting ShuffleMapStage <*> (reduceByKey at <*>) because some of its tasks had failed: <*>,22
+E5,"Lost task <*> in stage <*> (TID <*>, <*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: Container marked as failed: <*> on host: <*>. Exit status: <*>. Diagnostics: <*>.",4
+E34,"Lost task <*> in stage <*> (TID <*>, <*>): FetchFailed(<*>, shuffleId=<*>, mapId=-<*>, reduceId=<*>, message=<*>",140
+E36,Lost task <*> in stage <*> (TID <*>) on executor <*>: java.lang.OutOfMemoryError (<*>) [duplicate <*>],1
+E88,Issue communicating with driver in heartbeater,27
+E50,Ignored failure: java.io.IOException: Connection from <*> closed,15
+E207,Uncaught exception:,4
+E159,"error=<*>, No such file or directory",200
+E19,"Lost task <*> in stage <*> (TID <*>, <*>): java.io.IOException: Cannot run program <*>: error=<*>, No such file or directory",108
+E51,Retrying connect to server: <*>. Already tried <*> time(s); maxRetries=<*>,20
+E15,"Attempted to get executor loss reason for executor id <*> at RPC address <*>, but got no response. Marking as slave lost.",1
+E179,Lost executor <*> on <*>: Slave lost,1
+E112,Interrupted while trying for connection,1
+E122,Reporter thread fails <*> time(s) in a row.,1
+E8,java.io.InterruptedIOException: Interrupted while waiting for IO on channel <*>. <*> millis timeout left.; Host Details : local host is: <*>; destination host is: <*>;,1
+E47,Removing executor <*> with no recent heartbeats: <*> ms exceeds timeout <*> ms,24
+E70,Lost executor <*> on <*>: Executor heartbeat timed out after <*> ms,24
+E9,"Lost task <*> in stage <*> (TID <*>, <*>): ExecutorLostFailure (executor <*> exited caused by one of the running tasks) Reason: Executor heartbeat timed out after <*> ms",35
+E165,Requesting to kill executor(s) <*>,24
+E123,Driver requested to kill executor(s) <*>.,24
+E42,Lost executor <*> on <*>: Container <*> exited from explicit termination request.,24
+E142,Host added was in lost list earlier: <*>,21
+E26,Ignoring task-finished event for <*> in stage <*> because task <*> has already completed successfully,6
+E28,Total size of serialized results of <*> tasks (<*>) is bigger than spark.driver.maxResultSize (<*>),5
+E214,Putting block <*> failed,1
+E190,Error cleaning broadcast <*>,10
+E13,Failed to remove broadcast <*> with removeFromMaster = <*> - Cannot receive any reply in <*> seconds. This timeout is controlled by <*>,8
+E104,"Failed to connect to driver at <*>, retrying ...",982
+E236,'<*> and <*>',17
+E35,"Finished task <*> in stage <*> (TID <*>). Result is larger than maxResultSize (<*> > <*>), dropping it.",2
+E72,"Another thread is loading <*>, waiting for it to finish...",1
+E213,Finished waiting for <*>,1
+E74,Error while invoking RpcHandler#receive() on RPC id <*>,1
+E92,"waiting: Set(ShuffleMapStage <*>, ResultStage <*>)",24
+E155,ResultStage <*> (count at <*>) failed in <*> s,13
+E56,"Resubmitted ShuffleMapTask(<*>, <*>), so marking it as still running",32
+E40,Failed to remove broadcast <*> with removeFromMaster = <*> - Connection reset by peer,2
+E81,"Failed to fetch block <*>, and will not retry (<*> retries)",2
+E141,java.io.IOException: Broken pipe,1
+E16,Ignored failure: java.io.IOException: Failed to send RPC <*> to <*>: java.nio.channels.ClosedChannelException,1
+E4,"Task <*> failed because while it was being computed, its executorexited for a reason unrelated to the task. Not counting this failure towards the maximum number of failures for the task.",3

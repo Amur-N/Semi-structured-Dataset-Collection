@@ -1,0 +1,157 @@
+EventId,EventTemplate,Occurrences
+E131,onStandStepChanged <*>,30161
+E137,onReceive action: <*>,3239
+E50,processHandleBroadcastAction action:<*>,8602
+E139,flush sensor data,1617
+E90,getTodayTotalDetailSteps = <*>,27447
+E93,setTodayTotalDetailSteps=<*>,27431
+E36,calculateCaloriesWithCache totalCalories=<*>,27426
+E35,calculateAltitudeWithCache totalAltitude=<*>,27426
+E156,REPORT : <*>,23539
+E151,isScreenOn <*>,227
+E67,"screen status unknown,think screen <*>",42
+E117,flushTempCacheToDB by <*>,437
+E56,Alarm uploadStaticsToDB totalSteps=<*>,307
+E135,writeDataToDB size <*>,437
+E59,upLoadOneMinuteDataToEngine time=<*>,1920
+E60,getBinderPackageName packageName = <*>,3156
+E17,"getAppContext() isAppValid health or wear, packageName = <*>",744
+E43,insertHiHealthData() checkAppType <*> appID = <*>,744
+E8,"insertHiHealthData() size = <*>,app = <*>,One Data Type = <*>,packageName = <*>,writeStatType = <*>",744
+E22,"saveHealthDetailData() deviceID = <*>,clientID=<*>,id=<*>",744
+E29,"saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>",1172
+E124,"new date =<*>, type=<*>,old=<*>",7237
+E10,"saveHealthDetailData() saveOneDetailData fail hiHealthData = <*>,type = <*>",288
+E25,"bulkSaveDetailHiHealthData() size = <*>,totalTime = <*>",744
+E49,startListenerChange subscribeList = [<*>],744
+E6,"insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = <*>",212
+E55,insertHiHealthData() end totalTime = <*>,744
+E47,uploadStaticsToDB() onResult type = <*> obj=<*>,307
+E66,uploadStaticsToDB failed message=<*>,212
+E23,checkInsertStatus stepSum or calorieSum is enough,685
+E15,checkInsertStatus stepStatSum or calorieStatSum is enough,705
+E30,"stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>",705
+E38,"startInsertSportSync start auto sync,app is <*>",705
+E14,"checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>",705
+E24,"startInsertSportSync first <*> steps sync,do all sync",705
+E2,"startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>",792
+E78,needAutoSync autoSyncSwitch is <*>,792
+E11,"initDataPrivacy the dataPrivacy switch is <*>, start push health data!",792
+E63,initDataPrivacy the dataPrivacy is <*>,792
+E12,"initUserPrivacy the userPrivacy switch is <*>, start push user data!",792
+E65,initUserPrivacy the userPrivacy is <*>,792
+E80,ifCanSync not! no cloud version,792
+E99,sendSyncFailedBroadcast,792
+E21,"saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>",437
+E51,InsertCallBack() onSuccess type = <*> data=<*>,437
+E79,InsertEvent success begin:<*> end:<*>,436
+E91,setWriteDBLastDataMinute=<*>,436
+E46,"timeStamp back,extendReportTimeStamp=<*>",651
+E45,getTodaySportData mStepsRecordManager=<*>,206
+E143,theDayChanged <*>,11
+E138,initEnviroument,11
+E116,getStepCounterStatus,16
+E110,getStepCounterStatus= <*>,16
+E125,reStartStepCounter,11
+E105,registersensorsuccess: <*>,16
+E154,clear(),11
+E81,getTodayBasicStandardSteps= <*>,32
+E132,getDiffTotalSteps= <*>,32
+E16,setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>,16
+E133,setDiffTotalSteps=<*>,11
+E144,reload : <*> restar <*>,16
+E153,next day:<*>,11
+E96,setGoalNotifiShownRecord <*>,15
+E113,closeNotification...,15
+E82,deleteHealthNotification(),15
+E7,"checkCurrentDay a new day comes , reset basicSyncCondition, currentDay is <*> oldDay is <*>",11
+E128,<*> datas is null or empty,11
+E148,<*> block report,185
+E20,"setDeviceShutDownValue shutDownTime=<*>,isShutDown=<*>",10
+E87,getFirstStartDaemonFromUI: <*>,5
+E54,getDeviceShutDownBoolean shutDown=<*>,5
+E53,getDeviceShutDownTime shutDownTime=<*>,5
+E150,getVersion,5
+E146,getVersion= <*>,5
+E98,getServiceRestartRecord= <*>,5
+E97,setServiceRestartRecord=<*>,5
+E141,getStepsTarget,5
+E140,getStepsTarget= <*>,5
+E134,FAILED_ERROR_DATA,10
+E130,getLastSyncDBTime= <*>,5
+E106,userInfo changed detail,5
+E112,getDiffTotalCalories,5
+E107,getDiffTotalCalories= <*>,5
+E103,getDiffTotalAltitude= <*>##<*>,5
+E9,getIntercepterDistance from Prefence success and intercepterDistanceStr= <*>,5
+E58,registerDynamicBroadcastReceiver,20
+E126,readXmlIfSupportEX,9
+E155,policy=<*>,5
+E127,getCfgFile enter...,9
+E61,"support extand step counter!,return <*>",9
+E89,readXmlIfSupportEX result=<*>,9
+E102,supportStandStepCounter <*>,9
+E13,"supportPrivateStandStepcounter=<*>,supportStandStepCounter=<*>",9
+E122,setDeviceClassType=<*>,9
+E86,initStepCounter : deviceType <*>,5
+E68,getStepsNotificationShowStatus,5
+E26,"getMidWareStepCountService: pkgName = <*>, service = <*>",15
+E64,getStepsNotificationShowStatus= <*>,5
+E73,getGoalNotificationShowStatus,5
+E71,getGoalNotificationShowStatus= <*>,5
+E70,setGoalNotificationShowStatus=<*>,5
+E39,getMidWareStepCountService: isSystemApp = <*>,15
+E108,initExtendStepCounter <*>,5
+E94,getWriteDBLastDataMinute,5
+E92,getWriteDBLastDataMinute= <*>,5
+E88,initCacheFromFile enter...,5
+E152,context=<*>,5
+E100,initDataManager enter...,5
+E72,SystemClock.elapsedRealtime(): <*>,5
+E145,the first init <*>,5
+E147,target init: <*>,5
+E136,getARDebugConfig,5
+E77,setActionRestartSensorAlarm=<*>,5
+E85,onStartCommand Intent { cmp=<*> },5
+E118,MyServiceConn connect <*>,5
+E95,startStepCounter enter...,5
+E111,setStepCounterStatus=<*>,5
+E69,start compare with midware counter,5
+E34,compareMidWareCacheAndLocalCache enter...,5
+E40,startStepCounterInter mStandStepCounter = <*>,5
+E101,getMidWareCache mRemote=<*>,5
+E104,getMidWareCache result=<*>,5
+E37,MyGetDetailDataCallback onResult bundle == <*>,5
+E84,startStepCounterInter stand,5
+E123,registerLogCallback <*>,10
+E149,onCreate(),5
+E62,initSyncModel current SyncModel is <*>,5
+E74,onBind intent = Intent { act=<*> pkg=<*> },5
+E142,moveOldData(),5
+E75,"initBinder() app = <*>, packageName = <*>",10
+E119,getStringHuid() who is <*>,68
+E115,startNotification...,4
+E83,createHealthNotification(),4
+E76,upDateHealthNotification()|<*>|<*>|<*>,4
+E120,rebuild notification,4
+E31,checkSportDataNum setp and calories is too less,39
+E121,checkLocalDataValue <*>,18
+E42,initDiffCaloriesfromFile mCaloriesDiff=<*>,1
+E41,initDiffAltitude from File mAltitudeDiff=<*>,1
+E19,initTrackDistancefromFile from File mTrackDistance=<*>,1
+E52,insert conflict event timeBegin <*> timeEnd <*>,1
+E57,setFirstStartDaemonFromUI success: <*>,1
+E33,onStartCommand Intent { pkg=<*> cmp=<*> (has extras) },1
+E32,subscribeHiHealthData() checkAppType <*> appID = <*>,3
+E129,switchTrackMonitor <*>,1
+E114,fetchPhoneDataClient,1
+E109,getUserPreference key = <*>,9
+E18,aggregateHiHealthData() checkAppType <*> appID = <*> id = <*> time= <*>,21
+E27,readHiHealthData() checkAppType <*> appID = <*> id = <*> time = <*>,27
+E1,"aggregateHiHealthData aggregateOption is HiAggregateOption{startTime=<*>, endTime=<*>, type=<*>, alignType=<*>, aggregateType=<*>, groupUnitType=<*>}",21
+E3,"readHiHealthData() readOption = HiDataReadOption{startTime=<*>, endTime=<*>, type=<*>, count = <*>, sortOrder=<*>, readType=<*>, alignType=<*>}",27
+E28,aggregateHiHealthDataEx() checkAppType <*> appID = <*>,21
+E44,aggregateHiHealthData() time = <*> totalTime = <*>,21
+E48,readHiHealthData() end time = <*> totalTime = <*>,27
+E5,"fetchDataSourceByType type = <*>,timeInterval = HiTimeInterval{startTime=<*>, endTime=<*>, timeZone=<*>}",7
+E4,"getHealthClientListByTime() dataClientIDs is null timeInterval = HiTimeInterval{startTime=<*>, endTime=<*>, timeZone=<*>}",7

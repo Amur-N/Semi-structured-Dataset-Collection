@@ -1,0 +1,220 @@
+{
+    "type": "NetworkRoutes",
+	"revision": "1",
+	"version": "null",
+    "metric": "null",
+	"protocol": "static",
+    "router_id": "GLOBAL-GW",
+    "routes": [
+        {
+            "destination": "0.0.0.0",
+            "next": "4.122.55.1",
+            "device": "br0"
+        },
+		{
+            "destination": "4.122.55.0/24",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "9.66.1.0/24",
+            "next": "9.66.1.2",
+            "device": "eth1"
+        },
+		{
+            "destination": "9.66.2.0/24",
+            "next": "9.66.2.2",
+            "device": "eth2"
+        },
+		{
+            "destination": "9.66.3.0/24",
+            "next": "9.66.3.2",
+            "device": "eth3"
+        },
+		{
+            "destination": "9.66.4.0/24",
+            "next": "9.66.4.2",
+            "device": "eth4"
+        },
+		{
+            "destination": "9.66.5.0/24",
+            "next": "9.66.5.2",
+            "device": "eth5"
+        },
+		{
+            "destination": "9.66.6.0/24",
+            "next": "9.66.6.2",
+            "device": "eth6"
+        },
+		{
+            "destination": "9.66.11.0/25",
+            "next": "9.66.1.2",
+            "device": "eth1"
+        },
+		{
+            "destination": "9.66.22.0/25",
+            "next": "9.66.2.2",
+            "device": "eth2"
+        },
+		{
+            "destination": "9.66.33.0/25",
+            "next": "9.66.3.2",
+            "device": "eth3"
+        },
+		{
+            "destination": "9.66.44.0/25",
+            "next": "9.66.4.2",
+            "device": "eth4"
+        },
+		{
+            "destination": "9.66.55.0/25",
+            "next": "9.66.5.2",
+            "device": "eth5"
+        },
+		{
+            "destination": "9.66.66.0/25",
+            "next": "9.66.6.2",
+            "device": "eth6"
+        },
+		{
+            "destination": "27.3.0.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "212.5.0.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "213.5.0.0/21",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "202.2.96.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "110.5.80.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "200.110.240.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "66.231.64.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "181.118.144.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "37.32.0.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "193.151.128.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "27.111.240.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "80.93.176.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "130.255.32.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "212.96.96.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "217.25.208.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "5.23.128.0/17",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "219.15.224.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "5.172.192.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "80.79.0.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "92.53.192.0/19",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "78.177.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "1.9.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "111.66.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "188.40.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "129.90.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "77.51.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "37.6.0.0/16",
+            "next": "0.0.0.0",
+            "device": "br0"
+        },
+		{
+            "destination": "81.17.0.0/20",
+            "next": "0.0.0.0",
+            "device": "br0"
+        }
+    ]
+}

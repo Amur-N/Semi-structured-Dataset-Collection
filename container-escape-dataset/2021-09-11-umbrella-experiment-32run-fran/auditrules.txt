@@ -1,0 +1,78 @@
+-a never,exit -S all -F pid=1734 -F key=experiment.py-p
+-a never,exit -S all -F ppid=1734 -F key=experiment.py-p
+-a always,exit -F arch=b32 -S execve -F key=procmon
+-a always,exit -F arch=b32 -S stime,settimeofday,adjtimex -F key=time-change
+-a always,exit -F arch=b32 -S clock_settime -F a0=0x0 -F key=time-change
+-w /etc/localtime -p wa -k time-change
+-w /etc/group -p wa -k identity
+-w /etc/passwd -p wa -k identity
+-w /etc/gshadow -p wa -k identity
+-w /etc/shadow -p wa -k identity
+-w /etc/security/opasswd -p wa -k identity
+-a always,exit -F arch=b32 -S sethostname,setdomainname -F key=system-locale
+-w /etc/issue -p wa -k system-locale
+-w /etc/issue.net -p wa -k system-locale
+-w /etc/hosts -p wa -k system-locale
+-w /etc/hostname -p wa -k system-locale
+-w /etc/NetworkManager/ -p wa -k system-locale
+-w /etc/selinux/ -p wa -k MAC-policy
+-a always,exit -F arch=b32 -S chmod,fchmod,fchmodat -F key=perm_mod
+-a always,exit -F arch=b32 -S lchown,fchown,chown,fchownat -F key=perm_mod
+-a always,exit -F arch=b32 -S setxattr,lsetxattr,fsetxattr,removexattr,lremovexattr,fremovexattr -F key=perm_mod
+-a always,exit -F arch=b32 -S open,creat,truncate,ftruncate,openat,open_by_handle_at -F exit=-EACCES -F key=access
+-a always,exit -F arch=b32 -S open,creat,truncate,ftruncate,openat,open_by_handle_at -F exit=-EPERM -F key=access
+-a always,exit -F arch=b32 -S mount,umount2 -F key=export
+-a always,exit -F arch=b32 -S unlink,rename,unlinkat,renameat -F key=delete
+-w /etc/sudoers -p wa -k actions
+-w /etc/sudoers.d -p wa -k actions
+-w /bin/su -p x -k privileged
+-w /bin/ntfs-3g -p x -k privileged
+-w /bin/fusermount -p x -k privileged
+-w /bin/umount -p x -k privileged
+-w /bin/mount -p x -k privileged
+-w /sbin/mount.nfs -p x -k privileged
+-w /sbin/mount.cifs -p x -k privileged
+-w /usr/bin/chsh -p x -k privileged
+-w /usr/bin/gpasswd -p x -k privileged
+-w /usr/bin/pkexec -p x -k privileged
+-w /usr/bin/passwd -p x -k privileged
+-w /usr/bin/vmware-user-suid-wrapper -p x -k privileged
+-w /usr/bin/bwrap -p x -k privileged
+-w /usr/bin/newgrp -p x -k privileged
+-w /usr/bin/chfn -p x -k privileged
+-w /usr/bin/sudo -p x -k privileged
+-w /usr/sbin/exim4 -p x -k privileged
+-a always,exit -F arch=b32 -S sendmsg,recvmsg -F key=socket-file
+-a always,exit -S all -F path=/usr/bin/docker -F key=docker-executable-a
+-a always,exit -S all -F path=/usr/bin/dockerd -F key=docker-daemon-a
+-a always,exit -S all -F path=/usr/bin/docker-proxy -F key=docker-proxy-a
+-w /usr/bin/docker -p rwxa -k docker-executable-w
+-w /usr/bin/dockerd -p rwxa -k docker-daemon-w
+-w /usr/bin/docker-proxy -p rwxa -k docker-proxy-w
+-w /var/lib/docker -p rwxa -k docker-directory-w
+-a always,exit -F arch=b32 -S mkdir,mkdirat -F key=mkdir
+-a always,exit -F arch=b32 -S clone -F a0&0x7C020000 -F key=container-create
+-a always,exit -F arch=b32 -S unshare,setns -F key=container-config
+-a always,exit -S all -F path=/usr/bin/runc -F key=container-activity
+-w /usr/bin/runc -p x -k container-execute
+-w /storage/docker/overlay2 -p rwxa -k container-overlays
+-w /sbin/kmod -p x -k modules
+-w /sbin/insmod -p x -k modules
+-w /sbin/rmmod -p x -k modules
+-w /sbin/modprobe -p x -k modules
+-a always,exit -F arch=b32 -S init_module,finit_module -F key=module-load
+-a always,exit -F arch=b32 -S delete_module -F key=module-unload
+-a always,exit -F arch=b32 -S socket,bind,connect,listen,socketpair,sendto,recvfrom,shutdown,setsockopt -F key=network-access
+-a always,exit -S all -F pid=1335 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1335 -F key=docker-proxy-p
+-a always,exit -S all -F pid=1342 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1342 -F key=docker-proxy-p
+-a always,exit -S all -F pid=1814 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1814 -F key=docker-proxy-p
+-a always,exit -S all -F pid=1822 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1822 -F key=docker-proxy-p
+-a always,exit -S all -F pid=1853 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1853 -F key=docker-proxy-p
+-a always,exit -S all -F pid=1862 -F key=docker-proxy-p
+-a always,exit -S all -F ppid=1862 -F key=docker-proxy-p
+

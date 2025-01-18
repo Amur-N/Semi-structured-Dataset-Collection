@@ -1,0 +1,330 @@
+type=DAEMON_START msg=audit(1631297703.564:2737): op=start ver=2.8.4 format=raw kernel=5.4.83-v7+ auid=4294967295 pid=4957 uid=0 ses=4294967295 res=success
+type=PROCTITLE msg=audit(1631297703.567:24201): proctitle="/sbin/audispd"
+type=SYSCALL msg=audit(1631297703.567:24202): arch=40000028 syscall=283 per=800000 success=yes exit=0 a0=5 a1=76e97c8c a2=6e a3=0 items=1 ppid=4957 pid=4959 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="audispd" exe="/sbin/audispd" key="network-access"
+type=SOCKADDR msg=audit(1631297703.567:24202): saddr=01002F6465762F6C6F6700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+type=CWD msg=audit(1631297703.567:24202): cwd="/"
+type=PATH msg=audit(1631297703.567:24202): item=0 name="/dev/log" inode=16840 dev=00:15 mode=0140666 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.567:24202): proctitle="/sbin/audispd"
+type=SYSCALL msg=audit(1631297703.567:24203): arch=40000028 syscall=39 per=800000 success=no exit=-17 a0=4f1a3c a1=1ed a2=98ddf300 a3=98ddf300 items=1 ppid=4907 pid=4955 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemd-tty-ask" exe="/bin/systemd-tty-ask-password-agent" key="mkdir"
+type=CWD msg=audit(1631297703.567:24203): cwd="/"
+type=PATH msg=audit(1631297703.567:24203): item=0 name="/run/systemd/" inode=7610 dev=00:15 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.567:24203): proctitle=2F62696E2F73797374656D642D7474792D61736B2D70617373776F72642D6167656E74002D2D7761746368
+type=SYSCALL msg=audit(1631297703.567:24204): arch=40000028 syscall=297 per=800000 success=yes exit=761 a0=9 a1=7ec27840 a2=40000000 a3=0 items=0 ppid=1 pid=421 auid=4294967295 uid=104 gid=110 euid=104 suid=104 fsuid=104 egid=110 sgid=110 fsgid=110 tty=(none) ses=4294967295 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.567:24204): proctitle=2F7573722F62696E2F646275732D6461656D6F6E002D2D73797374656D002D2D616464726573733D73797374656D643A002D2D6E6F666F726B002D2D6E6F70696466696C65002D2D73797374656D642D61637469766174696F6E002D2D7379736C6F672D6F6E6C79
+type=SYSCALL msg=audit(1631297703.567:24205): arch=40000028 syscall=297 per=800000 success=yes exit=1068 a0=9 a1=7ec27840 a2=40000000 a3=0 items=0 ppid=1 pid=421 auid=4294967295 uid=104 gid=110 euid=104 suid=104 fsuid=104 egid=110 sgid=110 fsgid=110 tty=(none) ses=4294967295 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.567:24205): proctitle=2F7573722F62696E2F646275732D6461656D6F6E002D2D73797374656D002D2D616464726573733D73797374656D643A002D2D6E6F666F726B002D2D6E6F70696466696C65002D2D73797374656D642D61637469766174696F6E002D2D7379736C6F672D6F6E6C79
+type=SYSCALL msg=audit(1631297703.567:24206): arch=40000028 syscall=297 per=800000 success=no exit=-11 a0=9 a1=7ec27840 a2=40000000 a3=0 items=0 ppid=1 pid=421 auid=4294967295 uid=104 gid=110 euid=104 suid=104 fsuid=104 egid=110 sgid=110 fsgid=110 tty=(none) ses=4294967295 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.567:24206): proctitle=2F7573722F62696E2F646275732D6461656D6F6E002D2D73797374656D002D2D616464726573733D73797374656D643A002D2D6E6F666F726B002D2D6E6F70696466696C65002D2D73797374656D642D61637469766174696F6E002D2D7379736C6F672D6F6E6C79
+type=SYSCALL msg=audit(1631297703.567:24207): arch=40000028 syscall=281 per=800000 success=yes exit=3 a0=1 a1=1 a2=0 a3=1 items=0 ppid=1 pid=4961 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="(genrules)" exe="/lib/systemd/systemd" key="network-access"
+type=PROCTITLE msg=audit(1631297703.567:24207): proctitle="(genrules)"
+type=SYSCALL msg=audit(1631297703.567:24208): arch=40000028 syscall=283 per=800000 success=yes exit=0 a0=3 a1=5245c8 a2=1e a3=0 items=1 ppid=1 pid=4961 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="(genrules)" exe="/lib/systemd/systemd" key="network-access"
+type=SOCKADDR msg=audit(1631297703.567:24208): saddr=01002F72756E2F73797374656D642F6A6F75726E616C2F7374646F757400
+type=CWD msg=audit(1631297703.567:24208): cwd="/"
+type=PATH msg=audit(1631297703.567:24208): item=0 name="/run/systemd/journal/stdout" inode=7100 dev=00:15 mode=0140666 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.567:24208): proctitle="(genrules)"
+type=SYSCALL msg=audit(1631297703.567:24209): arch=40000028 syscall=293 per=800000 success=yes exit=0 a0=3 a1=0 a2=1e a3=ffff items=0 ppid=1 pid=4961 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="(genrules)" exe="/lib/systemd/systemd" key="network-access"
+type=PROCTITLE msg=audit(1631297703.567:24209): proctitle="(genrules)"
+type=SYSCALL msg=audit(1631297703.567:24210): arch=40000028 syscall=294 per=800000 success=yes exit=0 a0=3 a1=1 a2=7 a3=7e8e9454 items=0 ppid=1 pid=4961 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="(genrules)" exe="/lib/systemd/systemd" key="network-access"
+type=PROCTITLE msg=audit(1631297703.567:24210): proctitle="(genrules)"
+type=SYSCALL msg=audit(1631297703.567:24211): arch=40000028 syscall=297 per=800000 success=yes exit=24 a0=3 a1=7ea9f2cc a2=40000040 a3=0 items=0 ppid=4906 pid=4907 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemctl" exe="/bin/systemctl" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.567:24211): proctitle=2F62696E2F7368002F7573722F7362696E2F7365727669636500617564697464007374617274
+type=SYSCALL msg=audit(1631297703.577:24212): arch=40000028 syscall=297 per=800000 success=yes exit=777 a0=3 a1=7ea9f2cc a2=40000040 a3=0 items=0 ppid=4906 pid=4907 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemctl" exe="/bin/systemctl" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24212): proctitle=2F62696E2F7368002F7573722F7362696E2F7365727669636500617564697464007374617274
+type=SYSCALL msg=audit(1631297703.577:24213): arch=40000028 syscall=297 per=800000 success=yes exit=24 a0=3 a1=7ea9f2cc a2=40000040 a3=0 items=0 ppid=4906 pid=4907 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemctl" exe="/bin/systemctl" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24213): proctitle=2F62696E2F7368002F7573722F7362696E2F7365727669636500617564697464007374617274
+type=SYSCALL msg=audit(1631297703.577:24214): arch=40000028 syscall=297 per=800000 success=yes exit=1084 a0=3 a1=7ea9f2cc a2=40000040 a3=0 items=0 ppid=4906 pid=4907 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemctl" exe="/bin/systemctl" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24214): proctitle=2F62696E2F7368002F7573722F7362696E2F7365727669636500617564697464007374617274
+type=SYSCALL msg=audit(1631297703.577:24215): arch=40000028 syscall=297 per=800000 success=no exit=-11 a0=3 a1=7ea9f2cc a2=40000040 a3=0 items=0 ppid=4906 pid=4907 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=6 comm="systemctl" exe="/bin/systemctl" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24215): proctitle=2F62696E2F7368002F7573722F7362696E2F7365727669636500617564697464007374617274
+type=SYSCALL msg=audit(1631297703.577:24216): arch=40000028 syscall=297 per=800000 success=yes exit=24 a0=e a1=7ed0b8d4 a2=40000040 a3=0 items=0 ppid=1 pid=415 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd-logind" exe="/lib/systemd/systemd-logind" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24216): proctitle="/lib/systemd/systemd-logind"
+type=SYSCALL msg=audit(1631297703.577:24217): arch=40000028 syscall=297 per=800000 success=yes exit=753 a0=e a1=7ed0b8d4 a2=40000040 a3=0 items=0 ppid=1 pid=415 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd-logind" exe="/lib/systemd/systemd-logind" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24217): proctitle="/lib/systemd/systemd-logind"
+type=SYSCALL msg=audit(1631297703.577:24218): arch=40000028 syscall=296 per=800000 success=yes exit=777 a0=a a1=7ec276e0 a2=4000 a3=0 items=0 ppid=1 pid=421 auid=4294967295 uid=104 gid=110 euid=104 suid=104 fsuid=104 egid=110 sgid=110 fsgid=110 tty=(none) ses=4294967295 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24218): proctitle=2F7573722F62696E2F646275732D6461656D6F6E002D2D73797374656D002D2D616464726573733D73797374656D643A002D2D6E6F666F726B002D2D6E6F70696466696C65002D2D73797374656D642D61637469766174696F6E002D2D7379736C6F672D6F6E6C79
+type=SYSCALL msg=audit(1631297703.577:24219): arch=40000028 syscall=296 per=800000 success=yes exit=1084 a0=a a1=7ec276e0 a2=4000 a3=0 items=0 ppid=1 pid=421 auid=4294967295 uid=104 gid=110 euid=104 suid=104 fsuid=104 egid=110 sgid=110 fsgid=110 tty=(none) ses=4294967295 comm="dbus-daemon" exe="/usr/bin/dbus-daemon" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24219): proctitle=2F7573722F62696E2F646275732D6461656D6F6E002D2D73797374656D002D2D616464726573733D73797374656D643A002D2D6E6F666F726B002D2D6E6F70696466696C65002D2D73797374656D642D61637469766174696F6E002D2D7379736C6F672D6F6E6C79
+type=SYSCALL msg=audit(1631297703.577:24220): arch=40000028 syscall=297 per=800000 success=yes exit=24 a0=e a1=7ed0b8d4 a2=40000040 a3=0 items=0 ppid=1 pid=415 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd-logind" exe="/lib/systemd/systemd-logind" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24220): proctitle="/lib/systemd/systemd-logind"
+type=SYSCALL msg=audit(1631297703.577:24221): arch=40000028 syscall=297 per=800000 success=yes exit=1060 a0=e a1=7ed0b8d4 a2=40000040 a3=0 items=0 ppid=1 pid=415 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="systemd-logind" exe="/lib/systemd/systemd-logind" key="socket-file"
+type=PROCTITLE msg=audit(1631297703.577:24221): proctitle="/lib/systemd/systemd-logind"
+type=SYSCALL msg=audit(1631297703.577:24222): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=2208330 a1=2299e08 a2=22d9388 a3=2208450 items=3 ppid=1 pid=4961 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="augenrules" exe="/bin/dash" key="procmon"
+type=EXECVE msg=audit(1631297703.577:24222): argc=3 a0="/bin/sh" a1="/sbin/augenrules" a2="--load"
+type=CWD msg=audit(1631297703.577:24222): cwd="/"
+type=PATH msg=audit(1631297703.577:24222): item=0 name="/sbin/augenrules" inode=1807 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.577:24222): item=1 name="/bin/sh" inode=725 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.577:24222): item=2 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.577:24222): proctitle="(genrules)"
+type=SYSCALL msg=audit(1631297703.577:24223): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=386a8 a1=3867c a2=38688 a3=cc4aea00 items=2 ppid=4961 pid=4962 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mktemp" exe="/bin/mktemp" key="procmon"
+type=EXECVE msg=audit(1631297703.577:24223): argc=2 a0="mktemp" a1="/tmp/aurules.XXXXXXXX"
+type=CWD msg=audit(1631297703.577:24223): cwd="/"
+type=PATH msg=audit(1631297703.577:24223): item=0 name="/bin/mktemp" inode=764 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.577:24223): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.577:24223): proctitle=6D6B74656D70002F746D702F617572756C65732E5858585858585858
+type=SYSCALL msg=audit(1631297703.587:24224): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e7b2ac a1=e7b260 a2=e7b28c a3=cc4aea00 items=2 ppid=4961 pid=4964 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="awk" exe="/usr/bin/mawk" key="procmon"
+type=EXECVE msg=audit(1631297703.587:24224): argc=2 a0="awk" a1=0A424547494E2020207B0A20202020202020206D696E75735F65203D2022223B0A20202020202020206D696E75735F44203D2022223B0A20202020202020206D696E75735F66203D2022223B0A20202020202020206D696E75735F62203D2022223B0A202020202020202072657374203D20303B0A7D207B0A2020202020202020696620286C656E67746828243029203C203129207B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A23222929207B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D65222929207B206D696E75735F65203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D445C5C732A24222929207B206D696E75735F44203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D66222929207B206D696E75735F66203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D62222929207B206D696E75735F62203D2024303B206E6578743B207D0A202020202020202072756C65735B726573742B2B5D203D2024303B0A7D0A454E4420202020207B0A20202020202020207072696E7466202225735C6E25735C6E25735C6E222C206D696E75735F442C206D696E75735F622C206D696E75735F663B0A2020202020202020666F72202869203D20303B2069203C20726573743B20692B2B29207B207072696E7466202225735C6E222C2072756C65735B695D3B207D0A20202020202020207072696E7466202225735C6E222C206D696E75735F653B0A7D
+type=CWD msg=audit(1631297703.587:24224): cwd="/"
+type=PATH msg=audit(1631297703.587:24224): item=0 name="/usr/bin/awk" inode=9679 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.587:24224): item=1 name="/lib/arm-linux-gnueabihf/ld-linux.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.587:24224): proctitle=61776B000A424547494E2020207B0A20202020202020206D696E75735F65203D2022223B0A20202020202020206D696E75735F44203D2022223B0A20202020202020206D696E75735F66203D2022223B0A20202020202020206D696E75735F62203D2022223B0A202020202020202072657374203D20303B0A7D207B0A202020
+type=SYSCALL msg=audit(1631297703.587:24225): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e7ae84 a1=e7aec8 a2=e7aedc a3=cc4aea00 items=2 ppid=4965 pid=4966 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="ls" exe="/bin/ls" key="procmon"
+type=EXECVE msg=audit(1631297703.587:24225): argc=3 a0="/bin/ls" a1="-1v" a2="/etc/audit/rules.d"
+type=CWD msg=audit(1631297703.587:24225): cwd="/"
+type=PATH msg=audit(1631297703.587:24225): item=0 name="/bin/ls" inode=760 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.587:24225): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.587:24225): proctitle=2F62696E2F6C73002D3176002F6574632F61756469742F72756C65732E64
+type=SYSCALL msg=audit(1631297703.587:24226): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e7aedc a1=e7aeb0 a2=e7aebc a3=cc4aea00 items=2 ppid=4965 pid=4967 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="grep" exe="/bin/grep" key="procmon"
+type=EXECVE msg=audit(1631297703.587:24226): argc=2 a0="grep" a1="\.rules$"
+type=CWD msg=audit(1631297703.587:24226): cwd="/"
+type=PATH msg=audit(1631297703.587:24226): item=0 name="/bin/grep" inode=741 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.587:24226): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.587:24226): proctitle=67726570005C2E72756C657324
+type=SYSCALL msg=audit(1631297703.597:24227): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e7af04 a1=e7aed8 a2=e7aee4 a3=cc4aea00 items=2 ppid=4963 pid=4968 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cat" exe="/bin/cat" key="procmon"
+type=EXECVE msg=audit(1631297703.597:24227): argc=2 a0="cat" a1="/etc/audit/rules.d/audit.rules"
+type=FD_PAIR msg=audit(1631297703.597:24227): fd0=0 fd1=0
+type=CWD msg=audit(1631297703.597:24227): cwd="/"
+type=PATH msg=audit(1631297703.597:24227): item=0 name="/bin/cat" inode=684 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.597:24227): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.597:24227): proctitle=636174002F6574632F61756469742F72756C65732E642F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.607:24228): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=38710 a1=386c4 a2=386f0 a3=cc4aea00 items=2 ppid=4961 pid=4969 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cmp" exe="/usr/bin/cmp" key="procmon"
+type=EXECVE msg=audit(1631297703.607:24228): argc=4 a0="cmp" a1="-s" a2="/tmp/aurules.RF9ktmVz" a3="/etc/audit/audit.rules"
+type=CWD msg=audit(1631297703.607:24228): cwd="/"
+type=PATH msg=audit(1631297703.607:24228): item=0 name="/usr/bin/cmp" inode=9470 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.607:24228): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.607:24228): proctitle=636D70002D73002F746D702F617572756C65732E5246396B746D567A002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.617:24229): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e78994 a1=e78960 a2=e78974 a3=cc4aea00 items=2 ppid=4961 pid=4970 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="rm" exe="/bin/rm" key="procmon"
+type=EXECVE msg=audit(1631297703.617:24229): argc=3 a0="rm" a1="-f" a2="/tmp/aurules.RF9ktmVz"
+type=CWD msg=audit(1631297703.617:24229): cwd="/"
+type=PATH msg=audit(1631297703.617:24229): item=0 name="/bin/rm" inode=782 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.617:24229): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.617:24229): proctitle=726D002D66002F746D702F617572756C65732E5246396B746D567A
+type=SYSCALL msg=audit(1631297703.617:24230): arch=40000028 syscall=328 per=800000 success=yes exit=0 a0=ffffff9c a1=7f2ae8 a2=0 a3=166a8f00 items=2 ppid=4961 pid=4970 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="rm" exe="/bin/rm" key="delete"
+type=CWD msg=audit(1631297703.617:24230): cwd="/"
+type=PATH msg=audit(1631297703.617:24230): item=0 name="/tmp/" inode=9704 dev=00:27 mode=041777 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.617:24230): item=1 name="/tmp/aurules.RF9ktmVz" inode=91644 dev=00:27 mode=0100600 ouid=0 ogid=0 rdev=00:00 nametype=DELETE cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.617:24230): proctitle=726D002D66002F746D702F617572756C65732E5246396B746D567A
+type=SYSCALL msg=audit(1631297703.617:24231): arch=40000028 syscall=11 per=800000 success=yes exit=0 a0=e78944 a1=e78990 a2=e789a4 a3=cc4aea00 items=2 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="procmon"
+type=EXECVE msg=audit(1631297703.617:24231): argc=3 a0="/sbin/auditctl" a1="-R" a2="/etc/audit/audit.rules"
+type=CWD msg=audit(1631297703.617:24231): cwd="/"
+type=PATH msg=audit(1631297703.617:24231): item=0 name="/sbin/auditctl" inode=1799 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PATH msg=audit(1631297703.617:24231): item=1 name="/lib/ld-linux-armhf.so.3" inode=1515 dev=b3:02 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=PROCTITLE msg=audit(1631297703.617:24231): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24232): arch=40000028 syscall=281 per=800000 success=yes exit=3 a0=10 a1=3 a2=9 a3=76f8e02c items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=PROCTITLE msg=audit(1631297703.627:24232): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24233): arch=40000028 syscall=290 per=800000 success=yes exit=16 a0=3 a1=7ed152dc a2=10 a3=0 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24233): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24233): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24234): arch=40000028 syscall=292 per=800000 success=yes exit=36 a0=3 a1=7ed17604 a2=231c a3=42 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24234): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24234): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24235): arch=40000028 syscall=292 per=800000 success=yes exit=36 a0=3 a1=7ed17604 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24235): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24235): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24236): arch=40000028 syscall=292 per=800000 success=yes exit=56 a0=3 a1=7ed1998c a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24236): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24236): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24237): arch=40000028 syscall=290 per=800000 success=yes exit=16 a0=3 a1=7ed1392c a2=10 a3=0 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24237): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24237): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24238): arch=40000028 syscall=292 per=800000 success=yes exit=36 a0=3 a1=7ed15c54 a2=231c a3=42 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24238): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24238): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24239): arch=40000028 syscall=292 per=800000 success=yes exit=36 a0=3 a1=7ed15c54 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24239): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24239): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24240): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24240): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24240): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24241): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24241): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24241): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24242): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24242): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24242): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24243): arch=40000028 syscall=292 per=800000 success=yes exit=1068 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24243): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24243): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24244): arch=40000028 syscall=292 per=800000 success=yes exit=1068 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24244): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24244): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24245): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24245): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24245): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24246): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24246): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24246): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24247): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24247): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24247): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24248): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24248): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24248): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24249): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24249): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24249): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24250): arch=40000028 syscall=292 per=800000 success=yes exit=1088 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24250): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24250): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24251): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24251): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24251): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24252): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24252): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24252): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24253): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24253): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24253): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24254): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24254): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24254): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24255): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24255): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24255): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24256): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24256): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24256): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24257): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24257): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24257): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24258): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24258): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24258): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24259): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24259): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24259): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24260): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24260): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24260): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24261): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24261): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24261): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24262): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24262): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24262): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24263): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24263): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24263): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24264): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24264): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24264): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24265): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24265): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24265): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24266): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24266): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24266): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24267): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24267): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24267): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24268): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24268): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24268): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24269): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24269): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24269): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24270): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24270): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24270): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24271): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24271): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24271): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24272): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24272): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24272): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24273): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24273): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24273): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24274): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24274): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24274): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24275): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24275): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24275): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24276): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24276): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24276): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24277): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24277): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24277): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24278): arch=40000028 syscall=292 per=800000 success=yes exit=1100 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24278): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24278): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24279): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24279): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24279): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24280): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24280): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24280): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24281): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24281): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24281): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24282): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24282): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24282): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24283): arch=40000028 syscall=292 per=800000 success=yes exit=1084 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24283): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24283): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24284): arch=40000028 syscall=292 per=800000 success=yes exit=1068 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24284): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24284): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24285): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24285): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24285): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24286): arch=40000028 syscall=292 per=800000 success=yes exit=1088 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24286): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24286): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24287): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24287): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24287): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24288): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24288): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24288): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24289): arch=40000028 syscall=292 per=800000 success=yes exit=1088 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24289): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24289): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24290): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24290): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24290): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24291): arch=40000028 syscall=292 per=800000 success=yes exit=1092 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24291): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24291): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24292): arch=40000028 syscall=292 per=800000 success=yes exit=1064 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24292): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24292): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24293): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24293): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24293): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24294): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24294): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24294): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24295): arch=40000028 syscall=292 per=800000 success=yes exit=1088 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24295): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24295): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24296): arch=40000028 syscall=292 per=800000 success=yes exit=1088 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24296): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24296): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24297): arch=40000028 syscall=292 per=800000 success=yes exit=1100 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24297): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24297): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24298): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24298): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24298): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24299): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24299): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24299): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24300): arch=40000028 syscall=292 per=800000 success=yes exit=1076 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24300): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24300): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24301): arch=40000028 syscall=292 per=800000 success=yes exit=1080 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24301): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24301): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24302): arch=40000028 syscall=292 per=800000 success=yes exit=1068 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24302): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24302): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24303): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24303): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24303): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24304): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"
+type=SOCKADDR msg=audit(1631297703.627:24304): saddr=100000000000000000000000
+type=PROCTITLE msg=audit(1631297703.627:24304): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1631297703.627:24305): arch=40000028 syscall=292 per=800000 success=yes exit=1072 a0=3 a1=7ed18084 a2=231c a3=40 items=0 ppid=4961 pid=4971 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/sbin/auditctl" key="network-access"

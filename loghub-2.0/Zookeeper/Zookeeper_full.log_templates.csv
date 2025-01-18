@@ -1,0 +1,90 @@
+EventId,EventTemplate,Occurrences
+E57,Reading configuration from: <*>,36
+E46,Defaulting to majority quorums,36
+E35,autopurge.snapRetainCount set to <*>,36
+E44,autopurge.purgeInterval set to <*>,36
+E60,Purge task is not scheduled.,36
+E71,Starting quorum peer,36
+E80,binding to port <*>,36
+E81,tickTime set to <*>,36
+E65,minSessionTimeout set to <*>,36
+E63,maxSessionTimeout set to <*>,36
+E79,initLimit set to <*>,36
+E3,currentEpoch not found! Creating with a reasonable default of <*>. This should only happen when you are upgrading your installation,3
+E2,acceptedEpoch not found! Creating with a reasonable default of <*>. This should only happen when you are upgrading your installation,3
+E68,My election bind port: <*>,36
+E87,LOOKING,49
+E55,"New election. My id = <*>, proposed <*>",49
+E4,"Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), <*> (n.state), <*> (n.sid), <*> (n.peerEPoch), <*> (my state)",505
+E24,Cannot open channel to <*> at election address <*>,2584
+E67,Notification time out: <*>,1322
+E59,Received connection request <*>,10429
+E86,FOLLOWING,34
+E73,TCP NoDelay set to: <*>,39
+E19,"Server environment:zookeeper.version=<*>, built on <*> GMT",36
+E41,Server environment:host.name=<*>,36
+E34,Server environment:java.version=<*>,36
+E36,Server environment:java.vendor=<*>,36
+E43,Server environment:java.home=<*>,36
+E27,Server environment:java.class.path=<*>,36
+E29,Server environment:java.io.tmpdir=<*>,36
+E30,Server environment:java.compiler=<*>,36
+E54,Server environment:os.name=<*>,36
+E53,Server environment:os.arch=<*>,36
+E38,Server environment:os.version=<*>,36
+E40,Server environment:user.name=<*>,36
+E42,Server environment:user.home=<*>,36
+E49,Server environment:user.dir=<*>,36
+E9,Created server with tickTime <*> minSessionTimeout <*> maxSessionTimeout <*> datadir <*> snapdir <*>,49
+E39,FOLLOWING - LEADER ELECTION TOOK - <*>,34
+E58,Getting a diff from the leader <*>,28
+E75,Snapshotting: <*> to <*>,65
+E28,"Connection broken for id <*>, my id = <*>, error =<*>",10388
+E62,Interrupting SendWorker,10390
+E20,Interrupted while waiting for message on queue,10386
+E61,Send worker leaving thread,10390
+E76,Got zxid <*> expected <*>,28
+E70,Creating new log file: <*>,25
+E45,Accepted socket connection from <*>,2020
+E11,Connection request from old client <*>; will be dropped if server is in r-o mode,1861
+E22,Client attempting to establish new session at <*>,1790
+E18,Established session <*> with negotiated timeout <*> for client <*>,1856
+E50,caught end of stream exception,1670
+E17,Closed socket connection for client <*> which had sessionid <*>,1749
+E69,Revalidating client: <*>,55
+E6,Exception when using channel: for id <*> my id = <*> error = java.net.SocketException: Broken pipe,4
+E66,Unexpected Exception:,27
+E7,Exception causing close of session <*> due to java.io.IOException: Connection reset by peer,8
+E74,Reading snapshot <*>,60
+E14,"Have smaller server identifier, so dropping the connection: (<*>, <*>)",20
+E32,Exception when following the leader,11
+E77,shutdown called,11
+E83,Shutting down,58
+E82,shutting down,13
+E25,FollowerRequestProcessor exited loop!,11
+E26,shutdown of request processor complete,13
+E52,CommitProcessor exited loop!,13
+E47,SyncRequestProcessor exited!,13
+E23,"Unexpected exception, tries=<*>, connecting to <*>",8
+E88,LEADING,15
+E48,LEADING - LEADER ELECTION TOOK - <*>,15
+E72,Follower sid: <*> : info : <*>,34
+E8,Synchronizing with Follower sid: <*> maxCommittedLog=<*> minCommittedLog=<*> peerLastZxid=<*>,34
+E85,Sending DIFF,28
+E56,Commiting zxid <*> from <*> not first!,15
+E89,First is <*>,15
+E13,Have quorum of supporters; starting up and setting last processed zxid: <*>,15
+E84,Sending SNAP,6
+E15,Sending snapshot last zxid of peer is <*> zxid of leader is <*> zxid of db as <*>,6
+E31,Expiring session <*> timeout of <*> exceeded,1762
+E21,Processed session termination for sessionid: <*>,1790
+E16,Unexpected exception causing shutdown while sock still open,590
+E64,******* GOODBYE <*> ********,590
+E78,Shutdown called,2
+E10,exception while shutting down acceptor: java.net.SocketException: Socket closed,2
+E33,PrepRequestProcessor exited loop!,2
+E37,SessionTrackerImpl exited loop!,2
+E51,Getting a snapshot from leader,6
+E5,Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running,159
+E12,Closed socket connection for client <*> (no session established for client),159
+E1,Got user-level KeeperException when processing sessionid:<*> type:<*> cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = <*> for <*>,19

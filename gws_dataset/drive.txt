@@ -1,0 +1,1078 @@
+{
+admin#reports#activity { 2022-08-11T21:06:11.593Z 1344686025330167138 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/jzpTCpKAH_dxdXJOjqmL7p8zB5A" { USER workspace@cloud-response.com 102509620547980436027 }
+	{
+	pooled_quota_metadata storage_usage_update
+		{ storage_entity_id 258855114937 }
+		{ storage_usage_in_bytes 0 }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T19:10:44.576Z -2330488593311817271 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/IN_lpm-5H7mvnMZWf18onSjbkgs" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1zeNgkgry26E120nnLNvLSIVivsbb8zBJ }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-002.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1zeNgkgry26E120nnLNvLSIVivsbb8zBJ }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-002.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user admin@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1zeNgkgry26E120nnLNvLSIVivsbb8zBJ }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-002.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1zeNgkgry26E120nnLNvLSIVivsbb8zBJ }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-002.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Takeout } }
+		{ destination_folder_id { 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J } }
+		{ doc_id 1zeNgkgry26E120nnLNvLSIVivsbb8zBJ }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-002.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T19:10:42.625Z 4029014279738607029 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/5Nvul843FlOrkFnopM_uGRlKZXs" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1mNS4-tPugMfuT0H87v1_0atFs5Vcs_lP }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-001.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1mNS4-tPugMfuT0H87v1_0atFs5Vcs_lP }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-001.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user admin@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1mNS4-tPugMfuT0H87v1_0atFs5Vcs_lP }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-001.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1mNS4-tPugMfuT0H87v1_0atFs5Vcs_lP }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-001.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Takeout } }
+		{ destination_folder_id { 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J } }
+		{ doc_id 1mNS4-tPugMfuT0H87v1_0atFs5Vcs_lP }
+		{ doc_type unknown }
+		{ is_encrypted False }
+		{ doc_title takeout-20220802T091312Z-001.zip }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T19:10:41.999Z 448992762015088052 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/oiN1ISy9FCWhUoi94SPByX32rZQ" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Takeout }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user admin@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Takeout }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Takeout }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Root } }
+		{ destination_folder_id { 0AG-iDsCiN2AvUk9PVA } }
+		{ doc_id 1YfhXAiBdD7qjP-IzeqDmwcMG4CBCAmvM7t9y8uIk77kPJrug-vBHN1doTwnnuyxrIzp--K9J }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Takeout }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:29:44.183Z 82087310193526413 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/CwGLn4jm71EpbS2rPeiSMkL1vu0" { admin@cloud-response.com 111440584475724055600 } 86.48.11.48
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title Projects_FY2022 }
+		{ visibility shared_internally }
+		{ originating_app_id 211604355607 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event True }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user workspace@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { can_edit } }
+		{ old_visibility private }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title Projects_FY2022 }
+		{ visibility shared_internally }
+		{ originating_app_id 211604355607 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:29:23.535Z -7899252993688670203 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/HK-NfhUq0034cxeMT6zYusGZNtE" { admin@cloud-response.com 111440584475724055600 } 86.48.11.48
+	{
+	access view
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:21:20.407Z 1999923564963281793 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/uMf9SRFHouD-7Xt7YmA9q-dfo64" { workspace@cloud-response.com 102509620547980436027 } 195.47.194.93
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1OJGUsGqGMGlYQ7Epe1M-U9GkPi008VbOl1eUC0igqHc }
+		{ doc_type form }
+		{ is_encrypted False }
+		{ doc_title Naamloos formulier }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:18:18.829Z 4766887571683540905 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/FGkxG6lV5lHhtWgo19Odh36xFYc" { workspace@cloud-response.com 102509620547980436027 } 195.47.194.93
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1OJGUsGqGMGlYQ7Epe1M-U9GkPi008VbOl1eUC0igqHc }
+		{ doc_type form }
+		{ is_encrypted False }
+		{ doc_title Naamloos formulier }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:18:18.592Z -2406316433603587125 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/C8LkvDpuhC2jhnB82UyJahBduqI" { workspace@cloud-response.com 102509620547980436027 } 195.47.194.93
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1OJGUsGqGMGlYQ7Epe1M-U9GkPi008VbOl1eUC0igqHc }
+		{ doc_type form }
+		{ is_encrypted False }
+		{ doc_title Naamloos formulier }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:13:57.079Z 3276112931527544503 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/4BErU-Qd7hKhzK7q7a5FvVprQWU" { workspace@cloud-response.com 102509620547980436027 } 5.253.206.156
+	{
+	access download
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility people_with_link }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:13:47.631Z -4768001533493751285 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/1lJUFFaC0hODsmd3mO_Zmc2_abI" { workspace@cloud-response.com 102509620547980436027 } 5.253.206.156
+	{
+	access view
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1kGSpyGJ-i0uzOMge1J7PKKhOipGT3mGf }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title TLP:RED Personal }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:12:37.638Z -8593694044162584673 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/FrZm_cBmnmR-VB1ElJGGa3MqESU" { workspace@cloud-response.com 102509620547980436027 } 31.171.152.13
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1OVCEXdivCX3tiyVW9C6_VgAeBG6alFhK }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Exfil }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user workspace@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1OVCEXdivCX3tiyVW9C6_VgAeBG6alFhK }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Exfil }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1OVCEXdivCX3tiyVW9C6_VgAeBG6alFhK }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Exfil }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Root } }
+		{ destination_folder_id { 0AFOpKZ1BAI4FUk9PVA } }
+		{ doc_id 1OVCEXdivCX3tiyVW9C6_VgAeBG6alFhK }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Exfil }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:12:16.443Z 7993207407367181217 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/vP0xdiLQj3NYg42e0keMg64GtJk" { workspace@cloud-response.com 102509620547980436027 } 31.171.152.13
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility people_with_link }
+		{ originating_app_id 211604355607 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_document_visibility
+		{ primary_event True }
+		{ billable True }
+		{ visibility_change external }
+		{ target_domain all }
+		{ old_value { private } }
+		{ new_value { people_with_link } }
+		{ old_visibility private }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility people_with_link }
+		{ originating_app_id 211604355607 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_document_access_scope
+		{ primary_event True }
+		{ billable True }
+		{ visibility_change external }
+		{ target_domain all }
+		{ old_value { none } }
+		{ new_value { can_view } }
+		{ old_visibility private }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility people_with_link }
+		{ originating_app_id 211604355607 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T09:30:30.646Z 1383417497530638607 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/mAf9uMUdsoNhDrvLEkWWvmeM2PE" { workspace@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access rename
+		{ primary_event True }
+		{ billable True }
+		{ old_value { Naamloos document } }
+		{ new_value { Plan for world domination } }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Plan for world domination }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T09:30:29.888Z 5681475254543852557 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/gwWYfH_hlO9D6MV57Oy4-mWK4cQ" { workspace@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1jrs7AguRkIhxhC3_-_Kgrd9axXugK7k7uySILb5YG3E }
+		{ doc_type document }
+		{ is_encrypted False }
+		{ doc_title Naamloos document }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T09:30:07.836Z 3665549089345089280 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/sbg_jUgr6Nl3VoVURJfyR7eey9U" { workspace@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1kGSpyGJ-i0uzOMge1J7PKKhOipGT3mGf }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title TLP:RED Personal }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user workspace@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1kGSpyGJ-i0uzOMge1J7PKKhOipGT3mGf }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title TLP:RED Personal }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1kGSpyGJ-i0uzOMge1J7PKKhOipGT3mGf }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title TLP:RED Personal }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Root } }
+		{ destination_folder_id { 0AFOpKZ1BAI4FUk9PVA } }
+		{ doc_id 1kGSpyGJ-i0uzOMge1J7PKKhOipGT3mGf }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title TLP:RED Personal }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner workspace@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T09:14:24.389Z 7820176831755966762 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/vSPG6NWzeIFx4dYrj1VS9Q5eaV8" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T09:11:22.653Z 3408296915209506737 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/RHrQjVjl43AFUfQWFHiasDknhcc" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T08:33:20.377Z -8922693775565364466 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/P3z-9YQu_xzuKDQtu3Y9H7l2DQg" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T08:23:46.307Z -405661131159787504 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/t9D6ui4_y_t4xLKj_EdIEf8Q0aA" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access view
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T08:23:22.589Z 8937766475578627642 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/mc4poxvF6NW72gbZzhzxBYIU508" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access edit
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T08:23:22.088Z 8734445998131791186 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/GxgBT5b49Q8qXfJAUXZHOYiZ4k4" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access rename
+		{ primary_event True }
+		{ billable True }
+		{ old_value { TMP-1-test } }
+		{ new_value { test } }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T08:23:18.846Z -6413985416944962783 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/pCWSdU4KPyD_va3bum87E-60YSc" { admin@cloud-response.com 111440584475724055600 }
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title TMP-1-test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title TMP-1-test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user admin@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title TMP-1-test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title TMP-1-test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Root } }
+		{ destination_folder_id { 0AG-iDsCiN2AvUk9PVA } }
+		{ doc_id 1K_6jRX1oDIETKuOEUTfl-v3I9FHjBc9r7poPQ1Lb93Y }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title TMP-1-test }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-27T07:50:32.630Z -2075590523506339910 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/GalIFhvZX6jYD9wK5Ma1qPuZjlo" { USER workspace@cloud-response.com 102509620547980436027 }
+	{
+	pooled_quota_metadata storage_usage_update
+		{ storage_entity_id 258855114937 }
+		{ storage_usage_in_bytes 0 }
+	}
+}
+{
+admin#reports#activity { 2022-07-19T07:59:07.826Z -6676245160869107227 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/sbdz1P9cNB3_REBkVkR7WIlF-0I" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title Projects_FY2022 }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access rename
+		{ primary_event True }
+		{ billable True }
+		{ old_value { P } }
+		{ new_value { Projects_FY2022 } }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title Projects_FY2022 }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-19T07:58:58.442Z 1091852080870696833 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/y6LqBnsWTE9GnM8GCFRlj10NZBU" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access edit
+		{ primary_event False }
+		{ billable True }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title P }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access rename
+		{ primary_event True }
+		{ billable True }
+		{ old_value { Untitled spreadsheet } }
+		{ new_value { P } }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title P }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-19T07:58:57.945Z 5543497763241380820 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/nvXBj0mtMwE-oi8O_SgoLR2jlrg" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1p_vnxuNNR69KWeoAfqvwX2JX2DnWdFCQUh5T9xX5O6A }
+		{ doc_type spreadsheet }
+		{ is_encrypted False }
+		{ doc_title Untitled spreadsheet }
+		{ visibility private }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-19T07:58:51.910Z 8115157484989592904 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/zvyJwLm3AIplt9FOJRc3ougOpR8" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access view
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-07-19T07:58:49.721Z 7649135886923959534 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/5p4jbhhojR2SlWLgyWoQPzuqr_E" { admin@cloud-response.com 111440584475724055600 } 80.114.222.200
+	{
+	access create
+		{ primary_event True }
+		{ billable True }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_user_access
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ target_user admin@cloud-response.com }
+		{ old_value { none } }
+		{ new_value { owner } }
+		{ old_visibility unknown }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	acl_change change_acl_editors
+		{ primary_event False }
+		{ billable True }
+		{ visibility_change none }
+		{ old_value { owner } }
+		{ new_value { owner writers } }
+		{ old_visibility unknown }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+
+	{
+	access add_to_folder
+		{ primary_event False }
+		{ billable True }
+		{ destination_folder_title { Root } }
+		{ destination_folder_id { 0AG-iDsCiN2AvUk9PVA } }
+		{ doc_id 1w2XhnVW0SK3fZLFq4_yFUyuIVN4z3hWF }
+		{ doc_type folder }
+		{ is_encrypted False }
+		{ doc_title Customers }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner admin@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}
+{
+admin#reports#activity { 2022-02-24T10:02:31.988Z -7499749839414606661 drive C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/yKVi5t3kU3L0ii7ziisQyEN4ne0" { KEY }
+	{
+	access delete
+		{ primary_event True }
+		{ billable False }
+		{ doc_id 1n0Uhn5kT-0XxlFlg-6oaMuspK56amQNO }
+		{ doc_type txt }
+		{ is_encrypted False }
+		{ doc_title Notes.txt }
+		{ visibility private }
+		{ originating_app_id 691301496089 }
+		{ actor_is_collaborator_account False }
+		{ owner Attacker@cloud-response.com }
+		{ owner_is_shared_drive False }
+		{ owner_is_team_drive False }
+	}
+}

@@ -1,0 +1,53 @@
+type=DAEMON_START msg=audit(1632851585.168:6308): op=start ver=2.8.4 format=raw kernel=4.19.0-13-amd64 auid=4294967295 pid=11987 uid=0 ses=4294967295 subj=unconfined  res=success
+type=SYSCALL msg=audit(1632851585.166:73621): arch=40000003 syscall=11 success=yes exit=0 a0=580c2d70 a1=ffe98450 a2=ffe9ce1c a3=f7d1c000 items=2 ppid=11987 pid=11989 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="audispd" exe="/sbin/audispd" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.166:73621): argc=1 a0="/sbin/audispd"
+type=CWD msg=audit(1632851585.166:73621): cwd="/"
+type=PATH msg=audit(1632851585.166:73621): item=0 name="/sbin/audispd" inode=523644 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.166:73621): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.166:73621): proctitle="/sbin/audispd"
+type=SYSCALL msg=audit(1632851585.173:73622): arch=40000003 syscall=11 success=yes exit=0 a0=57f7a5b0 a1=57f93650 a2=58064750 a3=580342c0 items=3 ppid=1 pid=11991 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="augenrules" exe="/bin/dash" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.173:73622): argc=3 a0="/bin/sh" a1="/sbin/augenrules" a2="--load"
+type=CWD msg=audit(1632851585.173:73622): cwd="/"
+type=PATH msg=audit(1632851585.173:73622): item=0 name="/sbin/augenrules" inode=523647 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.173:73622): item=1 name="/bin/sh" inode=261150 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.173:73622): item=2 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.173:73622): proctitle=2F62696E2F7368002F7362696E2F617567656E72756C6573002D2D6C6F6164
+type=SYSCALL msg=audit(1632851585.177:73623): arch=40000003 syscall=11 success=yes exit=0 a0=56624754 a1=56624728 a2=56624734 a3=56624754 items=2 ppid=11991 pid=11992 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="mktemp" exe="/bin/mktemp" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.177:73623): argc=2 a0="mktemp" a1="/tmp/aurules.XXXXXXXX"
+type=CWD msg=audit(1632851585.177:73623): cwd="/"
+type=PATH msg=audit(1632851585.177:73623): item=0 name="/bin/mktemp" inode=261211 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.177:73623): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.177:73623): proctitle=6D6B74656D70002F746D702F617572756C65732E5858585858585858
+type=SYSCALL msg=audit(1632851585.181:73624): arch=40000003 syscall=11 success=yes exit=0 a0=569b43c4 a1=569b4378 a2=569b43a4 a3=569b43c4 items=2 ppid=11991 pid=11994 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="awk" exe="/usr/bin/mawk" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.181:73624): argc=2 a0="awk" a1=0A424547494E2020207B0A20202020202020206D696E75735F65203D2022223B0A20202020202020206D696E75735F44203D2022223B0A20202020202020206D696E75735F66203D2022223B0A20202020202020206D696E75735F62203D2022223B0A202020202020202072657374203D20303B0A7D207B0A2020202020202020696620286C656E67746828243029203C203129207B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A23222929207B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D65222929207B206D696E75735F65203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D445C5C732A24222929207B206D696E75735F44203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D66222929207B206D696E75735F66203D2024303B206E6578743B207D0A2020202020202020696620286D617463682824302C20225E5C5C732A2D62222929207B206D696E75735F62203D2024303B206E6578743B207D0A202020202020202072756C65735B726573742B2B5D203D2024303B0A7D0A454E4420202020207B0A20202020202020207072696E7466202225735C6E25735C6E25735C6E222C206D696E75735F442C206D696E75735F622C206D696E75735F663B0A2020202020202020666F72202869203D20303B2069203C20726573743B20692B2B29207B207072696E7466202225735C6E222C2072756C65735B695D3B207D0A20202020202020207072696E7466202225735C6E222C206D696E75735F653B0A7D
+type=CWD msg=audit(1632851585.181:73624): cwd="/"
+type=PATH msg=audit(1632851585.181:73624): item=0 name="/usr/bin/awk" inode=261892 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.181:73624): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.181:73624): proctitle=61776B000A424547494E2020207B0A20202020202020206D696E75735F65203D2022223B0A20202020202020206D696E75735F44203D2022223B0A20202020202020206D696E75735F66203D2022223B0A20202020202020206D696E75735F62203D2022223B0A202020202020202072657374203D20303B0A7D207B0A202020
+type=SYSCALL msg=audit(1632851585.181:73625): arch=40000003 syscall=11 success=yes exit=0 a0=569b3f8c a1=569b3fd0 a2=569b3fe4 a3=569b3f8c items=2 ppid=11995 pid=11996 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="ls" exe="/bin/ls" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.181:73625): argc=3 a0="/bin/ls" a1="-1v" a2="/etc/audit/rules.d"
+type=CWD msg=audit(1632851585.181:73625): cwd="/"
+type=PATH msg=audit(1632851585.181:73625): item=0 name="/bin/ls" inode=261205 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.181:73625): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.181:73625): proctitle=2F62696E2F6C73002D3176002F6574632F61756469742F72756C65732E64
+type=SYSCALL msg=audit(1632851585.189:73626): arch=40000003 syscall=11 success=yes exit=0 a0=569b3fe4 a1=569b3fb8 a2=569b3fc4 a3=569b3fe4 items=2 ppid=11995 pid=11997 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="grep" exe="/bin/grep" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.189:73626): argc=2 a0="grep" a1="\.rules$"
+type=CWD msg=audit(1632851585.189:73626): cwd="/"
+type=PATH msg=audit(1632851585.189:73626): item=0 name="/bin/grep" inode=261171 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.189:73626): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.189:73626): proctitle=67726570005C2E72756C657324
+type=SYSCALL msg=audit(1632851585.193:73627): arch=40000003 syscall=11 success=yes exit=0 a0=569b400c a1=569b3fe0 a2=569b3fec a3=569b400c items=2 ppid=11993 pid=11998 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cat" exe="/bin/cat" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.193:73627): argc=2 a0="cat" a1="/etc/audit/rules.d/audit.rules"
+type=CWD msg=audit(1632851585.193:73627): cwd="/"
+type=PATH msg=audit(1632851585.193:73627): item=0 name="/bin/cat" inode=261141 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.193:73627): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.193:73627): proctitle=636174002F6574632F61756469742F72756C65732E642F61756469742E72756C6573
+type=SYSCALL msg=audit(1632851585.197:73628): arch=40000003 syscall=11 success=yes exit=0 a0=566247bc a1=56624770 a2=5662479c a3=566247bc items=2 ppid=11991 pid=11999 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="cmp" exe="/usr/bin/cmp" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.197:73628): argc=4 a0="cmp" a1="-s" a2="/tmp/aurules.2Wzt7q1E" a3="/etc/audit/audit.rules"
+type=CWD msg=audit(1632851585.197:73628): cwd="/"
+type=PATH msg=audit(1632851585.197:73628): item=0 name="/usr/bin/cmp" inode=261405 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632851585.197:73628): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632851585.197:73628): proctitle=636D70002D73002F746D702F617572756C65732E32577A7437713145002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1632851585.205:73629): arch=40000003 syscall=11 success=yes exit=0 a0=569b1a74 a1=569b1a40 a2=569b1a54 a3=569b1a74 items=2 ppid=11991 pid=12000 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="rm" exe="/bin/rm" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632851585.205:73629): argc=3 a0="rm" a1="-f" a2="/tmp/aurules.2Wzt7q1E"
+type=CWD msg=audit(1632851585.205:73629): cwd="/"

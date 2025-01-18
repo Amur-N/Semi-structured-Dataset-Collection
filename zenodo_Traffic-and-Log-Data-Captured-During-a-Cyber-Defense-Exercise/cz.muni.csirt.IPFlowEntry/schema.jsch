@@ -1,0 +1,407 @@
+{
+  "definitions" : {
+    "record:cz.muni.csirt.IPFlowEntry" : {
+      "type" : "object",
+      "required" : [ ],
+      "additionalProperties" : false,
+      "properties" : {
+        "applicationId" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "applicationName" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "bgpDestinationAsNumber" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "bgpSourceAsNumber" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "biFlowEndMilliseconds" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "biFlowStartMilliseconds" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "destinationIPv4Address" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "destinationTransportPort" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "exercise_dst_ipv4_segment" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "extendedFlow" : {
+          "oneOf" : [ {
+            "$ref" : "#/definitions/record:cz.muni.csirt.IPFlowEntry.extendedFlow"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "flowEndMilliseconds" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "flowEndMilliseconds_Rev" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "flowStartMilliseconds" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "flowStartMilliseconds_Rev" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "icmpTypeCodeIPv4" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "ingressInterface" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "ipClassOfService" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "ipVersion" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection2" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection2_Rev" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection3" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection3_Rev" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection4" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsLabelStackSection4_Rev" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsTopLabelStackSection" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mplsTopLabelStackSection_Rev" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "octetDeltaCount" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "octetDeltaCount_Rev" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "packetDeltaCount" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "packetDeltaCount_Rev" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "protocolIdentifier" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "samplingAlgorithm" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "samplingInterval" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "sourceIPv4Address" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "sourceTransportPort" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "tcpControlBits" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "tcpControlBits_Rev" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "tcpWindowSize" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "timestamp" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "vlanId" : {
+          "oneOf" : [ {
+            "type" : "integer",
+            "minimum" : -9223372036854775808,
+            "maximum" : 9223372036854775807
+          }, {
+            "type" : "null"
+          } ]
+        }
+      }
+    },
+    "record:cz.muni.csirt.IPFlowEntry.extendedFlow" : {
+      "type" : "object",
+      "required" : [ "dhcp", "dns", "http", "mail", "pgsql", "smtp", "tcp", "tls" ],
+      "additionalProperties" : false,
+      "properties" : {
+        "dhcp" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "dns" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "http" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "mail" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "pgsql" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "smtp" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "tcp" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        },
+        "tls" : {
+          "oneOf" : [ {
+            "type" : "string"
+          }, {
+            "type" : "null"
+          } ]
+        }
+      }
+    }
+  },
+  "$ref" : "#/definitions/record:cz.muni.csirt.IPFlowEntry"
+}

@@ -1,0 +1,305 @@
+{
+    "type": "DeviceConfiguration",
+    "general": {
+        "hostname": "",
+        "description": "GLOBAL-GW"
+    },
+    "interfaces": [
+        {
+            "mtu": 1450,
+            "name": "br0",
+			"type": "bridge",
+            "addresses": [
+                {
+                    "mask": 24,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "4.122.55.254"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "27.3.0.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "212.5.0.1"
+                },
+				{
+                    "mask": 21,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "213.5.0.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "202.2.96.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "110.5.80.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "200.110.240.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "66.231.64.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "181.118.144.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "37.32.0.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "193.151.128.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "27.111.240.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "80.93.176.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "130.255.32.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "212.96.96.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "217.25.208.1"
+                },
+				{
+                    "mask": 17,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "5.23.128.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "219.15.224.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "5.172.192.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "80.79.0.1"
+                },
+				{
+                    "mask": 19,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "92.53.192.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "78.177.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "1.9.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "111.66.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "188.40.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "129.90.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "77.51.0.1"
+                },
+				{
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "37.6.0.1"
+                },
+				{
+                    "mask": 20,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "81.17.0.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+			"mac": "02:00:ac:11:10:ef"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth1",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.1.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:fe"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth2",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.2.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:fc"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth3",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.3.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:f4"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth4",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.4.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:f2"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth5",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.5.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:f0"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth6",
+            "addresses": [
+                {
+                    "mask": 30,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "9.66.6.1"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:13:ee"
+        },
+		{
+            "mtu": 1450,
+            "name": "eth7",
+            "addresses": [
+                {
+                    "mask": 16,
+                    "family": "ipv4",
+                    "proto": "static",
+                    "address": "10.7.100.254"
+                }
+            ],
+            "txqueuelen": 1000,
+            "autostart": true,
+            "type": "ethernet", 
+			"mac": "02:00:ac:11:02:3e"
+        }
+    ]
+}

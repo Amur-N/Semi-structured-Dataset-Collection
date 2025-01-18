@@ -1,0 +1,441 @@
+type=PROCTITLE msg=audit(1632852543.100:88200): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.104:88201):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="experiment.py-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88202):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="experiment.py-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88203):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="procmon" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88204):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="procmon" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88205):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88206):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88207):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88208):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88209):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88210):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88211):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88212):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88213):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88214):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88215):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88216):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88217):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88218):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88219):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88220):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88221):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="MAC-policy" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88222):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88223):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88224):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88225):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88226):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88227):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88228):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88229):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88230):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88231):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88232):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="export" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88233):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="export" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88234):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="delete" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88235):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="actions" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88236):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="actions" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88237):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88238):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88239):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88240):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88241):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88242):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88243):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88244):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88245):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88246):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88247):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88248):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88249):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88250):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88251):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88252):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88253):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88254):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="socket-file" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88255):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="socket-file" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88256):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-executable-a" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88257):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-daemon-a" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88258):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-a" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88259):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-executable-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88260):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-daemon-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88261):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88262):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-directory-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88263):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="mkdir" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88264):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="mkdir" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88265):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-create" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88266):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-create" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88267):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-config" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88268):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-config" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88269):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-activity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88270):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-execute" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88271):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="container-overlays" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88272):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88273):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88274):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88275):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88276):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="module-load" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88277):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="module-load" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88278):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="module-unload" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88279):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="module-unload" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88280):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="network-access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88281):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="network-access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88282):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88283):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88284):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88285):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88286):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88287):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88288):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88289):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88290):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88291):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88292):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.108:88293):  auid=4294967295 ses=4294967295 subj==unconfined op=remove_rule key="docker-proxy-p" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.112:88294): audit_backlog_limit=8192 old=8192 auid=4294967295 ses=4294967295 subj==unconfined res=1
+type=CONFIG_CHANGE msg=audit(1632852543.116:88295): audit_failure=1 old=1 auid=4294967295 ses=4294967295 subj==unconfined res=1
+type=CONFIG_CHANGE msg=audit(1632852543.120:88296): audit_backlog_wait_time=0 old=0 auid=4294967295 ses=4294967295 subj==unconfined res=1
+type=SERVICE_START msg=audit(1632852543.120:88297): pid=1 uid=0 auid=4294967295 ses=4294967295 subj==unconfined msg='unit=auditd comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=USER_END msg=audit(1632852543.128:88298): pid=13783 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.128:88299): pid=13783 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.144:88300): pid=13836 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.148:88301): pid=13836 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F31302D626173652D636F6E6669672E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.148:88302): pid=13836 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.148:88303): pid=13836 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CONFIG_CHANGE msg=audit(1632852543.156:88304): audit_backlog_limit=8192 old=8192 auid=1000 ses=3 subj==unconfined res=1
+type=CONFIG_CHANGE msg=audit(1632852543.160:88305): audit_backlog_wait_time=0 old=0 auid=1000 ses=3 subj==unconfined res=1
+type=CONFIG_CHANGE msg=audit(1632852543.160:88306): audit_failure=1 old=1 auid=1000 ses=3 subj==unconfined res=1
+type=USER_END msg=audit(1632852543.164:88307): pid=13836 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.164:88308): pid=13836 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.256:88309): pid=13846 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.260:88310): pid=13846 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D61206E657665722C65786974202D5320616C6C202D46207069643D3133303532202D6B206578706572696D656E742E70792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.264:88311): pid=13846 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.268:88312): pid=13846 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CONFIG_CHANGE msg=audit(1632852543.276:88313):  auid=1000 ses=3 subj==unconfined op=add_rule key="experiment.py-p" list=4 res=1
+type=USER_END msg=audit(1632852543.280:88314): pid=13846 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.280:88315): pid=13846 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.300:88316): pid=13849 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.304:88317): pid=13849 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D61206E657665722C65786974202D5320616C6C202D4620707069643D3133303532202D6B206578706572696D656E742E70792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.304:88318): pid=13849 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.308:88319): pid=13849 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CONFIG_CHANGE msg=audit(1632852543.316:88320):  auid=1000 ses=3 subj==unconfined op=add_rule key="experiment.py-p" list=4 res=1
+type=USER_END msg=audit(1632852543.316:88321): pid=13849 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.316:88322): pid=13849 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.340:88323): pid=13852 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.348:88324): pid=13852 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F31302D70726F636D6F6E2E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.348:88325): pid=13852 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.348:88326): pid=13852 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CONFIG_CHANGE msg=audit(1632852543.352:88327):  auid=1000 ses=3 subj==unconfined op=add_rule key="procmon" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.352:88328):  auid=1000 ses=3 subj==unconfined op=add_rule key="procmon" list=4 res=1
+type=USER_END msg=audit(1632852543.352:88329): pid=13852 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.352:88330): pid=13852 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.368:88331): pid=13855 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.376:88332): pid=13855 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33302D737469672E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.376:88333): pid=13855 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.376:88334): pid=13855 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.376:88335): arch=40000003 syscall=11 success=yes exit=0 a0=575530e8 a1=57550c44 a2=57551c40 a3=57551c40 items=2 ppid=13855 pid=13856 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.376:88335): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/30-stig.rules"
+type=CWD msg=audit(1632852543.376:88335): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.376:88335): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.376:88335): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.376:88335): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33302D737469672E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.384:88336):  auid=1000 ses=3 subj==unconfined op=add_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88337):  auid=1000 ses=3 subj==unconfined op=add_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88338):  auid=1000 ses=3 subj==unconfined op=add_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88339):  auid=1000 ses=3 subj==unconfined op=add_rule key="time-change" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88340):  auid=1000 ses=3 subj==unconfined op=add_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88341):  auid=1000 ses=3 subj==unconfined op=add_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88342):  auid=1000 ses=3 subj==unconfined op=add_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88343):  auid=1000 ses=3 subj==unconfined op=add_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88344):  auid=1000 ses=3 subj==unconfined op=add_rule key="identity" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88345):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88346):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88347):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88348):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88349):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.384:88350):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.396:88351):  auid=1000 ses=3 subj==unconfined op=add_rule key="system-locale" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88352):  auid=1000 ses=3 subj==unconfined op=add_rule key="MAC-policy" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88353):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88354):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88355):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88356):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88357):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88358):  auid=1000 ses=3 subj==unconfined op=add_rule key="perm_mod" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88359):  auid=1000 ses=3 subj==unconfined op=add_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.420:88360):  auid=1000 ses=3 subj==unconfined op=add_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88361):  auid=1000 ses=3 subj==unconfined op=add_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88362):  auid=1000 ses=3 subj==unconfined op=add_rule key="access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88363):  auid=1000 ses=3 subj==unconfined op=add_rule key="export" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88364):  auid=1000 ses=3 subj==unconfined op=add_rule key="export" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88365):  auid=1000 ses=3 subj==unconfined op=add_rule key="delete" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.424:88366):  auid=1000 ses=3 subj==unconfined op=add_rule key="actions" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.444:88367):  auid=1000 ses=3 subj==unconfined op=add_rule key="actions" list=4 res=1
+type=USER_END msg=audit(1632852543.444:88368): pid=13855 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.444:88369): pid=13855 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.452:88370): pid=13859 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.460:88371): pid=13859 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33312D70726976696C656765642E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.460:88372): pid=13859 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.460:88373): pid=13859 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.464:88374): arch=40000003 syscall=11 success=yes exit=0 a0=56a980e8 a1=56a95c44 a2=56a96c40 a3=56a96c40 items=2 ppid=13859 pid=13860 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.464:88374): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/31-privileged.rules"
+type=CWD msg=audit(1632852543.464:88374): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.464:88374): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.464:88374): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.464:88374): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33312D70726976696C656765642E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.472:88375):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88376):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88377):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88378):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88379):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88380):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88381):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88382):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88383):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88384):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88385):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88386):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88387):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88388):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88389):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88390):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.472:88391):  auid=1000 ses=3 subj==unconfined op=add_rule key="privileged" list=4 res=1
+type=USER_END msg=audit(1632852543.476:88392): pid=13859 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.476:88393): pid=13859 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.496:88394): pid=13862 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.496:88395): pid=13862 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33332D646F636B65722E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.496:88396): pid=13862 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.500:88397): pid=13862 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.500:88398): arch=40000003 syscall=11 success=yes exit=0 a0=567230e8 a1=56720c44 a2=56721c40 a3=56721c40 items=2 ppid=13862 pid=13863 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.500:88398): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/33-docker.rules"
+type=CWD msg=audit(1632852543.500:88398): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.500:88398): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.500:88398): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.500:88398): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33332D646F636B65722E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.504:88399):  auid=1000 ses=3 subj==unconfined op=add_rule key="socket-file" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.504:88400):  auid=1000 ses=3 subj==unconfined op=add_rule key="socket-file" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.504:88401):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-executable-a" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.504:88402):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-daemon-a" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.504:88403):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-a" list=4 res=1
+type=SYSCALL msg=audit(1632852543.504:88404): arch=40000003 syscall=195 success=yes exit=0 a0=ffc9018f a1=ffc8ffac a2=3 a3=ffc90034 items=1 ppid=13862 pid=13863 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="docker-executable-a"
+type=CWD msg=audit(1632852543.504:88404): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.504:88404): item=0 name="/usr/bin/docker" inode=264022 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.504:88404): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33332D646F636B65722E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.508:88405):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-executable-w" list=4 res=1
+type=SYSCALL msg=audit(1632852543.508:88406): arch=40000003 syscall=195 success=yes exit=0 a0=ffc9018f a1=ffc8ffac a2=3 a3=ffc90034 items=1 ppid=13862 pid=13863 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="docker-daemon-a"
+type=CWD msg=audit(1632852543.508:88406): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.508:88406): item=0 name="/usr/bin/dockerd" inode=264026 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.508:88406): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33332D646F636B65722E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.508:88407):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-daemon-w" list=4 res=1
+type=SYSCALL msg=audit(1632852543.508:88408): arch=40000003 syscall=195 success=yes exit=0 a0=ffc9018f a1=ffc8ffac a2=3 a3=ffc90034 items=1 ppid=13862 pid=13863 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="docker-proxy-a"
+type=CWD msg=audit(1632852543.508:88408): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.508:88408): item=0 name="/usr/bin/docker-proxy" inode=264025 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.508:88408): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F33332D646F636B65722E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.508:88409):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.528:88410):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-directory-w" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.528:88411):  auid=1000 ses=3 subj==unconfined op=add_rule key="mkdir" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.528:88412):  auid=1000 ses=3 subj==unconfined op=add_rule key="mkdir" list=4 res=1
+type=USER_END msg=audit(1632852543.528:88413): pid=13862 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.528:88414): pid=13862 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.540:88415): pid=13865 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.544:88416): pid=13865 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F34312D636F6E7461696E6572732E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.544:88417): pid=13865 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.544:88418): pid=13865 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.544:88419): arch=40000003 syscall=11 success=yes exit=0 a0=5847d0e8 a1=5847ac44 a2=5847bc40 a3=5847bc40 items=2 ppid=13865 pid=13866 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.544:88419): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/41-containers.rules"
+type=CWD msg=audit(1632852543.544:88419): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.544:88419): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.544:88419): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.544:88419): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F34312D636F6E7461696E6572732E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.548:88420):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-create" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.552:88421):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-create" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.552:88422):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-config" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.552:88423):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-config" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.552:88424):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-activity" list=4 res=1
+type=SYSCALL msg=audit(1632852543.552:88425): arch=40000003 syscall=195 success=yes exit=0 a0=ffe2b32f a1=ffe2b14c a2=3 a3=ffe2b1d4 items=1 ppid=13865 pid=13866 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="container-activity"
+type=CWD msg=audit(1632852543.552:88425): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.552:88425): item=0 name="/usr/bin/runc" inode=264021 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.552:88425): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F34312D636F6E7461696E6572732E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.552:88426):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-execute" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.568:88427):  auid=1000 ses=3 subj==unconfined op=add_rule key="container-overlays" list=4 res=1
+type=USER_END msg=audit(1632852543.568:88428): pid=13865 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.568:88429): pid=13865 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.584:88430): pid=13868 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.584:88431): pid=13868 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F34332D6D6F64756C652D6C6F61642E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.588:88432): pid=13868 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.588:88433): pid=13868 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.588:88434): arch=40000003 syscall=11 success=yes exit=0 a0=57fd90e8 a1=57fd6c44 a2=57fd7c40 a3=57fd7c40 items=2 ppid=13868 pid=13869 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.588:88434): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/43-module-load.rules"
+type=CWD msg=audit(1632852543.588:88434): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.588:88434): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.588:88434): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.588:88434): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F34332D6D6F64756C652D6C6F61642E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.596:88435):  auid=1000 ses=3 subj==unconfined op=add_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.596:88436):  auid=1000 ses=3 subj==unconfined op=add_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.596:88437):  auid=1000 ses=3 subj==unconfined op=add_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.600:88438):  auid=1000 ses=3 subj==unconfined op=add_rule key="modules" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.600:88439):  auid=1000 ses=3 subj==unconfined op=add_rule key="module-load" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.600:88440):  auid=1000 ses=3 subj==unconfined op=add_rule key="module-load" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.600:88441):  auid=1000 ses=3 subj==unconfined op=add_rule key="module-unload" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.600:88442):  auid=1000 ses=3 subj==unconfined op=add_rule key="module-unload" list=4 res=1
+type=USER_END msg=audit(1632852543.600:88443): pid=13868 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.600:88444): pid=13868 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.616:88445): pid=13871 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.616:88446): pid=13871 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F37312D6E6574776F726B696E672E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.616:88447): pid=13871 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.624:88448): pid=13871 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.624:88449): arch=40000003 syscall=11 success=yes exit=0 a0=56b570e8 a1=56b54c44 a2=56b55c40 a3=56b55c40 items=2 ppid=13871 pid=13872 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.624:88449): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/71-networking.rules"
+type=CWD msg=audit(1632852543.624:88449): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.624:88449): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.624:88449): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.624:88449): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F37312D6E6574776F726B696E672E72756C6573
+type=CONFIG_CHANGE msg=audit(1632852543.632:88450):  auid=1000 ses=3 subj==unconfined op=add_rule key="network-access" list=4 res=1
+type=CONFIG_CHANGE msg=audit(1632852543.632:88451):  auid=1000 ses=3 subj==unconfined op=add_rule key="network-access" list=4 res=1
+type=USER_END msg=audit(1632852543.632:88452): pid=13871 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.636:88453): pid=13871 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.648:88454): pid=13874 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.648:88455): pid=13874 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D52202F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F39392D66696E616C697A652E72756C6573 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.652:88456): pid=13874 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.652:88457): pid=13874 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.652:88458): arch=40000003 syscall=11 success=yes exit=0 a0=56fbe0e8 a1=56fbbc44 a2=56fbcc40 a3=56fbcc40 items=2 ppid=13874 pid=13875 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.652:88458): argc=3 a0="auditctl" a1="-R" a2="/home/pi/container-escape-dataset/rules/99-finalize.rules"
+type=CWD msg=audit(1632852543.652:88458): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.652:88458): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.652:88458): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.652:88458): proctitle=617564697463746C002D52002F686F6D652F70692F636F6E7461696E65722D6573636170652D646174617365742F72756C65732F39392D66696E616C697A652E72756C6573
+type=USER_END msg=audit(1632852543.660:88459): pid=13874 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.660:88460): pid=13874 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.708:88461): pid=13878 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.720:88462): pid=13878 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D46207069643D31373836202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.720:88463): pid=13878 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.720:88464): pid=13878 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.720:88465): arch=40000003 syscall=11 success=yes exit=0 a0=571690e8 a1=57166f84 a2=57167c40 a3=57167c40 items=2 ppid=13878 pid=13879 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.720:88465): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="pid=1786" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.720:88465): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.720:88465): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.720:88465): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.720:88465): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D46007069643D31373836002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.728:88466):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.728:88467): pid=13878 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.732:88468): pid=13878 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.744:88469): pid=13881 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.756:88470): pid=13881 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D4620707069643D31373836202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.756:88471): pid=13881 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.756:88472): pid=13881 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.756:88473): arch=40000003 syscall=11 success=yes exit=0 a0=569110e8 a1=5690ef84 a2=5690fc40 a3=5690fc40 items=2 ppid=13881 pid=13882 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.756:88473): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="ppid=1786" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.756:88473): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.756:88473): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.756:88473): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.756:88473): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D4600707069643D31373836002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.764:88474):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.764:88475): pid=13881 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.764:88476): pid=13881 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.776:88477): pid=13884 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.788:88478): pid=13884 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D46207069643D31373932202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.792:88479): pid=13884 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.792:88480): pid=13884 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.792:88481): arch=40000003 syscall=11 success=yes exit=0 a0=5720b0e8 a1=57208f84 a2=57209c40 a3=57209c40 items=2 ppid=13884 pid=13885 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.792:88481): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="pid=1792" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.792:88481): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.792:88481): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.792:88481): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.792:88481): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D46007069643D31373932002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.796:88482):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.800:88483): pid=13884 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.800:88484): pid=13884 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.828:88485): pid=13887 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.828:88486): pid=13887 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D4620707069643D31373932202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.828:88487): pid=13887 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.828:88488): pid=13887 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.832:88489): arch=40000003 syscall=11 success=yes exit=0 a0=579f90e8 a1=579f6f84 a2=579f7c40 a3=579f7c40 items=2 ppid=13887 pid=13888 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.832:88489): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="ppid=1792" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.832:88489): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.832:88489): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.832:88489): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.832:88489): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D4600707069643D31373932002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.832:88490):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.836:88491): pid=13887 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.836:88492): pid=13887 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.848:88493): pid=13890 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.852:88494): pid=13890 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D46207069643D3133313439202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.852:88495): pid=13890 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.852:88496): pid=13890 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.852:88497): arch=40000003 syscall=11 success=yes exit=0 a0=57aff0e8 a1=57afcf84 a2=57afdc40 a3=57afdc40 items=2 ppid=13890 pid=13891 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.852:88497): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="pid=13149" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.852:88497): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.852:88497): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.852:88497): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.852:88497): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D46007069643D3133313439002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.868:88498):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.872:88499): pid=13890 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.872:88500): pid=13890 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.896:88501): pid=13893 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.900:88502): pid=13893 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D4620707069643D3133313439202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.900:88503): pid=13893 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.904:88504): pid=13893 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.908:88505): arch=40000003 syscall=11 success=yes exit=0 a0=57b3f0e8 a1=57b3cf84 a2=57b3dc40 a3=57b3dc40 items=2 ppid=13893 pid=13894 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.908:88505): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="ppid=13149" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.908:88505): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.908:88505): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.908:88505): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.908:88505): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D4600707069643D3133313439002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.916:88506):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.916:88507): pid=13893 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.916:88508): pid=13893 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.928:88509): pid=13896 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.932:88510): pid=13896 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D46207069643D3133313632202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.932:88511): pid=13896 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.932:88512): pid=13896 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.932:88513): arch=40000003 syscall=11 success=yes exit=0 a0=56a5e0e8 a1=56a5bf84 a2=56a5cc40 a3=56a5cc40 items=2 ppid=13896 pid=13897 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.932:88513): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="pid=13162" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.932:88513): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.932:88513): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.932:88513): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.932:88513): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D46007069643D3133313632002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.940:88514):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.948:88515): pid=13896 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.952:88516): pid=13896 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.964:88517): pid=13899 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852543.972:88518): pid=13899 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D4620707069643D3133313632202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852543.972:88519): pid=13899 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852543.972:88520): pid=13899 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852543.976:88521): arch=40000003 syscall=11 success=yes exit=0 a0=57b670e8 a1=57b64f84 a2=57b65c40 a3=57b65c40 items=2 ppid=13899 pid=13900 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852543.976:88521): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="ppid=13162" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852543.976:88521): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852543.976:88521): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852543.976:88521): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852543.976:88521): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D4600707069643D3133313632002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852543.980:88522):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852543.980:88523): pid=13899 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852543.980:88524): pid=13899 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852543.992:88525): pid=13902 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852544.008:88526): pid=13902 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D46207069643D3133323133202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852544.008:88527): pid=13902 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852544.008:88528): pid=13902 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852544.008:88529): arch=40000003 syscall=11 success=yes exit=0 a0=57a4c0e8 a1=57a49f84 a2=57a4ac40 a3=57a4ac40 items=2 ppid=13902 pid=13903 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852544.008:88529): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="pid=13213" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852544.008:88529): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852544.008:88529): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852544.008:88529): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852544.008:88529): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D46007069643D3133323133002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852544.016:88530):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852544.016:88531): pid=13902 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852544.020:88532): pid=13902 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_ACCT msg=audit(1632852544.044:88533): pid=13905 uid=1000 auid=1000 ses=3 subj==unconfined msg='op=PAM:accounting grantors=pam_permit acct="pi" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_CMD msg=audit(1632852544.048:88534): pid=13905 uid=1000 auid=1000 ses=3 subj==unconfined msg='cwd="/home/pi/container-escape-dataset/src" cmd=617564697463746C202D6120616C776179732C65786974202D5320616C6C202D4620707069643D3133323133202D6B20646F636B65722D70726F78792D70 terminal=pts/2 res=success'
+type=CRED_REFR msg=audit(1632852544.048:88535): pid=13905 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=USER_START msg=audit(1632852544.052:88536): pid=13905 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_open grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852544.052:88537): arch=40000003 syscall=11 success=yes exit=0 a0=571de0e8 a1=571dbf84 a2=571dcc40 a3=571dcc40 items=2 ppid=13905 pid=13906 auid=1000 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts2 ses=3 comm="auditctl" exe="/sbin/auditctl" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852544.052:88537): argc=9 a0="auditctl" a1="-a" a2="always,exit" a3="-S" a4="all" a5="-F" a6="ppid=13213" a7="-k" a8="docker-proxy-p"
+type=CWD msg=audit(1632852544.052:88537): cwd="/home/pi/container-escape-dataset/src"
+type=PATH msg=audit(1632852544.052:88537): item=0 name="/sbin/auditctl" inode=523645 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PATH msg=audit(1632852544.052:88537): item=1 name="/lib/ld-linux.so.2" inode=915625 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL cap_fp=0000000000000000 cap_fi=0000000000000000 cap_fe=0 cap_fver=0
+type=PROCTITLE msg=audit(1632852544.052:88537): proctitle=617564697463746C002D6100616C776179732C65786974002D5300616C6C002D4600707069643D3133323133002D6B00646F636B65722D70726F78792D70
+type=CONFIG_CHANGE msg=audit(1632852544.060:88538):  auid=1000 ses=3 subj==unconfined op=add_rule key="docker-proxy-p" list=4 res=1
+type=USER_END msg=audit(1632852544.060:88539): pid=13905 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:session_close grantors=pam_permit,pam_unix acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=CRED_DISP msg=audit(1632852544.060:88540): pid=13905 uid=0 auid=1000 ses=3 subj==unconfined msg='op=PAM:setcred grantors=pam_permit acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/2 res=success'
+type=SYSCALL msg=audit(1632852544.072:88541): arch=40000003 syscall=11 success=yes exit=0 a0=565cc1ab a1=ff8bcd54 a2=581d49b0 a3=ff8bcbbc items=3 ppid=488 pid=13909 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="dhcpcd-run-hook" exe="/bin/dash" subj==unconfined key="procmon"
+type=EXECVE msg=audit(1632852544.072:88541): argc=2 a0="/bin/sh" a1="/lib/dhcpcd/dhcpcd-run-hooks"
+type=CWD msg=audit(1632852544.072:88541): cwd="/"

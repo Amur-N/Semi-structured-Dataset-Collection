@@ -1,0 +1,75 @@
+EventId,EventTemplate,Occurrences
+E29,<*> failed to configure resourcemgmt subsystem err = <*>,50
+E58,wait (command <*>),12982
+E57,boot (command <*>),13414
+E56,halt (command <*>),714
+E38,clusterAddMember (command <*>),264
+E49,risBoot (command <*>),268
+E41,bootGenvmunix (command <*>),262
+E42,member_delete (command <*>),15
+E45,haltcluster (command <*>),44
+E33,Command has completed successfully,1741
+E37,Targeting domains:<*> and nodes:<*>,2108
+E46,psu failure\ ambient=<*>,517
+E61,PSU status (<*> <*>),47
+E66,ambient=<*>,54767
+E32,Temperature <*> exceeds warning threshold,941
+E14,ClusterFileSystem: There is no server for ServerFileSystem domain <*>,5126
+E11,NIFF: node <*> detected a failed network connection on network <*> via interface <*>,1127
+E12,ServerFileSystem: An ServerFileSystem domain panic has occurred on <*>,70
+E60,Fan speeds ( <*> ),21772
+E47,fan failure\ ambient=<*>,2
+E43,Command has been aborted,257
+E50,Command Failed on: <*>,194
+E48,Failed subcommands <*>,88
+E51,power/control ok,81
+E44,power/control problem,355
+E52,no recent update,61
+E53,update received,34
+E63,Link error,4002
+E59,Link in reset,2344
+E72,Link ok,2257
+E39,Link error on broadcast tree <*>,1167
+E26,ServerFileSystem: ServerFileSystem domain <*> is full,2561
+E35,ServerFileSystem domain <*> is full,38
+E10,ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node <*>,8152
+E70,running,30064
+E55,configured out,19839
+E71,blocked,2286
+E54,not responding,12367
+E64,starting,148
+E68,closing,70
+E36,inconsistent nodesets <*> <*> <ok> <*> <*> <ok>,797
+E73,active,1263
+E62,responding,181
+E69,unknown,55
+E67,warning,49741
+E65,critical,4629
+E74,normal,45818
+E9,boot (command <*>) Error: Unknown We failed to determine the state of this node,94
+E25,halt (command <*>) Error: timeout waiting for SRM prompt,9
+E23,boot (command <*>) Error: Console-Busy Port already in use,11
+E34,Linkerror event interval expired,84894
+E1,clusterAddMember (command <*>) Error: cluster_add_member failed unexpectedly\ check <*>: <ABORT code errored: kill: <*>: no such process>,1
+E5,risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>,5
+E13,risBoot (command <*>) Error: failed to RIS boot: <ABORT code completed>,3
+E3,bootGenvmunix (command <*>) Error: Timeout waiting for system to come up: <ABORT code completed>,3
+E20,member_delete (command <*>) Error: <*> is NOT a member of cluster <*>,2
+E4,bootGenvmunix (command <*>) Error: node returned to srm while booting: <ABORT code completed>,1
+E24,boot (command <*>) Error: HALT asserted\ cannot continue,167
+E17,boot (command <*>) Error: timeout waiting for Loading LMF licenses,23
+E31,boot (command <*>) Error: timeout while booting.,3
+E19,boot (command <*>) Error: node went to SRM while trying to boot,25
+E18,haltcluster (command <*>) Error: timeout waiting for SRM prompts,8
+E30,Command Cancelled - cluster would lose quorum,1
+E2,clusterAddMember (command <*>) Error: Cannot run clusterAddMember\ because <*> connection state is REFUSED and needs to be SRM,3
+E27,boot (command <*>) Error: node went to SRM while booting,7
+E21,haltcluster (command <*>) Error: haltcluster: bad spawn id,6
+E7,member_delete (command <*>) Error: node is up according to cluster_get_info,1
+E40,link errors remain current,13645
+E28,boot (command <*>) Error: System could not find kernel,3
+E8,wait (command <*>) Error: Unknown We failed to determine the state of this node,1
+E15,boot (command <*>) Error: CMF-Port This node\047s port is not connected,1
+E22,wait (command <*>) Error: Console-Busy Port already in use,1
+E6,NIFF: node <*> has detected an available network connection on network <*> via interface <*>,23121
+E16,Component State Change: Component <*> is in the available state (HWID=<*>),2869

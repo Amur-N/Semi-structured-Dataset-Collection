@@ -1,0 +1,321 @@
+EventId,EventTemplate,Occurrences
+E208,instruction cache parity error corrected,105924
+E93,MidplaneSwitchController performing bit sparing on <*> bit <*>,964
+E310,generating core.<*>,1706751
+E94,"<*> ddr errors(s) detected and corrected on rank <*>, symbol <*> bit <*>",33939
+E218,<*> L3 <*> error(s) (dcr <*>) detected and corrected,4978
+E314,"CE sym <*>, at <*>, mask <*>",201206
+E191,total of <*> ddr error(s) detected and corrected,28485
+E95,ddr: activating redundant bit steering: rank=<*> symbol=<*>,1314
+E86,"ddr: excessive soft failures, consider replacing the card",41
+E35,"ciod: Error loading <*>: invalid or missing program image, No such file or directory",47504
+E237,<*> double-hummer alignment exceptions,295764
+E99,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected,7847
+E98,idoproxydb has been started: $Name: <*> $ Input parameters: <*>,114
+E280,ciodb has been restarted.,129
+E118,ciod: LOGIN chdir(<*>) failed: No such file or directory,43647
+E285,data TLB error interrupt,152734
+E301,instruction address: <*>,51227
+E286,machine check interrupt,161
+E265,machine check status register: <*>,246
+E220,summary...........................<*>,244
+E234,instruction plb error.............<*>,298
+E248,data read plb error...............<*>,297
+E246,data write plb error..............<*>,296
+E227,tlb error.........................<*>,296
+E238,i-cache parity error..............<*>,296
+E249,d-cache search parity error.......<*>,294
+E255,d-cache flush parity error.......<*>,294
+E243,imprecise machine check...........<*>,289
+E294,machine state register: <*>,8459
+E235,wait state enable.................<*>,6745
+E251,critical input interrupt enable...<*>,6559
+E250,external input interrupt enable...<*>,6556
+E256,"problem state (<*>=sup,<*>=usr).......<*>",6546
+E247,floating point instr. enabled.....<*>,6541
+E239,machine check enable..............<*>,6538
+E262,floating pt ex mode <*> enable......<*>,13044
+E241,debug wait enable.................<*>,6524
+E236,debug interrupt enable............<*>,6521
+E233,instruction address space.........<*>,6506
+E242,data address space................<*>,6503
+E267,core configuration register: <*>,6431
+E174,disable store gathering..................<*>,6495
+E197,disable apu instruction broadcast........<*>,2396
+E171,disable trace broadcast..................<*>,2393
+E203,guaranteed instruction cache block touch.<*>,2390
+E205,guaranteed data cache block touch........<*>,2389
+E183,force load/store alignment...............<*>,2389
+E169,icache prefetch depth....................<*>,2389
+E269,general purpose registers:,2318
+E273,special purpose registers:,2316
+E313,lr:<*> cr:<*> xer:<*> ctr:<*>,2316
+E264,rts panic! - stopping execution,3983
+E70,<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected,10487
+E306,rts internal error,2187
+E279,ciod: Message code <*> is not <*> or <*>,2278
+E80,ciod: pollControlDescriptors: Detected the debugger died.,6443
+E104,ciod: for node <*> read continuation request but ioState is <*>,395
+E145,ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>,2569
+E159,ciod: LOGIN chdir(<*>) failed: Permission denied,440
+E97,machine check interrupt (bit=<*>): L3 major internal error,57
+E274,L3 global control register: <*>,48
+E158,start initialization.....................<*>,48
+E161,start retagging..........................<*>,48
+E154,start flushing...........................<*>,48
+E160,start prefetching........................<*>,48
+E177,disable speculative access...............<*>,48
+E215,close EDRAM pages as soon as possible....<*>,48
+E200,size of scratchpad portion of L3.........<*> (<*>),48
+E210,disable all access to cache directory....<*>,48
+E198,write buffer commit threshold............<*>,48
+E199,size of DDR we are caching...............<*> (<*>),48
+E212,prefetch depth for core <*>................<*>,96
+E202,max number of outstanding prefetches.....<*>,48
+E193,turn on hidden refreshes.................<*>,48
+E217,disable write lines <*>..................<*>,48
+E293,L3 ecc control register: <*>,48
+E114,disable flagging of DDR UE's as major internal error.<*>,47
+E300,L3 ecc status register: <*>,47
+E214,correctable error detected in directory <*>,94
+E143,uncorrectable error detected in directory <*>....<*>,94
+E216,correctable error detected in EDRAM bank <*>,94
+E164,uncorrectable error detected in EDRAM bank <*>...<*>,94
+E132,parity error in bank <*>.........................<*>,94
+E126,uncorrectable error detected in external DDR...<*>,47
+E144,parity error in read queue <*>...................<*>,94
+E83,number of correctable errors detected in L3 directories...<*>,47
+E292,interrupt threshold...<*>,94
+E82,number of correctable errors detected in L3 EDRAMs........<*>,47
+E90,number of lines with parity errors written to L3 EDRAMs...<*>,47
+E275,DDR machine check register: <*> <*>,47
+E109,memory and bus summary...........................<*>,47
+E105,command manager unit summary.....................<*>,47
+E106,memory manager uncorrectable error...............<*>,47
+E107,memory manager strobe gate.......................<*>,47
+E117,memory manager address parity error..............<*>,47
+E102,memory manager miscompare........................<*>,47
+E110,memory manager address error.....................<*>,47
+E115,memory manager store buffer parity...............<*>,47
+E116,memory manager RMW buffer parity.................<*>,47
+E113,memory manager refresh counter timeout...........<*>,47
+E108,memory manager refresh contention................<*>,47
+E96,state machine....................................<*>,47
+E122,memory manager / command manager address parity..<*>,47
+E103,regctl scancom interface.........................<*>,47
+E287,capture valid.........<*>,47
+E282,symbol................<*>,47
+E281,mask..................<*>,47
+E283,miscompare............<*>,47
+E299,address parity error..<*>,47
+E290,correctable error.....<*>,47
+E289,qw trapped............<*>,47
+E288,chip select...........<*>,47
+E46,"PrepareForService shutting down NodeCard(<*>, <*>, <*>, <*>, <*>) as part of Service Action <*>",1522
+E30,EndServiceAction is restarting the NodeCards in midplane <*> as part of Service Action <*>,338
+E252,EndServiceAction <*> performed upon <*> by <*>,237
+E259,Node card is not fully functional,17364
+E167,Can not get assembly information for node card,17305
+E45,"Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>",21356
+E129,machine check interrupt (bit=<*>): L2 DCU read error,3
+E63,<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected,1145
+E131,L3 correctable errors exceeds threshold (iar <*> lr <*>),20
+E272,Starting SystemController,71
+E291,Controlling BG/L rows [ <*> ],70
+E266,Running as background command,70
+E296,data storage interrupt,63493
+E268,exception syndrome register: <*>,18013
+E130,machine check: i-fetch......................<*>,18017
+E140,program interrupt: illegal instruction......<*>,13920
+E135,program interrupt: privileged instruction...<*>,9824
+E138,program interrupt: trap instruction.........<*>,9824
+E128,floating point operation....................<*>,9824
+E123,store operation.............................<*>,9824
+E176,data store interrupt caused by dcbf.........<*>,9823
+E178,data store interrupt caused by icbi.........<*>,9823
+E124,auxiliary processor.........................<*>,8419
+E142,program interrupt: unimplemented operation..<*>,8102
+E127,byte ordering exception.....................<*>,8102
+E139,program interrupt: imprecise exception......<*>,8102
+E156,program interrupt: fp cr update.............<*>,8102
+E137,program interrupt: fp compare...............<*>,8102
+E170,program interrupt: fp cr field .............<*>,8102
+E56,<*> torus processor sram reception error(s) (dcr <*>) detected and corrected,66
+E27,external input interrupt (unit=<*> bit=<*>): torus sender <*> retransmission error was corrected,1322
+E24,external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold,39
+E188,suppressing further interrupts of same type,7694
+E219,Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=<*> <*>,11904
+E32,BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*>,6
+E133,BglIdoChip table has <*> IDOs with the same IP address <*>,9
+E230,SerialNumber(<*>) IpAddress(<*>) Status(<*>),64
+E297,NodeCard VPD is corrupt,10
+E207,ciod: Unexpected eof at line <*> of node map file <*>,328
+E87,ciod: Error creating node map from file <*>: No child processes,320
+E189,"rror threshold, consider replacing the card",22
+E17,"ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable",23
+E166,"error threshold, consider replacing the card",23
+E201,"ciod: Error loading <*>: program image too big, <*> > <*>",1512
+E81,critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire,2245
+E278,job <*> timed out. Block freed.,306
+E308,program interrupt,3667
+E64,ciod: <*> coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>,3512
+E240,<*> floating point alignment exceptions,267725
+E120,NodeCard temperature sensor chip <*> is not accessible,5
+E221,NodeCard power module <*> is not accessible,230
+E253,NodeCard VPD chip is not accessible,1
+E3,Node card status: <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. TEMPERATURE MASK IS ACTIVE. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The <*> volt rail is <*>. The <*> volt rail is <*>.,1
+E311,Target=<*> Message=<*>,10
+E284,Target=<*> Message=<*> JtagId = <*>,65
+E55,MailboxMonitor::serviceMailboxes() lib_ido_error: <*> socket closed,168
+E73,MidplaneSwitchController::sendTrain() port disconnected: <*>,24
+E79,critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire,5437
+E84,ciod: Error creating node map from file <*>: Bad file descriptor,1936
+E119,<*> torus non-crc error(s) (dcr <*>) detected and corrected,62
+E305,shutdown complete,99
+E89,machine check interrupt (bit=<*>): Torus/Tree/GI read error <*>,2
+E31,EndServiceAction is restarting the LinkCards in midplane <*> as part of Service Action <*>,199
+E223,LinkCard power module <*> is not accessible,319
+E261,NodeCard is not fully functional,60
+E260,LinkCard is not fully functional,248
+E232,this link card is not fully functional,22
+E312,no ethernet link,14
+E258,rts: kernel terminated for reason <*>,23338
+E71,"ciod: In packet from node <*> (<*>), message code <*> is not <*> or <*> (softheader=<*>)",176
+E111,ciod: Missing or invalid fields on line <*> of node map file <*>,2048
+E304,Power deactivated: <*>,192
+E1,"Problem reading the ethernet arl entries fro the service card: <*>: while executing I2C Operation caught <*>: Communication error: (<*> is in state = <*>, sequenceNumberIsOk = <*>, ExpectedSequenceNumber = <*>, Reply Sequence Number = <*>, timedOut = <*>, retries = <*>, timeout = <*>, Expected Op Command = <*>, Actual Op Reply = <*>, Expected Sync Command = <*>, Actual Sync Reply = <*>)",4
+E303,parity error.......<*>,1
+E146,New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>,3455
+E57,MidplaneSwitchController::parityAlignment() pap failed: <*> status=<*>,14
+E38,ciod: duplicate canonical-rank <*> to logical-rank <*> mapping at line <*> of node map file <*>,512
+E74,ciod: Error creating node map from file <*>: Device or resource busy,512
+E77,ciod: Error creating node map from file <*>: Block device required,1016
+E88,ciod: Error creating node map from file <*>: Permission denied,1272
+E318,"<*>, max=<*>",116
+E65,external input interrupt (unit=<*> bit=<*>): uncorrectable torus error,10
+E209,Torus non-recoverable error DCRs follow.,10
+E319,ax=<*>,13
+E50,"ciod: Error loading <*>: invalid or missing program image, Exec format error",22032
+E320,x=<*>,2
+E245,ciodb exited normally with exit code <*>,2
+E307,Ido packet timeout,4276
+E85,"Node card VPD check: missing <*>, VPD ecid <*> in processor card slot <*>",887
+E41,DeclareServiceNetworkCharacteristics has been run but the DB is not empty,1
+E23,DeclareServiceNetworkCharacteristics has been run with the force option but the DB is not empty,1
+E263,Added <*> subnets and <*> addresses to DB,1
+E22,BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*>,59
+E121,"Found invalid node ecid in processor card slot <*>, ecid <*>",5558
+E2,Node card status: <*> is (are) active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is <*>. PGOOD error latch is clear. MPGOOD is <*>. MPGOOD error latch is clear. The <*> volt rail is <*>. The <*> volt rail is <*>.,171
+E224,idoproxy exited normally with exit code <*>,1
+E16,"Problem communicating with service card, ido chip: <*>. java.io.IOException: Could not find EthernetSwitch on port:address <*>",166
+E100,Bad cable going into LinkCard (<*>) Jtag (<*>) Port (<*>) - <*> bad wires,232
+E52,Missing reverse cable: Cable <*> is present BUT the reverse cable <*> is missing,522
+E257,Error: unable to mount filesystem,720
+E211,Lustre mount FAILED : <*> : block_id : location,5105
+E26,idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=<*> Source line=<*> Function=<*>,84253
+E298,Microloader Assertion,1504
+E21,ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed,15273
+E61,"MidplaneSwitchController::receiveTrain() iap failed: <*>, status=<*>",166
+E125,rts tree/torus link training failed: wanted: <*> got: <*>,605
+E8,"ddr: Unable to steer rank=<*>, symbol=<*> - rank is already steering symbol <*>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",197
+E226,ciodb exited abnormally due to signal: <*>,23
+E48,"ciod: Error loading <*>: invalid or missing program image, Permission denied",43040
+E228,ciod: generated <*> core files for program <*>,62484
+E47,rts: bad message header: cpu <*> invalid (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,619
+E28,rts: bad message header: index <*> greater than total <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,238
+E25,rts: bad message header: expecting type <*> instead of type <*> (softheader=<*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>,1146
+E315,kernel panic,18
+E53,external input interrupt (unit=<*> bit=<*>): 1M tree receiver <*> in resynch mode,1
+E14,mmcs_db_server has been started: ./mmcs_db_server --useDatabase <*> --dbproperties <*> --iolog <*> --reconnect-blocks <*> --shutdown-timeout <*>,90
+E317,iar <*> dear <*>,442966
+E165,"NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)",2670
+E276,Lustre mount FAILED : <*> : point <*>,26426
+E49,external input interrupt (unit=<*> bit=<*>): tree header with no target waiting,1
+E54,power module status fault detected on node card. status registers are: <*>,4
+E316,program,1
+E78,<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected,5
+E4,Node card status: no ALERTs are active. Clock Mode is <*>. Clock Select is <*>. Phy JTAG Reset is <*>. ASIC JTAG Reset is <*>. Temperature Mask is <*>. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS <*>. PGOOD ERROR LATCH IS <*>. MPGOOD IS <*>. MPGOOD ERROR LATCH IS <*>. The <*> volt rail is <*>. THE <*> VOLT RAIL IS <*>.,3
+E58,"Error sending packet on tree network, packet at address <*> is not aligned",5
+E75,data cache flush parity error detected. attempting to correct,65
+E72,data cache search parity error detected. attempting to correct,13941
+E295,L3 major internal error,3
+E18,"Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>",6144
+E42,ddr: activating redundant bit steering for next allocation: rank=<*> symbol=<*>,492
+E44,L1 DCACHE summary averages: #ofDirtyLines: <*> out of <*> #ofDirtyDblWord: <*> out of <*>,3149
+E225,No power module <*> found found on link card,6
+E254,Temperature Over Limit on link card,972
+E244,Link PGOOD error latched on link card,349
+E15,BGLMaster has been started: ./BGLMaster --consoleip <*> --consoleport <*> --configfile <*> --autorestart <*> --db2profile <*> --dbproperties <*>,31
+E19,"critical input interrupt (unit=<*> bit=<*>): warning for torus <*> wire, suppressing further interrupts of same type",2314
+E20,"critical input interrupt (unit=<*> bit=<*>): warning for tree <*> wire, suppressing further interrupts of same type",1232
+E59,<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds,3148
+E40,<*> torus receiver <*> input pipe error(s) (dcr <*>) detected and corrected over <*> seconds,3512
+E68,"<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds",10436
+E92,total of <*> ddr error(s) detected and corrected over <*> seconds,10415
+E112,<*> L3 <*> error(s) (dcr <*>) detected and corrected over <*> seconds,1514
+E134,idoproxy communication failure: socket closed,41
+E270,General Purpose Registers:,69
+E271,Special Purpose Registers:,68
+E302,msr=<*> dear=<*> esr=<*> fpscr=<*>,68
+E309,dbcr0=<*> dbsr=<*> ccr0=<*>,68
+E196,Floating Point Status and Control Register: <*>,68
+E155,exception summary........................<*>,68
+E185,enabled exception summary................<*>,68
+E190,invalid operation exception summary......<*>,68
+E150,underflow exception......................<*>,68
+E153,divide-by-zero exception.................<*>,68
+E163,inexact exception........................<*>,68
+E229,invalid (<*>)........................<*>,272
+E157,fraction rounded.........................<*>,68
+E162,fraction inexact.........................<*>,68
+E206,quiet <*>................................<*>,68
+E149,minus inf................................<*>,68
+E182,minus normalized number..................<*>,68
+E186,minus denormalized number................<*>,68
+E148,plus zero................................<*>,68
+E180,plus denormalized number.................<*>,68
+E179,plus normalized number...................<*>,68
+E151,plus infinity............................<*>,68
+E141,reserved.................................<*>,68
+E194,invalid operation exception (software)...<*>,68
+E195,invalid operation exception (sqrt).......<*>,68
+E204,invalid operation exception (int cnvt)...<*>,68
+E192,enable invalid operation exceptions......<*>,68
+E173,enable overflow exceptions...............<*>,68
+E175,enable underflow exceptions..............<*>,68
+E172,enable divide-by-zero exceptions.........<*>,68
+E187,enable inexact exceptions................<*>,68
+E181,enable non-IEEE mode.....................<*>,68
+E152,round nearest............................<*>,68
+E222,round toward zero...................<*>,68
+E184,round toward +infinity...................<*>,68
+E168,round toward -infinity...................<*>,68
+E277,Floating Point Registers:,68
+E147,"ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>",39457
+E101,"PrepareForService is being done on this Midplane (<*>, <*>, <*>) by <*>",48
+E66,Power Good signal deactivated: <*>. A service action may be required.,94
+E34,<*> torus sender <*> retransmission error(s) (dcr <*>) detected and corrected over <*> seconds,1034
+E36,"ciod: Error reading message prefix on CioStream socket to <*>, Link has been severed",26546
+E39,EndServiceAction is restarting the <*> cards in Midplane <*> as part of Service Action <*>,51
+E29,"ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer",2256
+E7,"<*> with VPD of <*>: IBM Part Number: <*>, Vendor: <*>, Vendor Serial Number: <*>, Assembly Revision: <*>, Code Revision: <*>, Manufacture Date: <*>, Manufacture Location: <*> is usable but not a supported version",4
+E62,monitor caught <*>: while executing <*> caught <*>: Broken pipe and is stopping,190
+E231,MACHINE CHECK PLB write IRQ (mc=<*> iar <*> lr <*>),1
+E213,MACHINE CHECK DCR read timeout (mc=<*> iar <*> lr <*>),14481
+E37,"ciod: Error reading message prefix on CioStream socket to <*>, Connection timed out",1991
+E51,machine check interrupt (bit=<*>): L2 dcache unit read return parity error,8
+E60,MidplaneSwitchController::clearPort() bll_clear_port failed: <*>,2
+E69,ciod: Error creating node map from file <*>: No such file or directory,24
+E76,ciod: Error creating node map from file <*>: Argument list too long,8
+E43,<*> torus receiver sram ecc error(s) (dcr <*>) detected and corrected over <*> seconds,1
+E13,<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,135092
+E10,"<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",135092
+E6,instance of a correctable ddr. RAS KERNEL INFO <*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.,4
+E5,"max time in a cr RAS KERNEL INFO <*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.",4
+E11,"external input interrupt (unit=<*> bit=<*>): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type",57
+E12,"Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",22175
+E9,"dear <*> (<*> RAS KERNEL INFO Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>",2
+E33,<*> torus processor sram injection error(s) (dcr <*>) detected and corrected over <*> seconds,1
+E136,ciod: LOGIN chdir(<*>) failed: Input/output error,816
+E91,"ciod: for node <*>, incomplete data written to core file core.<*>",38
+E67,<*> torus non-crc error(s) (dcr <*>) detected and corrected over <*> seconds,1

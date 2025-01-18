@@ -1,0 +1,168 @@
+{
+admin#reports#activity { 2022-07-21T13:40:54.384Z -3423840045468797090 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/R2REK3zHN6JRbMbXygki_D47fFs" { suspicious@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id workspace@cloud-response.com }
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ notification_type event_reminder }
+		{ notification_method alert }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id workspace@cloud-response.com }
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ notification_type new_event }
+		{ notification_method email }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id workspace@cloud-response.com }
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ notification_type changed_event }
+		{ notification_method email }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id workspace@cloud-response.com }
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ notification_type cancelled_event }
+		{ notification_method email }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id workspace@cloud-response.com }
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ notification_type reply_received }
+		{ notification_method email }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-07-21T13:40:54.168Z 4289503033612588817 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/mxWfwcS0N6LcipBEq5njgwZVIy4" { suspicious@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	calendar_change change_calendar_timezone
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ calendar_timezone UTC }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-07-21T13:40:53.794Z -6782823658469990544 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/5mkU4egiM5liwfIcNDWXr554axw" { suspicious@cloud-response.com 102509620547980436027 } 80.114.222.200
+	{
+	calendar_change create_calendar
+		{ calendar_id workspace@cloud-response.com }
+		{ target_calendar_id workspace@cloud-response.com }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-03-14T20:36:48.966Z -7684398170435703864 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/kNN7DdYZkVmOOf26AIkkpQN5ArM" { greg@cloud-response.com 103761500014234497706 } 2.2.2.2
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id greg@cloud-response.com }
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ notification_type event_reminder }
+		{ notification_method alert }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id greg@cloud-response.com }
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ notification_type new_event }
+		{ notification_method email }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id greg@cloud-response.com }
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ notification_type changed_event }
+		{ notification_method email }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id greg@cloud-response.com }
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ notification_type cancelled_event }
+		{ notification_method email }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+
+	{
+	subscription_change add_subscription
+		{ subscriber_calendar_id greg@cloud-response.com }
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ notification_type reply_received }
+		{ notification_method email }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-03-14T20:36:48.698Z 4643880669144707704 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/IXzFmnu8cuXpNeXxfnPtMdz9vP4" { greg@cloud-response.com 103761500014234497706 } 2.2.2.2
+	{
+	calendar_change change_calendar_timezone
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ calendar_timezone UTC }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-03-14T20:36:48.376Z -7088953911032195003 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/0A_EMstoB0ymQ-5ft7UwUUpRdew" { greg@cloud-response.com 103761500014234497706 } 2.2.2.2
+	{
+	calendar_change create_calendar
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-03-14T20:36:48.215Z -294145334331117112 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/EMvf6Hdl7aGIYM9YBygSh3XXsAo" { greg@cloud-response.com 103761500014234497706 } 2.2.2.2
+	{
+	calendar_change create_calendar
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+}
+{
+admin#reports#activity { 2022-03-14T20:36:48.213Z 7602704476784098744 calendar C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/Z2ZIG6UZF7iz92-2ddrT0vbR80k" { greg@cloud-response.com 103761500014234497706 } 2.2.2.2
+	{
+	calendar_change create_calendar
+		{ calendar_id greg@cloud-response.com }
+		{ target_calendar_id greg@cloud-response.com }
+		{ api_kind api_v3 }
+		{ user_agent Mozilla/5.0 }
+	}
+}

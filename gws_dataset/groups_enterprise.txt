@@ -1,0 +1,61 @@
+{
+admin#reports#activity { 2022-08-02T07:23:13.049Z -4846848748520543986 groups_enterprise C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/DzHrdPzDS4ML2s9QWJEDfMF1adI" { USER admin@cloud-response.com 111440584475724055600 }
+	{
+	moderator_action add_user
+		{ member_id workspace@cloud-response.com }
+		{ group_id sales@cloud-response.com }
+		{ member_role { owner member } }
+		{ member_type user }
+	}
+
+	{
+	moderator_action add_member
+		{ member_id workspace@cloud-response.com }
+		{ group_id sales@cloud-response.com }
+		{ member_role { owner member } }
+		{ member_type user }
+	}
+}
+{
+admin#reports#activity { 2022-08-02T07:23:12.240Z -8730325391391912545 groups_enterprise C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/mUM09I0uvoUdJv3V5w1dIlASDIY" { USER admin@cloud-response.com 111440584475724055600 }
+	{
+	moderator_action create_group
+		{ group_id sales@cloud-response.com }
+	}
+}
+{
+admin#reports#activity { 2022-07-21T13:47:17.299Z -5304214255537812989 groups_enterprise C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/8k7vXmarObrlCBAB3pCb2hE71y0" { USER admin@cloud-response.com 111440584475724055600 }
+	{
+	moderator_action add_user
+		{ member_id workspace@cloud-response.com }
+		{ group_id Admins@cloud-response.com }
+		{ member_role { member } }
+		{ member_type user }
+	}
+
+	{
+	moderator_action add_member
+		{ member_id workspace@cloud-response.com }
+		{ group_id Admins@cloud-response.com }
+		{ member_role { member } }
+		{ member_type user }
+	}
+}
+{
+admin#reports#activity { 2022-03-19T19:38:47.642Z -5686198897511485377 groups_enterprise C00mpaiwz } "_ZVRqe-BUDYcYeOIPo-gm6Eh1QaGne4ACjHHI6qsr6A/EjmMimt5aOC25DHn-OwVaxGf3TY" { USER admin@cloud-response.com 111440584475724055600 }
+	{
+	moderator_action add_user
+		{ member_id greg@cloud-response.com }
+		{ group_id Admins@cloud-response.com }
+		{ member_role { member } }
+		{ member_type user }
+	}
+
+	{
+	moderator_action add_member
+		{ member_id greg@cloud-response.com }
+		{ group_id Admins@cloud-response.com }
+		{ member_role { member } }
+		{ member_type user }
+	}
+}

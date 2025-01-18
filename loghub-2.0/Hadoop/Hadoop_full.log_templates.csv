@@ -1,0 +1,237 @@
+EventId,EventTemplate,Occurrences
+E188,loaded properties from <*>,977
+E98,Scheduled snapshot period at <*> second(s).,978
+E189,<*> metrics system started,978
+E187,Executing with tokens:,978
+E174,"Kind: <*>, Service: <*>, Ident: (<*>)",978
+E76,Sleeping for <*> before retrying again. Got null now.,909
+E93,mapreduce.cluster.local.dir for child: <*>,907
+E165,"<*> is deprecated. Instead, use <*>",963
+E47,ProcfsBasedProcessTree currently is supported only on Linux.,905
+E96,Using ResourceCalculatorProcessTree : <*>,905
+E200,Processing split: <*>+<*>,834
+E217,(EQUATOR) <*> kvi <*>(<*>),5542
+E142,mapreduce.task.io.sort.mb: <*>,834
+E223,soft limit at <*>,834
+E198,bufstart = <*>; bufvoid = <*>,834
+E209,kvstart = <*>; length = <*>,834
+E155,Map output collector class = <*>$<*>,834
+E201,Spilling map output,5339
+E146,bufstart = <*>; bufend = <*>; bufvoid = <*>,5339
+E130,kvstart = <*>(<*>); kvend = <*>(<*>); length = <*>,5339
+E218,Finished spill <*>,5204
+E176,(RESET) equator <*> kv <*>(<*>) kvi <*>(<*>),4579
+E89,I/O error constructing remote block reader.,16
+E19,"Failed to connect to <*> for block, add to deadNodes and continue. java.net.ConnectException: Connection timed out: no further information",5
+E143,Successfully connected to <*> for <*>,6
+E156,Starting flush of map output,644
+E182,Merging <*> sorted segments,678
+E42,"Down to the last merge-pass, with <*> segments left of total size: <*> bytes",678
+E79,Task:<*> is done. And is in the process of committing,625
+E224,Task <*> done.,616
+E20,"Failed to connect to <*> for block, add to deadNodes and continue. java.net.ConnectException: Connection refused: no further information",1
+E133,Using ShuffleConsumerPlugin: <*>,71
+E23,"MergerManager: memoryLimit=<*>, maxSingleShuffleLimit=<*>, mergeThreshold=<*>, ioSortFactor=<*>, memToMemMergeOutputsThreshold=<*>",71
+E45,<*> Thread started: EventFetcher for fetching Map Completion Events,71
+E199,<*>: Got <*> new map-outputs,414
+E213,Assigning <*> with <*> to <*>,472
+E175,assigned <*> of <*> to <*> to fetcher#<*>,472
+E111,for url=<*> sent hash and received reply,469
+E43,<*>: Shuffling to disk since <*> is greater than maxSingleShuffleLimit (<*>),667
+E73,fetcher#<*> about to shuffle output of map <*>: <*> len: <*> to DISK,664
+E80,Ignoring obsolete output of KILLED map-task: '<*>',66
+E106,Created MRAppMaster for application <*>,69
+E139,OutputCommitter set in config <*>,69
+E204,OutputCommitter is <*>,69
+E167,Registering class <*> for class <*>,621
+E192,Default file system [<*>],226
+E51,Emitting job history data to the timeline server is not enabled,69
+E84,Adding job token for <*> to jobTokenSecretManager,69
+E46,Not uberizing <*> because: not enabled; too many maps; too much input;,69
+E107,Input size for job <*> = <*>. Number of splits = <*>,69
+E178,Number of reduces for job <*> = <*>,69
+E40,"MRAppMaster launching normal, non-uberized, multi-container job <*>",69
+E191,Using callQueue class <*>,138
+E128,Starting Socket Reader <*> for port <*>,138
+E153,Adding protocol <*> to the server,69
+E131,IPC Server Responder: starting,138
+E127,IPC Server listener on <*>: starting,138
+E118,Instantiated MRClientService at <*>,69
+E216,Logging to <*>(<*>) via <*>,69
+E123,Http request log for <*> is not defined,69
+E154,Added global filter <*> (class=<*>),69
+E129,Added filter <*> (class=<*>) to context <*>,138
+E211,adding path spec: <*>,138
+E208,Jetty bound to port <*>,69
+E236,jetty-<*>,69
+E221,Extract jar:<*> to <*>,69
+E232,Started <*>,69
+E212,Web app <*> started at <*>,69
+E125,Registered webapp guice modules,69
+E227,JOB_CREATE <*>,69
+E163,nodeBlacklistingEnabled:<*>,69
+E160,maxTaskFailuresPerNode is <*>,69
+E149,blacklistDisablePercent is <*>,69
+E117,Connecting to ResourceManager at <*>,69
+E85,"maxContainerCapability: <memory:<*>, vCores:<*>",69
+E235,queue: <*>,69
+E112,Upper limit on the thread pool size is <*>,69
+E69,yarn.client.max-cached-nodemanagers-proxies : <*>,69
+E228,Resolved <*> to <*>,3297
+E179,<*> Task Transitioned from <*> to <*>,2074
+E124,<*> TaskAttempt Transitioned from <*> to <*>,4843
+E95,"mapResourceRequest:<memory:<*>, vCores:<*>",65
+E114,"Event Writer setup for JobId: <*>, File: <*>",69
+E11,Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,797
+E25,"getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>",899
+E65,"Recalculating schedule, headroom=<memory:<*>, vCores:<*>",4415
+E35,Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>,3841
+E177,Got allocated containers <*>,606
+E195,Assigned container <*> to <*>,906
+E12,After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,1249
+E120,The job-jar file on the remote FS is <*>,69
+E116,The job-conf file on the remote FS is <*>,69
+E50,Adding <*> tokens and <*> secret keys for NM use for launching container,69
+E137,Size of containertokens_dob is <*>,69
+E105,Putting shuffle token in serviceData,69
+E58,Processing the event EventType: <*> for container <*> taskAttempt <*>,1744
+E229,Launching <*>,906
+E219,Opening proxy : <*>,1757
+E82,Shuffle port returned by ContainerManager for <*> : <*>,906
+E88,TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>],1033
+E220,ATTEMPT_START <*>,905
+E164,Auth successful for <*> (auth:<*>),962
+E173,JVM with ID : <*> asked for a task,902
+E190,JVM with ID: <*> given task: <*>,902
+E168,Progress of TaskAttempt <*> is : <*>,45882
+E101,Exception in createBlockOutputStream,30
+E226,Abandoning <*>,30
+E202,Excluding datanode <*>,30
+E171,Done acknowledgement from <*>,605
+E234,KILLING <*>,851
+E162,Task succeeded with attempt <*>,701
+E197,Num completed Tasks: <*>,701
+E60,Reduce slow start threshold reached. Scheduling reduces.,65
+E68,All maps assigned. Ramping up all remaining reduces:<*>,43
+E140,Received completed container <*>,826
+E37,Diagnostics report from <*>: Container killed by the ApplicationMaster.,733
+E206,Assigned to reduce,73
+E41,DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>,255
+E71,We launched <*> speculations. Sleeping <*> milliseconds.,255
+E102,Scheduling a redundant attempt for task <*>,194
+E62,MapCompletionEvents request from <*>. startIndex <*> maxEvents <*>,18140
+E56,Killing taskAttempt:<*> because it is running on unusable node:<*>,55
+E55,Diagnostics report from <*>: Container released on a *lost* node,55
+E214,Could not delete <*>,216
+E1,"completedMapPercent <*> totalResourceLimit:<memory:<*>, vCores:<*> finalMapResourceLimit:<memory:<*>, vCores:<*> finalReduceResourceLimit:<memory:<*>, vCores:<*> netScheduledMapResource:<memory:<*>, vCores:<*> netScheduledReduceResource:<memory:<*>, vCores:<*>",531
+E230,Ramping up <*>,31
+E16,Socket Reader <*> for port <*> readAndProcess from client <*> threw exception [java.io.IOException: An existing connection was forcibly closed by the remote host],217
+E150,Issuing kill to other attempt <*>,182
+E122,Commit-pending state update from <*>,47
+E97,<*> given a go for committing the task output.,47
+E148,Commit go/no-go request from <*>,47
+E185,Result of canCommit for <*>,47
+E104,Calling handler for JobFinishedEvent,47
+E78,We are finishing cleanly so this is the last retry,50
+E103,Notify RMCommunicator isAMLastRetry: <*>,52
+E66,RMCommunicator notified that shouldUnregistered is: <*>,52
+E159,Notify JHEH isAMLastRetry: <*>,52
+E48,JobHistoryEventHandler notified that forceJobCompletion is <*>,52
+E126,Calling stop for all the services,52
+E34,Stopping JobHistoryEventHandler. Size of the outstanding queue size is <*>,52
+E231,Copying <*> to <*>,94
+E181,Copied to done location: <*>,94
+E210,Moved tmp to done: <*>,141
+E169,Setting job diagnostics to,48
+E222,History url is <*>,48
+E59,Waiting for application to be successfully unregistered.,45
+E14,Final Stats: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>,48
+E166,Deleting staging directory <*> <*>,45
+E207,Stopping server on <*>,48
+E134,Stopping IPC Server listener on <*>,48
+E138,Stopping IPC Server Responder,48
+E90,TaskHeartbeatHandler thread interrupted,48
+E144,Read <*> bytes from map-output for <*>,649
+E205,<*> freed by fetcher#<*> in <*>,455
+E92,EventFetcher is interrupted.. Returning,54
+E36,finalMerge called with <*> in-memory map-outputs and <*> on-disk map-outputs,56
+E145,"Merging <*> files, <*> bytes from disk",56
+E81,"Merging <*> segments, <*> bytes from memory into reduce",56
+E86,Merging <*> intermediate segments out of a total of <*>,7
+E161,Task <*> is allowed to commit now,48
+E184,Saved output of task <*> to <*>,48
+E30,Recovery is enabled. Will try to recover from previous life on best effort basis.,15
+E172,Previous history file is at <*>,19
+E193,Read from history task <*>,96
+E121,Read completed tasks from history <*>,11
+E75,"Recovering task <*> from prior app attempt, status was <*>",96
+E158,Stopping <*> metrics system...,317
+E183,<*> metrics system stopped.,317
+E115,<*> metrics system shutdown complete.,317
+E7,Communication exception: java.io.IOException: Failed on local exception: java.io.IOException: An existing connection was forcibly closed by the remote host; Host Details : local host is: <*> destination host is: <*>,44
+E44,Retrying connect to server: <*>. Already tried <*> time(s); maxRetries=<*>,2517
+E15,"Releasing unassigned and invalid container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: <*>]. RM may have assignment issues",7
+E74,Container complete event for unknown container id <*>,19
+E9,"Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <*>, Priority: <*>, Token: <*>, ] for a map as either container memory less than required <*> or no pending map tasks - maps.isEmpty=<*>",12
+E157,Exception in getting events,3
+E17,"Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)",1048
+E108,Address change detected. Old: <*> New: <*>,5795
+E57,Failed to renew lease for <*> for <*> seconds. Will retry shortly ...,5300
+E186,ERROR IN CONTACTING RM.,480
+E10,Communication exception: java.net.ConnectException: Call From <*> to <*> failed on connection exception: java.net.ConnectException: Connection timed out: no further information; For more details see: <*>,1
+E49,TaskAttempt killed because it ran on unusable node <*>. AttemptId:<*>,25
+E63,DFSOutputStream ResponseProcessor exception for block <*>,14
+E72,"Error Recovery for block <*> in pipeline <*>, <*>: bad datanode <*>",14
+E18,"Failed to connect to <*> for block, add to deadNodes and continue. java.net.NoRouteToHostException: No route to host: no further information",10
+E6,"Could not obtain <*> from any node: <*> No live nodes contain block <*> after checking nodes = <*>, ignoredNodes = <*> No live nodes contain current block Block locations: <*> Dead nodes: <*>. Will get new block locations from namenode and retry...",6
+E61,"DFS chooseDataNode: got # <*> IOException, will wait for <*> msec.",6
+E233,DFS Read,3
+E4,Exception running child : java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>,2
+E147,Runnning cleanup for the task,6
+E5,Exception cleaning up: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>,2
+E26,"Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: <*> status: <*> downstreamAckTimeNanos: <*>, targets: [<*>, <*>]",9
+E180,DataStreamer Exception,3
+E8,Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>,2
+E2,Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>,4
+E136,Task cleanup failed for attempt <*>,2
+E152,Error writing History Event: <*>,4
+E215,<*> failures on node <*>,10
+E170,Added <*> to list of failed maps,10
+E99,Could not contact RM after <*> milliseconds.,3
+E38,Error communicating with RM: Could not contact RM after <*> milliseconds.,3
+E194,"In stop, writing event <*>",6
+E29,Service <*> failed in state <*>; cause: <*>: Attempt to process a enum when a union was expected.,2
+E21,Diagnostics report from <*>: cleanup failed for container <*> : java.lang.IllegalArgumentException: java.net.UnknownHostException: <*>,12
+E132,Exception while unregistering,3
+E196,Graceful stop failed,3
+E64,Diagnostics report from <*>: AttemptID:<*> Timed out after <*> secs,7
+E109,Ramping down all scheduled reduces:<*>,100
+E91,Going to preempt <*> due to lack of space for maps,100
+E225,Preempting <*>,1
+E141,Reduce preemption successful <*>,1
+E77,Connection retry failed with <*> attempts in <*> seconds,1
+E113,Failed to connect to <*> with <*> map outputs,1
+E151,Reporting fetch failure for <*>.,1
+E31,Error communicating with RM: Resource Manager doesn't recognize AttemptId: <*>,2
+E87,Found jobId <*> to have not been closed. Will close,2
+E3,Communication exception: java.net.NoRouteToHostException: No Route to Host from <*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: <*>,10
+E83,Process Thread Dump: Communication exception,5
+E203,"Last retry, killing <*>",5
+E32,Diagnostics report from <*>: Error: <*>: Could not find any valid local directory for <*>,2
+E110,Ignoring exception during close for <*>,1
+E39,Exception running child : <*>: Could not find any valid local directory for <*>,1
+E28,Task: <*> - failed due to FSError: java.io.IOException: There is not enough space on the disk,2
+E53,Diagnostics report from <*>: Error: <*>: error in shuffle in fetcher#<*>,4
+E13,"Assigning container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: <*>, service: <*> }, ] to fast fail map",8
+E119,Assigned from earlierFailedMaps,8
+E24,Exception running child : org.apache.hadoop.mapreduce.task.reduce.Shuffle$ShuffleError: error in shuffle in fetcher#<*>,2
+E33,Task: <*> - exited : java.io.IOException: There is not enough space on the disk,6
+E27,Diagnostics report from <*>: Error: java.io.IOException: There is not enough space on the disk,12
+E70,Task: <*> - exited : java.io.IOException: Spill failed,3
+E52,Diagnostics report from <*>: java.io.IOException: Spill failed,6
+E67,"Unable to parse prior job history, aborting recovery",4
+E54,Could not parse the old history file. Will not have old AMinfos,4
+E135,Error closing writer for JobID: <*>,1
+E22,"IPC Server handler <*> on <*>, call statusUpdate(<*>), rpc version=<*>, client version=<*>, methodsFingerPrint=<*> from <*> Call#<*> Retry#<*>: output error",1
+E100,IPC Server handler <*> on <*> caught an exception,1
+E94,Shuffle failed : local error on this node: <*>,2

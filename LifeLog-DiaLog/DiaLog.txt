@@ -1,0 +1,600 @@
+6 4 events:{ [{ }{ }] [{ }{ Perception_experience Request }] [{ }{ }] [{ }{ }] }
+17 4 events:{ [{ }{ }] [{ Contacting }{ Contacting }] [{ }{ }] [{ }{ Transporting }] }
+4181 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8090 4 events:{ [{ Wearing }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+8139 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9141 4 events:{ [{ }{ }] [{ Contacting }{ Contacting Reserving }] [{ }{ }] [{ }{ }] }
+9205 4 events:{ [{ }{ }] [{ }{ }] [{ Renting }{ }] [{ }{ }] }
+27 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] }
+51 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ Contacting }] [{ }{ }] }
+742 4 events:{ [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] [{ }{ }] }
+1409 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ Wearing }{ }] }
+1543 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4367 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4449 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4605 4 events:{ [{ Perception_experience }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] }
+4653 4 events:{ [{ }{ }] [{ Perception_experience }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+4660 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ Perception_experience }{ }] [{ }{ }] }
+8160 4 events:{ [{ Ingestion }{ }] [{ }{ Ingestion }] [{ Attending }{ }] [{ }{ }] }
+8348 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8386 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+8389 4 events:{ [{ Giving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8967 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8982 4 events:{ [{ Activity_finish }{ }] [{ }{ }] [{ }{ }] [{ Ingestion }{ Perception_experience }] }
+9342 4 events:{ [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] }
+9485 4 events:{ [{ Contacting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9918 4 events:{ [{ Contacting }{ }] [{ }{ Contacting Reserving }] [{ }{ }] [{ }{ }] }
+10212 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+10243 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ Request }{ }] [{ }{ }] }
+411 5 events:{ [{ }{ }] [{ }{ Wearing }] [{ }{ }] [{ }{ }] [{ }{ }] }
+454 5 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] }
+639 5 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+670 5 events:{ [{ }{ }] [{ Receiving }{ Giving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1139 5 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] }
+1193 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Giving Commerce_pay }{ Receiving }] }
+2699 5 events:{ [{ Perception_experience }{ }] [{ }{ Activity }] [{ Activity_finish }{ }] [{ }{ }] [{ }{ }] }
+45 6 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] }
+207 6 events:{ [{ Cooking_creation }{ }] [{ }{ Cooking_creation }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+652 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ Ingestion }] }
+713 6 events:{ [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+893 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1368 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ }{ }] }
+1473 6 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4295 5 events:{ [{ }{ }] [{ }{ Wearing }] [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] }
+4363 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4392 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+4666 5 events:{ [{ Attending }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4382 6 events:{ [{ }{ }] [{ }{ }] [{ Sending }{ }] [{ }{ Receiving }] [{ Perception_experience }{ }] [{ }{ }] }
+4481 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+4731 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5535 5 events:{ [{ }{ }] [{ }{ Activity Perception_experience }] [{ }{ }] [{ }{ }] [{ Activity }{ }] }
+5608 5 events:{ [{ }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5746 5 events:{ [{ Meeting }{ }] [{ }{ Meeting Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5789 5 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ Meeting }{ Meeting }] [{ }{ }] }
+6281 5 events:{ [{ }{ }] [{ }{ }] [{ Attending }{ }] [{ }{ }] [{ Commerce_pay }{ }] }
+6452 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8167 5 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] }
+5682 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5726 6 events:{ [{ Attending }{ }] [{ }{ }] [{ Ingestion Giving Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5800 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7063 6 events:{ [{ }{ }] [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7571 6 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9422 5 events:{ [{ }{ }] [{ }{ }] [{ Reserving }{ }] [{ }{ }] [{ }{ }] }
+9436 5 events:{ [{ }{ }] [{ Transporting }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+9475 5 events:{ [{ Perception_experience }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ Transporting }] [{ }{ }] }
+9524 5 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Giving Commerce_pay }{ Receiving }] }
+9516 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ Transporting }] }
+9734 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+10195 6 events:{ [{ Activity }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] }
+10320 6 events:{ [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Reserving }{ }] [{ }{ }] }
+6933 4 events:{ [{ Attending }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+7129 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+7343 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7701 4 events:{ [{ }{ }] [{ }{ }] [{ Activity }{ }] [{ }{ }] }
+7709 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7726 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] }
+7744 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7803 4 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+7843 4 events:{ [{ Meeting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7922 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity Perception_experience }] }
+7937 4 events:{ [{ }{ }] [{ }{ }] [{ Activity_begin }{ }] [{ }{ }] }
+8024 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+8077 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8140 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8311 4 events:{ [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ }{ }] }
+8344 4 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+8355 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8365 4 events:{ [{ }{ }] [{ }{ }] [{ Activity }{ }] [{ }{ }] }
+8373 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8408 4 events:{ [{ Transporting }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ Transporting }] }
+8929 4 events:{ [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] }
+8974 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9011 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+9045 4 events:{ [{ }{ }] [{ }{ }] [{ Meeting }{ Meeting }] [{ }{ }] }
+9060 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9073 4 events:{ [{ Meeting }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ }] }
+9081 4 events:{ [{ }{ }] [{ }{ }] [{ }{ Meeting }] [{ }{ }] }
+9421 4 events:{ [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+176 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ }{ }] }
+199 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+782 5 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] }
+802 5 events:{ [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] [{ Contacting }{ Contacting }] }
+833 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+854 5 events:{ [{ }{ }] [{ }{ Request }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] }
+895 5 events:{ [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] [{ }{ }] [{ }{ }] }
+923 5 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ Commerce_pay Giving }{ Receiving }] }
+962 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1032 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1067 5 events:{ [{ Contacting }{ }] [{ }{ Contacting Reserving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1098 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1135 5 events:{ [{ }{ }] [{ }{ Wearing Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1170 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1197 5 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ Sending }{ Transporting }] [{ }{ }] }
+1219 5 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] }
+1302 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1374 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1424 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1443 5 events:{ [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1704 5 events:{ [{ Commerce_buy }{ }] [{ Commerce_pay }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1782 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1824 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Activity }{ Activity }] [{ }{ }] }
+1912 5 events:{ [{ Borrowing }{ }] [{ }{ Lending }] [{ }{ }] [{ Receiving }{ Giving }] [{ }{ }] }
+2413 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2727 5 events:{ [{ Receiving }{ }] [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] }
+2880 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+3167 5 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+4202 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4371 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4487 5 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+4662 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Giving }{ }] }
+4840 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ Perception_experience }{ }] }
+5036 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+5575 5 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+5680 5 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ Activity }] [{ }{ }] }
+5749 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5768 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Wearing }] [{ Wearing }{ }] }
+6310 5 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6592 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6890 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6998 5 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] [{ Contacting }{ }] }
+7049 5 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7159 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7579 5 events:{ [{ Meeting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8048 5 events:{ [{ }{ }] [{ }{ Activity }] [{ Activity_begin Activity }{ Activity_begin }] [{ }{ }] [{ }{ }] }
+8083 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8151 5 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+8296 5 events:{ [{ }{ }] [{ }{ }] [{ Ingestion }{ }] [{ }{ }] [{ }{ }] }
+8450 5 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9094 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Request }] [{ }{ }] }
+9438 5 events:{ [{ Renting }{ }] [{ Receiving }{ Giving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9466 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9523 5 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ Commerce_pay Giving }{ Receiving }] [{ }{ }] [{ }{ }] }
+9540 5 events:{ [{ }{ }] [{ Perception_experience }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9584 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Ingestion }{ }] [{ Commerce_pay }{ }] }
+9689 5 events:{ [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] }
+9714 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6810 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+6820 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+6837 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6851 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6867 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+6879 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7038 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7191 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7686 4 events:{ [{ }{ }] [{ }{ Attending }] [{ Attending }{ }] [{ }{ }] }
+7696 4 events:{ [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ Activity }{ Activity }] }
+7705 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7717 4 events:{ [{ }{ }] [{ }{ Wearing }] [{ }{ }] [{ }{ }] }
+7733 4 events:{ [{ }{ }] [{ }{ Ingestion }] [{ Giving }{ Receiving }] [{ }{ }] }
+7753 4 events:{ [{ Contacting }{ }] [{ }{ Contacting Perception_experience }] [{ }{ }] [{ Meeting }{ Meeting }] }
+7772 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7807 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7818 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7835 4 events:{ [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ }] }
+7908 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7926 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+7952 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7968 4 events:{ [{ }{ }] [{ Attending }{ Attending }] [{ }{ }] [{ }{ }] }
+8000 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ Request }] }
+8050 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Ingestion }] }
+8089 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting }] }
+8178 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Ingestion }] }
+8340 4 events:{ [{ Attending }{ }] [{ }{ Attending }] [{ Commerce_pay }{ }] [{ }{ }] }
+8351 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8359 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Ingestion }] }
+8369 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+8379 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+8390 4 events:{ [{ }{ }] [{ }{ Activity Perception_experience }] [{ }{ }] [{ }{ }] }
+8824 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8960 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ Borrowing }] }
+9016 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Attending }] }
+9051 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9104 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] }
+9270 4 events:{ [{ Meeting }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ Attending }] }
+9310 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9405 4 events:{ [{ }{ }] [{ Activity }{ Activity }] [{ }{ }] [{ }{ }] }
+9503 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9534 4 events:{ [{ Activity }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+9597 4 events:{ [{ }{ }] [{ }{ }] [{ Attending }{ }] [{ }{ }] }
+9655 4 events:{ [{ Transporting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9679 4 events:{ [{ }{ }] [{ Request }{ }] [{ Commerce_pay }{ }] [{ }{ }] }
+9755 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Sending }] }
+9829 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9873 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ Request }{ }] [{ }{ }] }
+9920 4 events:{ [{ Contacting }{ }] [{ }{ Contacting Reserving }] [{ }{ }] [{ }{ }] }
+9942 4 events:{ [{ }{ }] [{ }{ Commerce_pay }] [{ Giving }{ Receiving }] [{ }{ }] }
+10021 4 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] }
+10241 4 events:{ [{ Contacting }{ }] [{ }{ Contacting Request }] [{ }{ }] [{ }{ }] }
+58 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ Commerce_pay }{ }] }
+222 5 events:{ [{ }{ }] [{ }{ Request }] [{ Cooking_creation }{ Cooking_creation }] [{ }{ }] [{ }{ }] }
+791 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Request }] [{ }{ }] }
+819 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ }] }
+841 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ }] }
+873 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Receiving }{ Giving }] [{ Request }{ }] }
+906 5 events:{ [{ }{ }] [{ }{ Commerce_buy Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+938 5 events:{ [{ }{ }] [{ Request }{ }] [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] }
+970 5 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ Request }] [{ }{ }] }
+1002 5 events:{ [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] }
+1082 5 events:{ [{ Contacting }{ }] [{ }{ Contacting Reserving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1105 5 events:{ [{ Contacting }{ }] [{ }{ Contacting Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1143 5 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ Commerce_buy }{ }] }
+1187 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1380 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1406 5 events:{ [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] }
+1434 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+1749 5 events:{ [{ }{ }] [{ }{ Perception_experience Renting }] [{ }{ }] [{ Receiving }{ Giving }] [{ }{ }] }
+1889 5 events:{ [{ Activity }{ }] [{ Activity }{ Activity Activity }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1985 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2034 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] }
+2289 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2535 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ }] }
+2628 5 events:{ [{ }{ }] [{ Contacting }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2673 5 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2915 5 events:{ [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ }] [{ }{ }] }
+4172 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4262 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4322 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+4439 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4569 5 events:{ [{ }{ }] [{ }{ Wearing }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4710 5 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4883 5 events:{ [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ }] [{ }{ }] }
+5274 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5488 5 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+5542 5 events:{ [{ }{ }] [{ }{ Attending }] [{ Transporting Ingestion }{ Transporting Ingestion }] [{ }{ }] [{ }{ Wearing }] }
+5628 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5723 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5763 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5900 5 events:{ [{ }{ }] [{ Activity }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6029 5 events:{ [{ }{ }] [{ }{ }] [{ Reserving }{ }] [{ }{ }] [{ Meeting Transporting }{ Meeting }] }
+6358 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6411 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6516 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6638 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting Perception_experience }] [{ }{ }] }
+6688 5 events:{ [{ Perception_experience }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6829 5 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6875 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6947 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7025 5 events:{ [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+7071 5 events:{ [{ Transporting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7716 5 events:{ [{ }{ }] [{ Perception_experience }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7999 5 events:{ [{ Activity }{ }] [{ }{ Activity }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ Wearing }] }
+8063 5 events:{ [{ Meeting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8128 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8213 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Attending }{ }] }
+8338 5 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8884 5 events:{ [{ Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9382 5 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] }
+9455 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9477 5 events:{ [{ }{ }] [{ Contacting }{ Contacting }] [{ Sending }{ }] [{ }{ }] [{ }{ }] }
+9508 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9530 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9567 5 events:{ [{ Transporting }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9602 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ Perception_experience }{ }] }
+9642 5 events:{ [{ Transporting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9680 5 events:{ [{ }{ }] [{ Request Commerce_pay }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9698 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9721 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ }] }
+9754 5 events:{ [{ }{ }] [{ Contacting }{ Contacting }] [{ Request }{ }] [{ }{ }] [{ Contacting }{ Contacting }] }
+9791 5 events:{ [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9848 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9870 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9924 5 events:{ [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+10183 5 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] }
+11 6 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+77 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+225 6 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+491 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+585 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+655 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ Perception_experience }{ }] }
+687 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+755 6 events:{ [{ Renting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+860 6 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting Perception_experience }] }
+908 6 events:{ [{ Ingestion }{ }] [{ }{ Ingestion }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ Request }] }
+955 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+1005 6 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ Receiving }{ Giving }] }
+1066 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] [{ Commerce_buy }{ }] }
+1149 6 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1215 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ Receiving }{ Giving }] }
+1276 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1373 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Ingestion }] }
+1423 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1522 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ Transporting }{ Transporting }] }
+1641 6 events:{ [{ }{ }] [{ }{ }] [{ Ingestion }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] }
+1717 6 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1838 6 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1895 6 events:{ [{ }{ }] [{ Contacting }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2299 6 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2414 6 events:{ [{ }{ }] [{ }{ }] [{ Activity_finish }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2459 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2528 6 events:{ [{ }{ }] [{ }{ }] [{ Borrowing }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2604 6 events:{ [{ }{ }] [{ }{ }] [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2639 6 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ }] }
+2665 6 events:{ [{ }{ }] [{ }{ }] [{ Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2685 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] }
+2705 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2753 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] }
+2776 6 events:{ [{ }{ }] [{ }{ Cooking_creation }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+2838 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ }] }
+2935 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+3006 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+3523 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4214 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4313 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4381 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4847 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Activity }{ Activity }] [{ }{ }] [{ }{ }] }
+5002 6 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5280 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5406 6 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5519 6 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5637 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5660 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5700 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] }
+5731 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ Activity }] [{ }{ }] }
+5769 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5855 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5899 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5983 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6490 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+6518 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+6568 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6694 6 events:{ [{ }{ }] [{ Ingestion }{ Ingestion }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ }] }
+6830 6 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6943 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7045 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Meeting }{ Meeting }] [{ }{ }] }
+7079 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7179 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7526 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7559 6 events:{ [{ }{ }] [{ Transporting }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7569 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7605 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7773 6 events:{ [{ }{ }] [{ }{ Contacting Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7850 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+7957 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8021 6 events:{ [{ Activity }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ Giving }] [{ }{ }] [{ }{ }] }
+8040 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8086 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] }
+8123 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8152 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8238 6 events:{ [{ Meeting }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8407 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] }
+8472 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+9321 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+9381 6 events:{ [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9450 6 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9495 6 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ Meeting }{ Meeting }] [{ }{ }] }
+9545 6 events:{ [{ }{ Request }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9613 6 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] }
+9645 6 events:{ [{ Reserving }{ }] [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] }
+9667 6 events:{ [{ Transporting }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9738 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Sending }] [{ Giving }{ Receiving }] [{ }{ }] }
+9764 6 events:{ [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9817 6 events:{ [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ Contacting }{ Contacting }] [{ }{ }] [{ }{ }] }
+9849 6 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9901 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Commerce_pay }] [{ }{ }] [{ }{ }] }
+10041 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ Reserving }{ }] [{ }{ }] }
+10109 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ }] }
+10119 6 events:{ [{ Giving }{ }] [{ Receiving }{ Giving Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+10394 6 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ Giving }] [{ Receiving }{ }] [{ }{ }] }
+10 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+37 4 events:{ [{ }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] }
+78 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+116 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+134 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+149 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ Contacting }{ }] }
+352 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+509 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+647 4 events:{ [{ }{ }] [{ Transporting Perception_experience }{ Transporting Perception_experience }] [{ Renting }{ }] [{ }{ }] }
+743 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+787 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+815 4 events:{ [{ Request }{ }] [{ Receiving }{ Giving }] [{ }{ }] [{ Perception_experience }{ }] }
+835 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+867 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+900 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Request }] }
+950 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+978 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1039 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1064 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+1092 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] }
+1117 4 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+1136 4 events:{ [{ Wearing }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1173 4 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] }
+1257 4 events:{ [{ }{ }] [{ Receiving }{ Giving Commerce_pay }] [{ }{ }] [{ }{ }] }
+1294 4 events:{ [{ }{ }] [{ }{ }] [{ Lending }{ Borrowing }] [{ }{ }] }
+1340 4 events:{ [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+1385 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Commerce_buy }] }
+1497 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+1510 4 events:{ [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+1535 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1610 4 events:{ [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ Transporting }] }
+1808 4 events:{ [{ }{ }] [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] }
+1905 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1981 4 events:{ [{ }{ }] [{ }{ }] [{ }{ Transporting }] [{ }{ }] }
+2036 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2062 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2536 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2552 4 events:{ [{ }{ }] [{ }{ Wearing }] [{ }{ }] [{ }{ }] }
+2562 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Borrowing }{ Lending Transporting }] }
+2578 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2600 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2617 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2649 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2855 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2869 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2991 4 events:{ [{ Contacting }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] }
+3136 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4190 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4208 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4222 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4238 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4473 4 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4526 4 events:{ [{ Receiving }{ }] [{ }{ Sending }] [{ }{ }] [{ }{ }] }
+4583 4 events:{ [{ }{ }] [{ }{ }] [{ Activity }{ }] [{ }{ Perception_experience }] }
+4641 4 events:{ [{ }{ }] [{ Ingestion }{ }] [{ }{ }] [{ }{ }] }
+4650 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4688 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4822 4 events:{ [{ Lending }{ }] [{ }{ Borrowing }] [{ }{ }] [{ }{ }] }
+4845 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Meeting }{ Meeting }] }
+4899 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4911 4 events:{ [{ Meeting }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ Transporting }] }
+4929 4 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ Perception_experience }] }
+4982 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4999 4 events:{ [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] }
+5380 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5463 4 events:{ [{ }{ }] [{ Borrowing }{ Lending }] [{ }{ }] [{ Receiving }{ Giving }] }
+5520 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5588 4 events:{ [{ }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ }] }
+5684 4 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] }
+5740 4 events:{ [{ Giving }{ }] [{ }{ }] [{ }{ }] [{ }{ Receiving }] }
+5904 4 events:{ [{ Attending }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+5928 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] }
+5964 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+5993 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Activity }{ }] }
+6014 4 events:{ [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] }
+6039 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6055 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ Perception_experience }] }
+6077 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6131 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity_finish }] }
+6153 4 events:{ [{ Commerce_buy }{ }] [{ }{ }] [{ Activity Commerce_pay }{ }] [{ }{ }] }
+6199 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6234 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Borrowing }{ Lending }] }
+6280 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6350 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6367 4 events:{ [{ }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] }
+6412 4 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] }
+6454 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6569 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] }
+6585 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ Transporting }] }
+6602 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6649 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6682 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6719 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6783 4 events:{ [{ Perception_experience }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+6798 4 events:{ [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ }{ }] }
+7759 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] }
+7800 4 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+7811 4 events:{ [{ }{ }] [{ }{ Perception_experience Activity }] [{ }{ }] [{ }{ }] }
+7920 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7931 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8055 4 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8120 4 events:{ [{ Activity }{ }] [{ }{ }] [{ Wearing }{ }] [{ }{ }] }
+8293 4 events:{ [{ }{ }] [{ Meeting }{ Meeting }] [{ Giving }{ Receiving }] [{ }{ }] }
+8342 4 events:{ [{ }{ }] [{ Ingestion }{ Ingestion }] [{ }{ }] [{ }{ }] }
+8363 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8382 4 events:{ [{ }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ Transporting }] }
+8461 4 events:{ [{ Activity }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ Attending }] }
+9071 4 events:{ [{ }{ }] [{ Meeting }{ Meeting }] [{ }{ }] [{ }{ }] }
+9090 4 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] }
+7329 5 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ Activity Meeting }{ Meeting }] }
+7570 5 events:{ [{ }{ }] [{ }{ Attending }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+7808 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7888 5 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8042 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8075 5 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8141 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8230 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity_finish }] [{ }{ }] }
+8431 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ Meeting }{ Meeting }] [{ }{ }] }
+9423 5 events:{ [{ }{ }] [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9460 5 events:{ [{ Transporting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9481 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9515 5 events:{ [{ Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9537 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9610 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Request }] [{ }{ }] }
+9702 5 events:{ [{ Renting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9729 5 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9852 5 events:{ [{ Giving }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ Request }] [{ }{ }] }
+9896 5 events:{ [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] [{ }{ }] [{ Giving }{ Receiving }] }
+10233 5 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ Contacting }{ Contacting }] }
+15 6 events:{ [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+232 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+291 6 events:{ [{ Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+527 6 events:{ [{ Request }{ }] [{ Receiving }{ Giving }] [{ Activity_finish Giving }{ Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] }
+660 6 events:{ [{ }{ }] [{ }{ }] [{ Renting }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+714 6 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+865 6 events:{ [{ }{ }] [{ }{ }] [{ Activity }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+911 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+963 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ Commerce_buy }] }
+1079 6 events:{ [{ }{ }] [{ Reserving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1158 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ }] }
+1229 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1397 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Wearing }] [{ }{ }] }
+1438 6 events:{ [{ Activity }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1540 6 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1651 6 events:{ [{ }{ }] [{ }{ }] [{ Meeting }{ }] [{ }{ }] [{ Receiving }{ Giving }] [{ }{ }] }
+1740 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1783 6 events:{ [{ }{ }] [{ Perception_experience }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Request }{ Request }] }
+1803 6 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1852 6 events:{ [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1897 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2022 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2233 6 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ Attending }{ Attending Wearing }] [{ }{ }] }
+2365 6 events:{ [{ Sending }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2401 6 events:{ [{ }{ }] [{ }{ Ingestion }] [{ Request }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+2428 6 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] }
+2534 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2642 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2669 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+2692 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2716 6 events:{ [{ Ingestion }{ }] [{ }{ Ingestion }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2766 6 events:{ [{ }{ }] [{ }{ Commerce_pay }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2799 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+2842 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Activity }] [{ Request }{ }] [{ }{ }] }
+3525 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4352 6 events:{ [{ }{ }] [{ }{ }] [{ Contacting }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4385 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4465 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+4854 6 events:{ [{ }{ }] [{ }{ }] [{ Giving }{ Receiving }] [{ }{ }] [{ Perception_experience }{ }] [{ }{ }] }
+5285 6 events:{ [{ Perception_experience }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5440 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Attending }] [{ Perception_experience }{ }] [{ }{ }] }
+5530 6 events:{ [{ }{ }] [{ }{ Meeting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5645 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Activity }{ Activity }] }
+5705 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Contacting }] }
+5752 6 events:{ [{ Transporting Wearing }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] }
+5771 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+5804 6 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] }
+5865 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting }] }
+6083 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6187 6 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6375 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6495 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Ingestion }] }
+6530 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6624 6 events:{ [{ }{ }] [{ }{ Perception_experience }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6720 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6843 6 events:{ [{ Perception_experience }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+6994 6 events:{ [{ }{ }] [{ }{ Request }] [{ Ingestion }{ }] [{ }{ Cooking_creation }] [{ }{ }] [{ }{ }] }
+7053 6 events:{ [{ }{ }] [{ }{ Receiving }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7118 6 events:{ [{ Receiving }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7211 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7528 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7550 6 events:{ [{ }{ }] [{ Wearing }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ Activity }{ }] [{ }{ }] }
+7561 6 events:{ [{ }{ }] [{ }{ }] [{ Attending }{ }] [{ }{ Attending }] [{ Commerce_buy Cooking_creation }{ Commerce_buy }] [{ }{ Activity }] }
+7619 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7789 6 events:{ [{ }{ }] [{ }{ Activity Request }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7853 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+7996 6 events:{ [{ }{ }] [{ }{ Activity }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8046 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Ingestion }{ Ingestion }] }
+8106 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8163 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Perception_experience }{ Perception_experience }] [{ }{ }] }
+8265 6 events:{ [{ }{ }] [{ }{ Activity_finish }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8425 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+8580 6 events:{ [{ }{ }] [{ }{ Contacting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Perception_experience }] }
+8892 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9340 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9463 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9505 6 events:{ [{ }{ }] [{ }{ }] [{ Commerce_pay }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9623 6 events:{ [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9672 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Commerce_pay }] [{ }{ }] }
+9742 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ Receiving }{ Giving }] }
+9783 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9827 6 events:{ [{ }{ }] [{ Receiving }{ Giving }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+9855 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Commerce_buy }] [{ }{ }] [{ }{ }] }
+10059 6 events:{ [{ }{ }] [{ }{ Request }] [{ }{ }] [{ }{ Reserving }] [{ }{ }] [{ }{ }] }
+10113 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+10167 6 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ Transporting }] [{ }{ }] [{ }{ }] }
+10246 6 events:{ [{ Request }{ }] [{ }{ }] [{ Contacting }{ }] [{ }{ }] [{ Transporting }{ }] [{ }{ }] }
+10413 6 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+909 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+996 4 events:{ [{ }{ }] [{ }{ }] [{ Request }{ }] [{ Commerce_pay }{ }] }
+1041 4 events:{ [{ }{ }] [{ }{ }] [{ Commerce_buy }{ }] [{ }{ }] }
+1071 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }
+1103 4 events:{ [{ Request }{ }] [{ }{ }] [{ }{ Perception_experience }] [{ Commerce_buy }{ }] }
+1146 4 events:{ [{ }{ }] [{ }{ }] [{ }{ }] [{ }{ }] }

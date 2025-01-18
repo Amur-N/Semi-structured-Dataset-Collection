@@ -1,0 +1,49 @@
+EventId,EventTemplate,Occurrences
+E42,"<*> ""GET <*> <*>"" status: <*> len: <*> time: <*>",90475
+E37,[instance: <*>] Creating image,2066
+E25,[instance: <*>] VM Stopped (Lifecycle Event),2067
+E3,"While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.",45
+E23,[instance: <*>] VM Started (Lifecycle Event),2066
+E26,[instance: <*>] VM Paused (Lifecycle Event),2066
+E4,[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.,4049
+E44,image <*> at (<*>): checking,12043
+E5,"image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage",12043
+E47,Active base files: <*>,12035
+E38,Creating event <*> for instance <*>,2065
+E41,"<*> ""POST <*> <*>"" status: <*> len: <*> time: <*>",6194
+E22,[instance: <*>] VM Resumed (Lifecycle Event),4132
+E18,[instance: <*>] Instance spawned successfully.,2066
+E9,[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.,2066
+E21,[instance: <*>] Took <*> seconds to build instance.,2066
+E39,"<*> ""DELETE <*> <*>"" status: <*> len: <*> time: <*>",2064
+E34,[instance: <*>] Terminating instance,2064
+E17,[instance: <*>] Instance destroyed successfully.,2064
+E30,[instance: <*>] Deleting instance files <*>,2064
+E35,[instance: <*>] Deletion of <*> complete,2064
+E8,[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.,2064
+E12,[instance: <*>] Took <*> seconds to deallocate network for instance.,2065
+E15,HTTP exception thrown: No instances found for any event,2064
+E46,Unknown base file: <*>,3059
+E43,Removable base files: <*>,3059
+E40,Removing base or swap file: <*>,2064
+E13,"[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU",2065
+E28,"[instance: <*>] Total memory: <*> MB, used: <*> MB",2065
+E29,"[instance: <*>] memory limit: <*> MB, free: <*> MB",2065
+E33,"[instance: <*>] Total disk: <*> GB, used: <*> GB",2065
+E11,"[instance: <*>] disk limit not specified, defaulting to unlimited",2065
+E27,"[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU",2065
+E10,"[instance: <*>] vcpu limit not specified, defaulting to unlimited",2065
+E36,[instance: <*>] Claim successful,2065
+E16,Auditing locally available compute resources for node <*>,1739
+E20,"Total usable vcpus: <*>, total allocated vcpus: <*>",1739
+E2,Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=<*>,1739
+E32,Compute_service record updated for <*>,1739
+E19,Successfully synced instances from host '<*>'.,502
+E7,The instance sync for host <*> did not match. Re-created its InstanceList.,364
+E31,Base or swap file too young to remove: <*>,995
+E1,couldn't obtain the vcpu count from domain id: <*> exception: Requested operation is not valid: cpu affinity is not supported,12
+E14,Running instance usage audit for host <*> from <*> to <*>. <*> instances.,30
+E48,Error during <*>,8
+E24,Bad response code while validating token: <*>,2
+E45,Identity response: <*>,2
+E6,Unable to validate token: Failed to fetch token data from identity server,2

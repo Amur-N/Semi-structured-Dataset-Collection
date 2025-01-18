@@ -1,0 +1,39 @@
+EventId,EventTemplate,Occurrences
+E7,reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!,18909
+E38,Invalid user <*> from <*>,14581
+E19,input_userauth_request: invalid user <*> [preauth],14581
+E23,pam_unix(sshd:auth): check pass; user unknown,19852
+E25,Failed password for invalid user <*> from <*> port <*> ssh2,19848
+E36,Connection closed by <*> [preauth],68958
+E26,Received disconnect from <*>: <*>: Bye Bye [preauth],46593
+E2,pam_unix(sshd:auth): authentication failure; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,140701
+E33,Failed password for <*> from <*> port <*> ssh2,140772
+E15,message repeated <*> times: [ Failed password for <*> from <*> port <*> ssh2],36967
+E14,Disconnecting: Too many authentication failures for <*> [preauth],37298
+E8,PAM <*> more authentication failures; logname=<*> uid=<*> euid=<*> tty=<*> ruser=<*> rhost=<*> user=<*>,36966
+E29,PAM service(sshd) ignoring max retries; <*> > <*>,37963
+E27,Did not receive identification string from <*>,838
+E18,error: Received disconnect from <*>: <*>: <*>: Auth fail [preauth],176
+E13,Received disconnect from <*>: <*>: Closed due to user request. [preauth],592
+E1,error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth],930
+E31,Accepted password for <*> from <*> port <*> ssh2,182
+E16,pam_unix(sshd:session): session opened for user <*> by (uid=<*>),182
+E22,Received disconnect from <*>: <*>: disconnected by user,34
+E20,pam_unix(sshd:session): session closed for user <*>,182
+E17,fatal: Write failed: Connection reset by peer [preauth],3
+E12,fatal: Read from socket failed: Connection reset by peer [preauth],952
+E37,Bad packet length <*>. [preauth],1
+E28,Disconnecting: Packet corrupt [preauth],1
+E5,Address <*> maps to <*> but this does not map back to the address - POSSIBLE BREAK-IN ATTEMPT!,497
+E30,Received disconnect from <*>: <*>: [preauth],108
+E35,fatal: no hostkey alg [preauth],6
+E24,Bad protocol version identification <*> from <*> port <*>,22
+E11,Received disconnect from <*>: <*>: Client disconnecting normally [preauth],81
+E3,error: Received disconnect from <*>: <*>: <*>: timeout in waiting for rekeying process. [preauth],3
+E34,error: connect_to <*> port <*>: failed.,6
+E32,Corrupted MAC on input. [preauth],1
+E4,error: Received disconnect from <*>: <*>: <*>: User authentication canceled by user [preauth],2
+E21,Received disconnect from <*>: <*>: disconnect [preauth],60
+E6,error: Received disconnect from <*>: <*>: Authentication cancelled by user. [preauth],4
+E10,Received disconnect from <*>: <*>: Disconnect requested by Windows SSH Client.,3
+E9,"Received disconnect from <*>: <*>: Normal Shutdown, Thank you for playing [preauth]",92
