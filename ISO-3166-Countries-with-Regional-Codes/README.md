@@ -1,0 +1,2 @@
+# ISO-3166-Countries-with-Regional-Codes
+[ISO-3166-Countries-with-Regional-Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes) is a country lists merged with their UN Geoscheme regional codes in ready-to-use JSON, XML, CSV data sets.
