@@ -1,0 +1,4 @@
+# IMDB_data_analysis
+[IMDB_data_analysis](https://github.com/Ijaz-M1/IMDB_data_analysis) is a project revolves around a csv dataset containing information on 100 movies sourced from the IMDB database. The dataset was intentionally made as a messy dataset, offering ample opportunities for data cleaning and exploratory data analysis. The primary objective is to apply data cleaning techniques and create compelling visualisations.
+
+The file `imdb.txt` in this repo is a modified version of the original file [`IMDB.csv`](https://github.com/Ijaz-M1/IMDB_data_analysis/blob/18c50c8a7a0e1a90be678701517c6f7a515011cc/IMDB.csv).

@@ -4,5 +4,5 @@ An innovative benchmark for semi-structured textual data parsing, profiling and 
 This repo contains some excerpted and modified version of original datasets. Those excerpted and modified versions are freely available for research or academic work. However, for the original datasets collected by this repo, please comply with the corresponding source's license before use.  
 
 For any usage or distribution of the datasets, please refer to this repository's URL and cite the following paper where applicable.  
-+ Yanwei Huang, Yan Miao, Di Weng, Adam Perer, and Yingcai Wu, StructVizor: Interactive profiling of
++ Yanwei Huang, Yan Miao, Di Weng, Adam Perer, Yingcai Wu. StructVizor: Interactive profiling of
 semi-structured textual data. ACM Conference on Human Factors in Computing Systems (CHI), 2025.
