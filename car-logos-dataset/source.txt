@@ -1,1 +1,0 @@
-https://github.com/filippofilip95/car-logos-dataset/blob/master/logos/data.json
