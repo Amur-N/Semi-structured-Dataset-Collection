@@ -1,7 +1,7 @@
 # gws_dataset
 [gws_dataset](https://github.com/invictus-ir/gws_dataset) are Google Workspace Audit logs containing several attacks.
 
-All TXT files are processed from corresponding JSON files by `preProcess.py`. To be specific, each object in the list `activities` of the JSON file is formatted as a multiline record.
+All TXT files are processed from corresponding JSON files by `preProcess.py`. To be specific, each object in the list `activities` of the JSON file is formatted as a multiline record.  
 e.g.   
 Original data:
 ```json

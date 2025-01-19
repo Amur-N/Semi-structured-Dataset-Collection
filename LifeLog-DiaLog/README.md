@@ -1,7 +1,7 @@
 # LifeLog-Dialog
 [LifeLog-Dialog](https://github.com/ntunlplab/Lifelog-DiaLog) is a lifelog dataset for life event detection from daily dialog.
 
-Every single object in `DiaLog.json` is formatted as a line in `DiaLog.txt` by `preProcess.py`.
+Every single object in `DiaLog.json` is formatted as a line in `DiaLog.txt` by `preProcess.py`.  
 e.g.   
 Original data:
 ```json
