@@ -3,4 +3,4 @@ An innovative benchmark for semi-structured textual data parsing, profiling and 
 
 This repo contains some excerpted and modified version of original datasets. Those excerpted and modified versions are freely available for research or academic work. **However, for the original datasets collected by this repo, please comply with the corresponding source's license before use.**  
 
-For any usage or distribution of the datasets, please refer to this repository's URL and our work [StructVizor: Interactive Profiling of Semi-Structured Textual Data](https://doi.org/10.1145/3706598.3713484).
+For any usage or distribution of the datasets, please refer to this repository's URL and our paper [StructVizor: Interactive Profiling of Semi-Structured Textual Data](https://doi.org/10.1145/3706598.3713484).
